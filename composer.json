@@ -1,0 +1,108 @@
+{
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org",
+      "only": [
+        "wpackagist-plugin/*",
+        "wpackagist-theme/*"
+      ]
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "roots/wordpress": "^6.3.2",
+    "wpackagist-plugin/intuitive-custom-post-order": "^3.1.2",
+    "wpackagist-plugin/regenerate-thumbnails": "^3.1.4",
+    "wpackagist-plugin/wordpress-seo": "^21.4"
+  },
+  "require-dev": {
+    "wp-coding-standards/wpcs": "^2.3"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "allow-plugins": {
+      "composer/installers": true,
+      "roots/wordpress-core-installer": true
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "wordpress-install-dir": "web/wp",
+    "installer-paths": {
+      "web/wp-content/mu-plugins/{$name}/": [
+        "type:wordpress-muplugin"
+      ],
+      "web/wp-content/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "web/wp-content/themes/{$name}/": [
+        "type:wordpress-theme"
+      ]
+    }
+  },
+  "scripts": {
+	  "post-install-cmd": [
+      "cp -r web/wp/* web/ && rm -rf web/wp",
+      "cp wp-config-docker.php web/wp-config.php",
+      "if [[ -f 'vendor/bin/phpcs' ]];then phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs; fi",
+      "if [[ -f 'vendor/bin/phpcs' ]];then phpcs --config-set default_standard WordPress; fi"
+	  ],
+    "post-root-package-install": [
+      "php -r \"copy('.env.example', '.env');\""
+    ],
+    "test": [
+      "phpcs"
+    ],
+    "start": [
+      "@docker-compose:up"
+    ],
+    "fix": [
+      "phpcbf"
+    ],
+    "local-rebuild": [
+      "composer install"
+    ],
+    "docker-compose": [
+      "docker-compose --env-file .env --file docker-compose.yml --file docker-compose.override.yml --file docker-compose.development.yml"
+    ],
+    "docker-compose:up": [
+      "@docker-compose up -d --build --force-recreate wordpress database"
+    ],
+    "docker-compose:up:wordpress": [
+      "@docker-compose up -d --force-recreate --build wordpress"
+    ],
+    "docker-compose:up:database": [
+      "@docker-compose up -d --force-recreate database"
+    ],
+    "docker-compose:down": [
+      "@docker-compose down --volumes"
+    ],
+    "container-wordpress": [
+      "@docker-compose exec --user www-data wordpress"
+    ],
+    "wp": [
+      "@container-wordpress wp"
+    ],
+    "db:check": [
+      "@wp db check"
+    ],
+    "db:reset": [
+      "@wp db export /var/www/db/backup_before_db_reset.sql",
+      "@wp db reset --yes"
+    ],
+    "db:import": [
+      "@wp db export /var/www/db/backup_before_latest_import.sql",
+      "@wp db import /var/www/db/latest.sql"
+    ],
+    "db:export": [
+      "@wp db export /var/www/db/latest.sql --exclude_tables=wp_users,wp_usermeta"
+    ],
+    "phpmyadmin": [
+      "Composer\\Config::disableProcessTimeout",
+      "@docker-compose up phpmyadmin"
+    ]
+  }
+}

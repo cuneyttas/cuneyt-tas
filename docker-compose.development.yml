@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+    wordpress:
+        volumes:
+            - ./logs:/var/log/apache2
+            - ./config:/var/www/config
+            - ./web/wp-content:/var/www/html/wp-content
+
+    phpmyadmin:
+        container_name: ${PROJECT:-project}_phpmyadmin
+        image: phpmyadmin:5.1
+        restart: unless-stopped
+        ports:
+            - 8082:80
+        environment:
+            PMA_HOST: ${WORDPRESS_DB_HOST:-database}
+            PMA_USER: ${WORDPRESS_DB_USER:-database_user}
+            PMA_PASSWORD: ${WORDPRESS_DB_PASSWORD:-database_password}
+            MYSQL_ROOT_PASSWORD: ${WORDPRESS_DB_ROOT_PASSWORD:-database_root_password}
+            UPLOAD_LIMIT: 64M
+        networks:
+            - backend
+        security_opt:
+            - no-new-privileges

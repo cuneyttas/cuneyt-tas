@@ -1,0 +1,42 @@
+# WordPress
+web/*
+!web/wp-content
+
+# Plugins
+web/wp-content/plugins/*
+!web/wp-content/plugins/.gitkeep
+
+# Themes
+web/wp-content/themes/*
+!web/wp-content/themes/cuneyt-tas
+!web/wp-content/themes/.gitkeep
+
+# Uploads
+# web/wp-content/uploads/*
+!web/wp-content/uploads/
+
+# Others
+web/wp-content/cache/*
+web/wp-content/upgrade
+
+
+# Persistencies
+/common/uploads
+/db/mysql
+/db/backup_*
+
+# Logs
+*.log
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Composer
+/vendor
+
+# Other
+.vscode
+.nova
+*.DS_Store

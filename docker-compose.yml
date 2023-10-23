@@ -1,0 +1,57 @@
+version: "3.8"
+
+services:
+    wordpress:
+        container_name: ${PROJECT:-project}_wp
+        image: ${PROJECT:-project}_wp:${IMAGE_TAG:-production}
+        build: .
+        restart: always
+        working_dir: /var/www
+        volumes:
+            # - ./common/uploads/:/var/www/html/wp-content/uploads/
+            - ./db/:/var/www/db/
+        networks:
+            - backend
+        env_file: .env
+        security_opt:
+            - no-new-privileges
+
+    database:
+        container_name: ${PROJECT:-project}_db
+        platform: linux/x86_64
+        image: mysql:5.7
+        restart: always
+        environment:
+            MYSQL_DATABASE: ${WORDPRESS_DB_NAME:-database_name}
+            MYSQL_USER: ${WORDPRESS_DB_USER:-database_user}
+            MYSQL_PASSWORD: ${WORDPRESS_DB_PASSWORD:-database_password}
+            MYSQL_ROOT_PASSWORD: ${WORDPRESS_DB_ROOT_PASSWORD:-database_root_password}
+        volumes:
+            - database:/var/lib/mysql
+        networks:
+            - backend
+        security_opt:
+            - no-new-privileges
+
+    # phpmyadmin:
+    #     container_name: ${PROJECT:-project}_phpmyadmin
+    #     image: phpmyadmin:5.1
+    #     restart: unless-stopped
+    #     ports:
+    #         - 8082:80
+    #     environment:
+    #         PMA_HOST: ${WORDPRESS_DB_HOST:-database}
+    #         PMA_USER: ${WORDPRESS_DB_USER:-database_user}
+    #         PMA_PASSWORD: ${WORDPRESS_DB_PASSWORD:-database_password}
+    #         MYSQL_ROOT_PASSWORD: ${WORDPRESS_DB_ROOT_PASSWORD:-database_root_password}
+    #         UPLOAD_LIMIT: 64M
+    #     networks:
+    #         - backend
+    #     security_opt:
+    #         - no-new-privileges
+
+networks:
+    backend: {}
+
+volumes:
+    database: {}
