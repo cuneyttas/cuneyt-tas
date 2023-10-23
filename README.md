@@ -6,4 +6,5 @@
 ```
 composer install
 composer docker-compose:up
+composer db:import
 ```
