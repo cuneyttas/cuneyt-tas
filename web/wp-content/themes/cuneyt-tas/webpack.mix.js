@@ -13,6 +13,7 @@ mix.webpackConfig({
 });
 
 mix.js('resources/js/app.js', 'js');
+mix.js('resources/js/flowbite.js', 'js');
 
 mix.postCss("resources/css/app.css", "css");
 

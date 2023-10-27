@@ -43,6 +43,7 @@ function cuneyt_tas_enqueue_scripts() {
 
 	wp_enqueue_style( 'tailpress', cuneyt_tas_asset( 'css/app.css' ), array(), $theme->get( 'Version' ) );
 	wp_enqueue_script( 'tailpress', cuneyt_tas_asset( 'js/app.js' ), array(), $theme->get( 'Version' ) );
+	wp_enqueue_script( 'flowbite', cuneyt_tas_asset( 'js/flowbite.js' ), array(), $theme->get( 'Version' ) );
 }
 
 add_action( 'wp_enqueue_scripts', 'cuneyt_tas_enqueue_scripts' );
