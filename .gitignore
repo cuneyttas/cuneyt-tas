@@ -5,9 +5,11 @@ web/*
 # Plugins
 web/wp-content/plugins/*
 !web/wp-content/plugins/.gitkeep
+!web/wp-content/plugins/veri-kayitlari.php
 
 # Themes
 web/wp-content/themes/*
+!web/wp-content/themes/cuneyt-tas-eski
 !web/wp-content/themes/cuneyt-tas
 !web/wp-content/themes/.gitkeep
 
