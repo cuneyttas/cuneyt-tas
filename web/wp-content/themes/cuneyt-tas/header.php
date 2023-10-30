@@ -11,84 +11,54 @@
 
 <body <?php body_class( 'bg-white text-gray-900 antialiased' ); ?>>
 
-<?php do_action( 'cuneyt_tas_site_before' ); ?>
+	<div class="min-h-screen flex flex-col">
 
-<div id="page" class="min-h-screen flex flex-col">
-
-	<?php do_action( 'cuneyt_tas_header' ); ?>
-
-	<header>
-
-		<div class="mx-auto container">
-			<div class="lg:flex lg:justify-between lg:items-center border-b py-6">
-				<div class="flex justify-between items-center">
-					<div>
-						<?php if ( has_custom_logo() ) { ?>
-                            <?php the_custom_logo(); ?>
-						<?php } else { ?>
-							<a href="<?php echo get_bloginfo( 'url' ); ?>" class="font-extrabold text-lg uppercase">
-								<?php echo get_bloginfo( 'name' ); ?>
-							</a>
-
-							<p class="text-sm font-light text-gray-600">
-								<?php echo get_bloginfo( 'description' ); ?>
-							</p>
-
-						<?php } ?>
-					</div>
-
-					<div class="lg:hidden">
-						<a href="#" aria-label="Toggle navigation" id="primary-menu-toggle">
-							<svg viewBox="0 0 20 20" class="inline-block w-6 h-6" version="1.1"
-								 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-								<g stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd">
-									<g id="icon-shape">
-										<path d="M0,3 L20,3 L20,5 L0,5 L0,3 Z M0,9 L20,9 L20,11 L0,11 L0,9 Z M0,15 L20,15 L20,17 L0,17 L0,15 Z"
-											  id="Combined-Shape"></path>
-									</g>
-								</g>
+		<header>
+			<nav class="bg-white border-gray-200 dark:bg-gray-900">
+				<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+					<a href="<?=home_url()?>" class="flex items-center">
+						<img src="<?= get_template_directory_uri() ?>/resources/resimler/cuneyt-tas-logo.jpg" class="rounded-full mr-3" width="45" height="45" alt="<?php bloginfo('name'); ?>" />
+						<span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Cüneyt TAŞ</span>
+					</a>
+					<div class="flex md:order-2">
+						<button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search" aria-expanded="false" class="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 mr-1" >
+							<svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+								<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
 							</svg>
-						</a>
+							<span class="sr-only">Search</span>
+						</button>
+						<div class="relative hidden md:block">
+							<div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+								<svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+								</svg>
+								<span class="sr-only">Search icon</span>
+							</div>
+							<input type="text" id="search-navbar" class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search...">
+						</div>
+						<button data-collapse-toggle="navbar-search" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-search" aria-expanded="false">
+							<span class="sr-only">Open main menu</span>
+							<svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+								<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+							</svg>
+						</button>
+					</div>
+					<div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-search">
+						<div class="relative mt-3 md:hidden">
+							<div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+								<svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+								</svg>
+							</div>
+							<input type="text" id="search-navbar" class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search...">
+						</div>
+						<div class="ust-menu">
+							<?php wp_nav_menu(array("container" => false)); // Menünün üstüne konteyner oluşturmasın diye. ?>
+						</div>
+
 					</div>
 				</div>
-
-				<?php
-				wp_nav_menu(
-					array(
-						'container_id'    => 'primary-menu',
-						'container_class' => 'hidden bg-gray-100 mt-4 p-4 lg:mt-0 lg:p-0 lg:bg-transparent lg:block',
-						'menu_class'      => 'lg:flex lg:-mx-4',
-						'theme_location'  => 'primary',
-						'li_class'        => 'lg:mx-4',
-						'fallback_cb'     => false,
-					)
-				);
-				?>
-			</div>
-		</div>
-	</header>
-
-	<div id="content" class="site-content flex-grow">
-
-		<?php if ( is_front_page() ) { ?>
-			<!-- Start introduction -->
-			<div class="container mx-auto">
-				<div class="px-12 py-16 my-12 rounded-xl bg-gradient-to-r from-blue-50 from-10% via-sky-100 via-30% to-blue-200 to-90%">
-                    <div class="mx-auto max-w-screen-md">
-                        <h1 class="text-3xl lg:text-6xl tracking-tight font-extrabold text-gray-800 mb-6">Start building your next <a href="https://tailwindcss.com" class="text-secondary">Tailwind CSS</a> flavoured WordPress theme
-                            with <a href="https://tailpress.io" class="text-primary">TailPress</a>.</h1>
-                        <p class="text-gray-600 text-xl font-medium mb-10">TailPress is your go-to starting
-                            point for developing WordPress themes with Tailwind CSS and comes with basic block-editor support out
-                            of the box.</p>
-                        <a href="https://github.com/jeffreyvr/tailpress"
-                            class="w-full sm:w-auto flex-none bg-gray-900 text-white text-lg leading-6 font-semibold py-3 px-6 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200">View
-                            on GitHub</a>
-                    </div>
-                </div>
-			</div>
-			<!-- End introduction -->
-		<?php } ?>
-
-		<?php do_action( 'cuneyt_tas_content_start' ); ?>
+			</nav>
+		</header>
 
 		<main>

@@ -8,12 +8,13 @@ function cuneyt_tas_setup() {
 
 	register_nav_menus(
 		array(
-			'primary' => __( 'Primary Menu', 'tailpress' ),
+			'ana' => __( 'Ana Menü', 'cuneyt' ),
 		)
 	);
 
 	add_theme_support(
 		'html5',
+		'menus',
 		array(
 			'search-form',
 			'comment-form',
