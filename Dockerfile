@@ -12,7 +12,7 @@ RUN composer install --no-dev
 #
 # Application
 #
-FROM wordpress:php7.4
+FROM wordpress:php8.2
 
 # Increase upload limit
 COPY ./config/php/uploads.ini /usr/local/etc/php/conf.d/uploads.ini
