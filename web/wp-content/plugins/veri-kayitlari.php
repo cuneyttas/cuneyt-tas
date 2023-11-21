@@ -303,94 +303,94 @@ is_admin() && add_action( 'pre_get_posts', 'yoneticiSayfasiKitapSirala', 9999999
 
 
 // Yönetilebilir Galeri sayfası hazırlama
-function yonetilirGaleriSayfasiYap() {
+// function yonetilirGaleriSayfasiYap() {
 
-	$etiketler = array(
+// 	$etiketler = array(
 
-		'name' => 'Galeri',
-		'singular_name' => 'Fotoğraf',
-		'add_new' => 'Yeni Fotoğraf',
-		'all_items' => 'Galeri',
-		'add_new_item' => 'Yeni Ekle',
-		'new_item' => 'Yeni Fotoğraf',
-		'edit_item' => 'Fotoğrafı Düzenle',
-		'view_item' => 'Fotoğrafı Gör',
-		'search_items' => 'Fotoğrafı Ara',
-		'not_found' => 'Fotoğraf Bulunamadı',
-		'not_found_in_trash' => 'Çöp Kutusunda Fotoğraf Bulunamadı',
-		'parent_item_colon' => 'Fotoğraf Üst Dizini:'
+// 		'name' => 'Galeri',
+// 		'singular_name' => 'Fotoğraf',
+// 		'add_new' => 'Yeni Fotoğraf',
+// 		'all_items' => 'Galeri',
+// 		'add_new_item' => 'Yeni Ekle',
+// 		'new_item' => 'Yeni Fotoğraf',
+// 		'edit_item' => 'Fotoğrafı Düzenle',
+// 		'view_item' => 'Fotoğrafı Gör',
+// 		'search_items' => 'Fotoğrafı Ara',
+// 		'not_found' => 'Fotoğraf Bulunamadı',
+// 		'not_found_in_trash' => 'Çöp Kutusunda Fotoğraf Bulunamadı',
+// 		'parent_item_colon' => 'Fotoğraf Üst Dizini:'
 
-	);
+// 	);
 
-	$argumanlar = array(
+// 	$argumanlar = array(
 
-		'labels' => $etiketler,
-		'public' => true,
-		'has_archive' => true,
-		'publicly_queryable' => true,
-		'query_var' => true,
-		'rewrite' => array(
+// 		'labels' => $etiketler,
+// 		'public' => true,
+// 		'has_archive' => true,
+// 		'publicly_queryable' => true,
+// 		'query_var' => true,
+// 		'rewrite' => array(
 
-			'slug' => 'galeri'
+// 			'slug' => 'galeri'
 
-		),
-		'capability_type' => 'post',
-		'hierarchical' => false,
-		'supports' => array(
+// 		),
+// 		'capability_type' => 'post',
+// 		'hierarchical' => false,
+// 		'supports' => array(
 
-			'title',
-			'thumbnail'
+// 			'title',
+// 			'thumbnail'
 
-		),
+// 		),
 
-		'menu_position' => 101,
-		'exclude_from_search' => false,
-		'show_in_admin_bar' => true,
-		'menu_icon' => 'dashicons-format-gallery'
+// 		'menu_position' => 101,
+// 		'exclude_from_search' => false,
+// 		'show_in_admin_bar' => true,
+// 		'menu_icon' => 'dashicons-format-gallery'
 
-	);
+// 	);
 
-	register_post_type('galeri', $argumanlar);
+// 	register_post_type('galeri', $argumanlar);
 
-}
-add_action('init', 'yonetilirGaleriSayfasiYap');
+// }
+// add_action('init', 'yonetilirGaleriSayfasiYap');
 
 
 // Her bir yönetilebilir sayfaya özel kategoriler ekleme
-function galeriKategorizeEt() {
+// function galeriKategorizeEt() {
 
-	// Yeni hiyerarşik kategori ekle
-	$etiketler = array(
+// 	// Yeni hiyerarşik kategori ekle
+// 	$etiketler = array(
 
-		'name' => 'Albümler',
-		'singular_name' => 'Albüm',
-		'search_items' => 'Albüm Ara',
-		'all_items' => 'Bütün Albümler',
-		'parent_item' => 'Albüm Üst Dizini',
-		'parent_item_colon' => 'Albüm Üst Dizini:',
-		'edit_item' => 'Albümü Düzenle',
-		'update_item' => 'Albümü Güncelle',
-		'add_new_item' => 'Albüm Ekle',
-		'new_item_name' => 'Yeni Albüm İsmi',
-		'menu_name' => 'Albümler'
+// 		'name' => 'Albümler',
+// 		'singular_name' => 'Albüm',
+// 		'search_items' => 'Albüm Ara',
+// 		'all_items' => 'Bütün Albümler',
+// 		'parent_item' => 'Albüm Üst Dizini',
+// 		'parent_item_colon' => 'Albüm Üst Dizini:',
+// 		'edit_item' => 'Albümü Düzenle',
+// 		'update_item' => 'Albümü Güncelle',
+// 		'add_new_item' => 'Albüm Ekle',
+// 		'new_item_name' => 'Yeni Albüm İsmi',
+// 		'menu_name' => 'Albümler'
 
-	);
+// 	);
 
-	$argumanlar = array(
+// 	$argumanlar = array(
 
-		'hierarchical' => true,
-		'labels' => $etiketler,
-		'show_ui' => true,
-		'show_admin_column' => true,
-		'query_var' => true,
-		'rewrite' => array('slug' => 'album')
+// 		'hierarchical' => true,
+// 		'labels' => $etiketler,
+// 		'show_ui' => true,
+// 		'show_admin_column' => true,
+// 		'query_var' => true,
+// 		'rewrite' => array('slug' => 'album')
 
-	);
+// 	);
 
-	register_taxonomy('album', array('galeri'), $argumanlar);
+// 	register_taxonomy('album', array('galeri'), $argumanlar);
 
-}
-add_action('init', 'galeriKategorizeEt');
+// }
+// add_action('init', 'galeriKategorizeEt');
 
 
 // Yönetici sayfasındaki Galeri ve Kitaplar kısımlarının kolonlarına resimlerin eklenmesi
@@ -402,7 +402,7 @@ function resimKolonuOlustur($kolonlar) {
 	return array_merge( $yeniKolon, $kolonlar );
 
 }
-add_filter('manage_galeri_posts_columns', 'resimKolonuOlustur');
+// add_filter('manage_galeri_posts_columns', 'resimKolonuOlustur');
 add_filter('manage_kitap_posts_columns', 'resimKolonuOlustur');
 
 
@@ -419,25 +419,10 @@ function resimKolonunuAyarla($kolon) {
 	}
 
 }
-add_action('manage_galeri_posts_custom_column', 'resimKolonunuAyarla');
+// add_action('manage_galeri_posts_custom_column', 'resimKolonunuAyarla');
 add_action('manage_kitap_posts_custom_column', 'resimKolonunuAyarla');
 
 
-// Yönetici sayfası Resim kolonu genişliğini ayarlama
-function galeriResimKolonuGenisliginiAyarla() {
-?>
-
-    <style>
-
-        .column-resim {
-            width: 15%;
-        }
-
-    </style>
-
-<?php
-}
-add_action('admin_head', 'galeriResimKolonuGenisliginiAyarla'); //head etiketinin için CSS'lerimizi koyduk
 
 // Yönetilebilir Durum Mesajı sayfası hazırlama
 function yonetilirDurumMesajiSayfasiYap() {
