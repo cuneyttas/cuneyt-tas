@@ -1,23 +1,22 @@
+			</div> <!-- icerik sonu -->
 
-</main>
+ 			<footer class="satir">
 
-<?php do_action( 'cuneyt_tas_content_end' ); ?>
+				<div class="sutun-12">
 
-</div>
+					<p>Telif Hakkı © 2016-<?php echo date("Y");?> Cüneyt TAŞ (Sürüm <?=sonVersiyonuGetir()?>)</p>
 
-<?php do_action( 'cuneyt_tas_content_after' ); ?>
+				</div>
 
-<footer id="colophon" class="site-footer bg-gray-50 py-12" role="contentinfo">
-	<?php do_action( 'cuneyt_tas_footer' ); ?>
+			</footer> <!-- altKisim satir sonu -->
 
-	<div class="container mx-auto text-center text-gray-500">
-		&copy; <?php echo date_i18n( 'Y' );?> - <?php echo get_bloginfo( 'name' );?>
-	</div>
-</footer>
 
-</div>
+ 		</section>	<!-- sagSutun sonu -->
 
-<?php wp_footer(); ?>
+ 	</div>	<!-- ana sonu -->
 
-</body>
+	<?php wp_footer(); ?>
+
+	</body>
+
 </html>
