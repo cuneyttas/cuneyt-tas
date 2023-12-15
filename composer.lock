@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "77648147cdde6dfc621a9cb8c07313ef",
+    "content-hash": "1cc3e9fcc4086015db3a448299f78412",
     "packages": [
         {
             "name": "composer/installers",
@@ -352,24 +352,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/intuitive-custom-post-order/"
-        },
-        {
-            "name": "wpackagist-plugin/regenerate-thumbnails",
-            "version": "3.1.6",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/regenerate-thumbnails/",
-                "reference": "tags/3.1.6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/regenerate-thumbnails.3.1.6.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/regenerate-thumbnails/"
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
