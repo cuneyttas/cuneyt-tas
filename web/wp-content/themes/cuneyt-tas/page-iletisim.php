@@ -1,5 +1,119 @@
 <?php
 
+function temizle($veri) {
+
+	$veri = trim($veri);
+	$veri = stripslashes($veri);
+	$veri = htmlspecialchars($veri);
+	return $veri;
+
+}
+
+$isimHata = $epostaHata = $mesajHata = "";
+$isim = $eposta = $konu = $mesaj = "";
+$herSeyDogru = false;
+$gonderildi = false;
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+	if (empty($_POST["isim"])) {
+
+	    $isimHata = "&bull; İsim Alanını Boş Bırakmayın!";
+
+	} else {
+
+	    $isim = temizle($_POST["isim"]);
+		if (!preg_match("/^([a-zA-Z\s\ö\ç\ş\ı\ğ\ü\Ö\Ç\Ş\İ\Ğ\Ü]+)$/", $isim)) {
+
+		  $isimHata = "&bull; İsim yazarken harf ve boşluk kullanın!";
+
+		}
+
+	}
+
+	if (empty($_POST["eposta"])) {
+
+	    $epostaHata = "&bull; E-Posta Alanını Boş Bırakmayın!";
+
+	} else {
+
+	    $eposta = temizle($_POST["eposta"]);
+		if (!filter_var($eposta, FILTER_VALIDATE_EMAIL)) {
+
+		  $epostaHata = "&bull; Geçersiz E-Posta!";
+
+		}
+
+	}
+
+	if (empty($_POST["konu"])) {
+
+	    $konu = "";
+
+	} else {
+
+	    $konu = temizle($_POST["konu"]);
+
+	}
+
+	if (empty($_POST["mesaj"])) {
+
+	    $mesajHata = "&bull; Mesaj Alanını Boş Bırakmayın!";
+
+	} else {
+
+	    $mesaj = temizle($_POST["mesaj"]);
+
+	}
+
+	if ($isimHata == "" && $epostaHata == "" && $mesajHata == "") {
+
+		$herSeyDogru = true;
+
+
+		$args = array(
+			'post_type' => 'mesaj',
+			'post_title'   => $konu,
+		    'post_content' => $isim." diyor ki: ".$mesaj,
+		    'post_status'  => 'publish',
+		    'post_author'  => 1, // Ana Kullanıcı
+		    'meta_input'   => array(
+		        '_epostaAnahtari' => $eposta,
+		    ),
+		);
+		$gonderiID = wp_insert_post($args);
+		if (!is_wp_error($gonderiID)) {
+
+		  	// Eğer gönderi eklendiyse, e-posta gönder
+
+			$kime = "cuneyttas@hotmail.com.tr";
+			$epostaKonu = $konu == "" ? "$isim sana internet sitenden mesaj gönderdi!" : $konu;
+			$basliklar =
+			"MIME-Version: 1.0 \r\n" .
+			"Content-type: text/html; charset=utf-8 \r\n" .
+			"From: $isim <iletisim@cuneyt-tas.com> \r\n".
+			"Reply-To: $isim <$eposta>  \r\n";
+
+			$gonderildi = mail($kime, '=?utf-8?B?'.base64_encode($epostaKonu).'?=', $mesaj, $basliklar);
+
+			if ($gonderildi) $isim = $eposta = $konu = $mesaj = "";
+			else $hatam = print_r(error_get_last(), true);
+
+
+		} else {
+
+			// Eğer gönderi eklenemediyse hata mesajı yaz.
+			$hatam = $gonderiID->get_error_message();
+
+		}
+
+	}
+
+}
+
+
+
+
 get_header();
 
 if (have_posts()) :
@@ -7,30 +121,74 @@ if (have_posts()) :
 	while (have_posts()) : the_post();
 ?>
 
-<section class="bg-white dark:bg-gray-900 py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+		<div class="sutun-6">
 
-<section class="bg-white dark:bg-gray-900">
-  <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">İletişim</h2>
-      <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
-      <form action="#" class="space-y-8">
-          <div>
-              <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
-              <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required>
-          </div>
-          <div>
-              <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
-              <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Let us know how we can help you" required>
-          </div>
-          <div class="sm:col-span-2">
-              <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
-              <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
-          </div>
-          <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
-      </form>
-  </div>
-</section>
+			<h2>İletişim Bilgileri</h2>
+			<ul class="profil">
 
+			<?php
+
+				$adresDegeri=esc_attr(get_option('adres'));
+				$birincilEpostaDegeri=esc_attr(get_option('birincilEposta'));
+				$ikincilEpostaDegeri=esc_attr(get_option('ikincilEposta'));
+				$haritaBilgisiDegeri=get_option('haritaBilgisi');
+
+			?>
+
+				<li class="satir"><label class="proBaslik sutun-4">Adres:</label><span class="proBilgi sutun-8"><address><?= $adresDegeri ?></address></span></li>
+				<li class="satir"><label class="proBaslik sutun-4">E-posta (Hotmail):</label><span class="proBilgi sutun-8"><a href="mailto:cuneyttas@hotmail.com.tr"><?= $birincilEpostaDegeri ?></a></span></li>
+				<li class="satir"><label class="proBaslik sutun-4">E-posta (Gmail):</label><span class="proBilgi sutun-8"><a href="mailto:tascuneyd@gmail.com"><?= $ikincilEpostaDegeri ?></a></span></li>
+
+			</ul>
+
+		</div> <!-- sutun-6 sonu -->
+		<div class="sutun-6">
+
+			<h2>Buradan Mesaj Gönderebilirsiniz</h2>
+			<ul class="hataMesajlari">
+
+				<li><?= $isimHata ?></li>
+				<li><?= $epostaHata ?></li>
+				<li><?= $mesajHata ?></li>
+
+			</ul>
+			<?php
+			if ($herSeyDogru) {
+
+				if ($gonderildi){
+
+					echo "<span class='iletimDurumu gitti'>&bull; Mesajınız İletildi.</span>";
+
+				} else {
+
+					echo "<span class='iletimDurumu gitmedi'>&bull; Mesajınız iletilirken hata oluştu. E-posta adresimden göndermeyi deneyin.</span>";
+					echo "<span class='iletimDurumu gitmedi'>".$hatam."</span>";
+
+				}
+			}
+			?>
+			<form action="" method="post" class="formMesaj" accept-charset="utf-8">
+
+				<input class="girisKutusu" id="mesajAdi" type="text" value="<?= $isim ?>" name="isim" placeholder="İsim..." required>
+				<input class="girisKutusu" id="mesajEposta" type="email" value="<?= $eposta ?>" name="eposta" placeholder="E-posta..." required>
+				<input class="girisKutusu" id="mesajKonu" type="text" value="<?= $konu ?>" name="konu" placeholder="Konu...">
+				<textarea class="girisKutusu" id="mesajAlani" name="mesaj" placeholder="Mesaj..." required><?= $mesaj ?></textarea>
+				<input class="girisKutusu" id="mesajTemizle" type="reset" value="Temizle">
+				<input class="girisKutusu" id="mesajGonder" type="submit" value="Gönder">
+
+			</form>
+
+		</div> <!-- sutun-6 sonu -->
+		<div class="satir">
+
+			<div class="harita sutun-12">
+
+				<h2>Şu An Neredeyim?</h2>
+				<?= $haritaBilgisiDegeri ?>
+
+			</div>	<!-- harita sonu -->
+
+		</div> <!-- sutun-12 sonu -->
 
 <?php
 
