@@ -12,8 +12,8 @@
   "require": {
     "php": ">=8",
     "roots/wordpress": "^6.4",
-    "wpackagist-plugin/intuitive-custom-post-order": "^3.1.2",
-    "wpackagist-plugin/wordpress-seo": "^21.4"
+    "wpackagist-plugin/intuitive-custom-post-order": "^3.1",
+    "wpackagist-plugin/wordpress-seo": "^21.7"
   },
   "require-dev": {
     "wp-coding-standards/wpcs": "^2.3"
