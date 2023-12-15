@@ -9,7 +9,7 @@ web/wp-content/plugins/*
 
 # Themes
 web/wp-content/themes/*
-!web/wp-content/themes/cuneyt-tas-eski
+!web/wp-content/themes/cuneyt-tas-yeni
 !web/wp-content/themes/cuneyt-tas
 !web/wp-content/themes/.gitkeep
 
