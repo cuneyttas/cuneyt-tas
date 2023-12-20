@@ -15,4 +15,4 @@ jobs:
         username: ${{ secrets.FTP_KULLANICI_ADIM }}
         password: ${{ secrets.FTP_PAROLAM }}
         local-dir: web/wp-content/themes/cuneyt-tas/
-        server-dir: wp-content/themes/cuneyt-tas-test/
+        server-dir: wp-content/themes/cuneyt-tas/
