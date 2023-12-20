@@ -14,6 +14,6 @@ jobs:
         server: ${{ secrets.FTP_SUNUCU_ADIM }}
         username: ${{ secrets.FTP_KULLANICI_ADIM }}
         password: ${{ secrets.FTP_PAROLAM }}
-        local-dir: web/wp-content/themes/cuneyt-tas
-        server-dir: public_html/wp-content/themes/cuneyt-tas-test
+        local-dir: web/wp-content/themes/cuneyt-tas/
+        server-dir: public_html/wp-content/themes/cuneyt-tas-test/
         dry-run: true
