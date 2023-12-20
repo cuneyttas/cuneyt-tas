@@ -288,25 +288,34 @@ div.sosyal {
 div.sosyal a {
 
 	text-align: center;
-    font-size: 35px;
-    padding: 0;
-    color: white;
+
+}
+
+div.sosyal a svg {
+
     -webkit-transition: 0.3s;
     transition: 0.3s;
 
 }
 
-div.sosyal a:hover {
+div.sosyal a:hover svg {
 
-	font-size: 45px;
+    fill: #5FCCFF;
 
 }
 
-div.sosyal span {
+div.sosyal h4 {
 
     margin: 0;
 	line-height: 25px;
 	color: white;
+
+}
+
+div.sosyal-ikonlar {
+
+	display: flex;
+	justify-content: space-around;
 
 }
 

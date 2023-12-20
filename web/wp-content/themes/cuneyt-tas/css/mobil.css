@@ -150,6 +150,13 @@
 
 	}
 
+	div.sosyal a {
+
+		padding-right: 4px;
+		padding-left: 4px;
+
+	}
+
 	div.icerik {
 
 		top: 100px;
@@ -309,18 +316,12 @@
 
 	}
 
-	div.sosyal span {
-
-		font-size: 8px;
-		line-height: 15px;
-
-	}
-
 	div.sosyal a {
-		font-size: 20px;
-		line-height: 20px;
-	}
 
+		padding-right: 2px;
+		padding-left: 2px;
+
+	}
 
 	div.icerik {
 
@@ -484,15 +485,12 @@
 	    margin-left: 0 !important;
 	}
 
-	div.sosyal span {
 
-		font-size: 16px;
-
-	}
 
 	div.sosyal a {
 
-		font-size: 35px;
+		padding-right: 0;
+		padding-left: 0;
 
 	}
 
