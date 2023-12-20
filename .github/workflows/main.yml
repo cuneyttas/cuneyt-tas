@@ -16,4 +16,3 @@ jobs:
         password: ${{ secrets.FTP_PAROLAM }}
         local-dir: web/wp-content/themes/cuneyt-tas/
         server-dir: public_html/wp-content/themes/cuneyt-tas-test/
-        dry-run: true
