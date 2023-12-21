@@ -277,7 +277,7 @@ function zamanDuzenle($zaman) {
 }
 
 
-// Github'tan son versiyon bilgisi alma
+// Github'tan son versiyon bilgisi alma (Bu kod canlıda düzgün çalışmıyor)
 function sonVersiyonuGetir() {
 
 	$ayar = [

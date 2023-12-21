@@ -4,7 +4,7 @@
 
 				<div class="sutun-12">
 
-					<p>Telif Hakkı © 2016-<?php echo date("Y");?> Cüneyt TAŞ (Sürüm <?=sonVersiyonuGetir()?>)</p>
+					<p>Telif Hakkı © 2016-<?php echo date("Y");?> Cüneyt TAŞ</p>
 
 				</div>
 
