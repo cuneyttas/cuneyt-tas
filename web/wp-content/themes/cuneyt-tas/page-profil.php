@@ -10,14 +10,8 @@ if (have_posts()) :
 		<div class="sutun-6">
 
 			<h2><?php the_title(); ?> Sayfası</h2>
-			<ul class="profil">
-
-				<li class="satir"><label class="proBaslik sutun-4">İsim:</label><span class="proBilgi sutun-8"><?php echo do_shortcode('[ct]'); ?></span></li>
-				<li class="satir"><label class="proBaslik sutun-4">E-posta:</label><span class="proBilgi sutun-8">cuneyttas@hotmail.com.tr</span></li>
-				<li class="satir"><label class="proBaslik sutun-4">Memleket:</label><span class="proBilgi sutun-8">Çorum</span></li>
-
-			</ul>
 			<?php the_content(); ?>
+
 			<h2>Son Gönderiler</h2>
 			<?php
 
