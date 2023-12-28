@@ -10,7 +10,12 @@ if (have_posts()) :
 		<div class="sutun-6">
 
 			<h2><?php the_title(); ?> Sayfası</h2>
+			<?php the_post_thumbnail( 'ana-resim', ['class' => 'anaResim'] ); ?>
 			<?php the_content(); ?>
+
+		</div> <!-- iceriğin sol tarafının sonu -->
+
+		<div class="sutun-6">
 
 			<h2>Son Gönderiler</h2>
 			<?php
@@ -21,7 +26,7 @@ if (have_posts()) :
 
 					while ($sonGonderiler -> have_posts()) :  $sonGonderiler -> the_post(); ?>
 
-						<a href="<?php the_permalink(); ?>"<h3><?php the_title(); ?></h3></a>
+						<a href="<?php the_permalink(); ?>"><h3><?php the_title(); ?></h3></a>
 
 				<?php
 						the_excerpt(); echo "<br>";
@@ -36,12 +41,6 @@ if (have_posts()) :
 				wp_reset_postdata(); // Bu fonksiyon yazılmazsa aşağıdaki kod satırlarına da etki ediyor.
 
 			?>
-
-		</div> <!-- iceriğin sol tarafının sonu -->
-
-		<div class="sutun-6">
-
-			<?php the_post_thumbnail( 'ana-resim', ['class' => 'anaResim'] ); ?>
 
 		</div> <!-- iceriğin sağ tarafının sonu -->
 

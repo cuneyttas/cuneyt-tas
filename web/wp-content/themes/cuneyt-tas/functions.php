@@ -22,7 +22,7 @@ function kurulum() {
 
 	// Öne çıkan görsel ekleme özelliğini aktif etmek,(true: resim kesilsin, false: kesilmesin)
 	add_theme_support('post-thumbnails');
-	add_image_size('ana-resim', 450, 450, true);
+	add_image_size('ana-resim', 400, 250, true);
 	add_image_size('profil', 230, 275, true);
 	add_image_size('galeri-liste', 210, 160, true);
 	add_image_size('galeri-buyuk', 800, 600, false);
