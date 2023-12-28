@@ -15,7 +15,7 @@ if (have_posts()) :
 
 		</div> <!-- iceriğin sol tarafının sonu -->
 
-		<div class="sutun-6">
+		<div class="sutun-6 son-gonderiler">
 
 			<h2>Son Gönderiler</h2>
 			<?php
@@ -24,12 +24,16 @@ if (have_posts()) :
 
 				if ($sonGonderiler -> have_posts()) :
 
-					while ($sonGonderiler -> have_posts()) :  $sonGonderiler -> the_post(); ?>
+					while ($sonGonderiler -> have_posts()) :  $sonGonderiler -> the_post();
+			?>
 
-						<a href="<?php the_permalink(); ?>"><h3><?php the_title(); ?></h3></a>
+					<div class="son-gonderi">
+						<a href="<?php the_permalink(); ?>" class="son-gonderiler-resim"><?php the_post_thumbnail('medium'); ?></a>
+						<a href="<?php the_permalink(); ?>" class="son-gonderiler-baslik"><h3><?php the_title(); ?></h3></a>
+						<?php the_excerpt(); ?>
+					</div>
+			<?php
 
-				<?php
-						the_excerpt(); echo "<br>";
 
 					endwhile;
 

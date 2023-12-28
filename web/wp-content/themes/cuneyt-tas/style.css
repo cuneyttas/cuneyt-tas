@@ -1,9 +1,9 @@
 /*
 Theme Name: Cüneyt TAŞ (Eski)
-Theme URI: http://www.cuneyt-tas.com
+Theme URI: http://www.cuneyttas.net
 Description: Kişisel İnternet Sİtesi
 Author: Cüneyt TAŞ
-Author URI: http://www.cuneyt-tas.com
+Author URI: http://www.cuneyttas.net
 Version: 3.8
 Tags: cüneyt, taş, cüneyt taş, web tasarım, web geliştiricisi, wordpress geliştiricisi, bilgisayar mühendisi, bilgisayar mühendisliği, çorum,
 */
@@ -77,6 +77,13 @@ ul {
 label {
 
 	color: #55AADD;
+
+}
+
+img {
+
+	width: 100%;
+	height: auto;
 
 }
 
@@ -511,18 +518,6 @@ div.icerik {
 
 }
 
-div.icerik > .sutun-6:nth-child(odd) {
-
-	padding-right: 15px;
-
-}
-
-div.icerik > .sutun-6:nth-child(even) {
-
-	padding-left: 15px;
-
-}
-
 div.icerik h2:first-child {
 
 	margin-top: 0;
@@ -601,6 +596,43 @@ img.anaResim {
 	max-width: 100%;
 	margin: 0 auto;
     display: block;
+
+}
+
+.son-gonderi:first-of-type {
+
+	margin-bottom: 50px;
+
+}
+
+.son-gonderiler-resim {
+
+	transition: 0.3s;
+	opacity: 1;
+
+}
+
+.son-gonderiler-resim:hover {
+
+	opacity: 0.8;
+
+}
+
+.son-gonderiler-baslik {
+
+	display: inline-block;
+
+}
+
+.son-gonderiler-baslik h3 {
+
+	transition: 0.3s;
+
+}
+
+.son-gonderiler-baslik:hover h3 {
+
+	color: #44AADD;
 
 }
 

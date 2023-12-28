@@ -72,18 +72,6 @@
 
 	}
 
-	div.icerik > .sutun-6:nth-child(odd) {
-
-		padding-right: 10px;
-
-	}
-
-	div.icerik > .sutun-6:nth-child(even) {
-
-		padding-left: 10px;
-
-	}
-
 	ul.profil > li {
 
 		font-size: 0.7em;
