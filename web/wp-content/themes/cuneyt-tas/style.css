@@ -362,13 +362,6 @@ nav.menu > ul > li {
 
 }
 
-nav.menu > ul > li:last-child {
-
-	float: right;
-	margin-right: 0;
-
-}
-
 nav.menu > ul > li > a {
 
 	color: #3399CC;
@@ -451,7 +444,7 @@ li.menu-item-has-children > ul > li > a:hover { /* ??? */
 
 }
 
-.menuIkon a:before {
+.menuIkon a::before {
 
 	font-family: FontAwesome;
 	margin-top: 30px;
@@ -461,19 +454,19 @@ li.menu-item-has-children > ul > li > a:hover { /* ??? */
 
 }
 
-.profilIkon a:before {
+.profilIkon a::before {
 
 	content: "\f007";
 
 }
 
-.ozgecmisIkon a:before {
+.ozgecmisIkon a::before {
 
 	content: "\f15c";
 
 }
 
-.galeriIkon a:before {
+.galeriIkon a::before {
 
 	content: "\f03e";
 
@@ -485,15 +478,15 @@ li.menu-item-has-children > ul > li > a:hover { /* ??? */
 
 }
 
-.iletisimIkon a:before {
+.iletisimIkon a::before {
 
 	content: "\f0e0";
 
 }
 
-.digerIkon a:before {
+.kitapIkon a::before {
 
-	content: "\f0c9";
+	content: "\f02d";
 
 }
 
