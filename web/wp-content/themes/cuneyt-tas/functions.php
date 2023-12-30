@@ -76,6 +76,13 @@ function ozellestirmeleriBaslat($ozellestirme) {
 
 	));
 
+	$ozellestirme -> add_setting('fareAltiRengi', array(
+
+		'default' => '#44AADD',
+		'transport' => 'refresh'
+
+	));
+
 	$ozellestirme -> add_setting('blogDugmeRengi', array(
 
 		'default' => '#44AADD',
@@ -88,6 +95,14 @@ function ozellestirmeleriBaslat($ozellestirme) {
 		'label' => 'Bağlantı Rengi',
 		'section' => 'temaRenkleri',
 		'settings' => 'baglantiRengi'
+
+	)));
+
+	$ozellestirme -> add_control(new WP_Customize_Color_Control($ozellestirme, 'fareAltiRengiKontrolu', array(
+
+		'label' => 'Fare Altı Rengi',
+		'section' => 'temaRenkleri',
+		'settings' => 'fareAltiRengi'
 
 	)));
 
@@ -114,6 +129,12 @@ function cssOzellestir() { ?>
 		a:visited {
 
 			color: <?php echo get_theme_mod('baglantiRengi') ?>
+
+		}
+
+		a:hover {
+
+			color: <?php echo get_theme_mod('fareAltiRengi') ?>
 
 		}
 

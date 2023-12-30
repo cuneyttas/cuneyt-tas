@@ -7,610 +7,610 @@ if (have_posts()) :
 	while (have_posts()) : the_post();
 ?>
 
-		<div class="ozSol sutun-6">
+	<div class="ozSol sutun-6">
 
-	<h2>Genel Bilgiler</h2>
-	<ul class="profil">
+		<h2>Genel Bilgiler</h2>
+		<ul class="profil">
 
-		<li class="satir"><label class="proBaslik sutun-4">Memleketim ve Yaşadığım Şehir:</label><span class="proBilgi sutun-8">Çorum/Merkez</span></li>
-		<li class="satir"><label class="proBaslik sutun-4">Diller:</label><span class="proBilgi sutun-8">Türkçe (Ana Dil Seviyesi)<br>İngilizce (Yazma ve okuma = B1 Seviyesi, Konuşma ve dinleme = A2 Seviyesi)</span></li>
-		<li class="satir"><label class="proBaslik sutun-4">İlgi Alanlarım:</label><span class="proBilgi sutun-8">Sinema, Kitap, Ev Hayvanları Bakımı, Bitki Yetiştirme, Koleksiyon, Bisiklet, Elektronik</span></li>
-		<li class="satir"><label class="proBaslik sutun-4">Sürücü Belgesi:</label><span class="proBilgi sutun-8">B Sınıfı (2007)</span></li>
-		<li class="satir"><label class="proBaslik sutun-4">Medenî Durumum:</label><span class="proBilgi sutun-8">Evli ve 1 Çocuk Babası</span></li>
-		<li class="satir"><label class="proBaslik sutun-4">Dinî İnancım:</label><span class="proBilgi sutun-8">İslâm</span></li>
-		<li class="satir"><label class="proBaslik sutun-4">Tuttuğum Takım:</label><span class="proBilgi sutun-8">Yok</span></li>
-		<li class="satir"><label class="proBaslik sutun-4">Sigara ve Alkol Kullanımı:</label><span class="proBilgi sutun-8">Kullanmıyorum</span></li>
+			<li class="satir"><label class="proBaslik sutun-4">Memleketim ve Yaşadığım Şehir:</label><span class="proBilgi sutun-8">Çorum/Merkez</span></li>
+			<li class="satir"><label class="proBaslik sutun-4">Diller:</label><span class="proBilgi sutun-8">Türkçe (Ana Dil Seviyesi)<br>İngilizce (Yazma ve okuma = B1 Seviyesi, Konuşma ve dinleme = A2 Seviyesi)</span></li>
+			<li class="satir"><label class="proBaslik sutun-4">İlgi Alanlarım:</label><span class="proBilgi sutun-8">Sinema, Kitap, Ev Hayvanları Bakımı, Bitki Yetiştirme, Koleksiyon, Bisiklet, Elektronik</span></li>
+			<li class="satir"><label class="proBaslik sutun-4">Sürücü Belgesi:</label><span class="proBilgi sutun-8">B Sınıfı (2007)</span></li>
+			<li class="satir"><label class="proBaslik sutun-4">Medenî Durumum:</label><span class="proBilgi sutun-8">Evli ve 1 Çocuk Babası</span></li>
+			<li class="satir"><label class="proBaslik sutun-4">Dinî İnancım:</label><span class="proBilgi sutun-8">İslâm</span></li>
+			<li class="satir"><label class="proBaslik sutun-4">Tuttuğum Takım:</label><span class="proBilgi sutun-8">Yok</span></li>
+			<li class="satir"><label class="proBaslik sutun-4">Sigara ve Alkol Kullanımı:</label><span class="proBilgi sutun-8">Kullanmıyorum</span></li>
 
-	</ul>
-	<h2>İş Deneyimleri</h2>
-	<ul class="basliklar">
+		</ul>
+		<h2>İş Deneyimleri</h2>
+		<ul class="basliklar">
 
-		<li>
+			<li>
 
-			<div class="deneyim satir">
+				<div class="deneyim satir">
 
-				<h3 class="baslik sutun-6">Web Geliştiricisi</h3>
-				<span class="periyot sutun-6">Ocak 2022 - Ağustos 2023</span>
+					<h3 class="baslik sutun-6">Web Geliştiricisi</h3>
+					<span class="periyot sutun-6">Ocak 2022 - Ağustos 2023</span>
 
-			</div>
+				</div>
 
-			<h4 class="isAdi">
+				<h4 class="isAdi">
 
-				<i class="fa fa-suitcase"></i>
-				<a href="https://www.invicti.com/" target="_blank">Invicti Security</a>
+					<i class="fa fa-suitcase"></i>
+					<a href="https://www.invicti.com/" target="_blank">Invicti Security</a>
 
-			</h4>
-			<p>Web uygulama güvenliği alanında global lider olan ABD merkezli şirketin iki ürünü <a href="https://www.invicti.com/" target="_blank">Invicti</a> ve <a href="https://www.acunetix.com/" target="_blank">Acunetix</a>'in WordPress tabanlı web sitelerinden sorumluydum. Burada yaptığım işler özetle şu şekildedir:</p>
-    		<p> - Verilen Figma tasarımlarına göre özelleştirilmiş Gutenberg blokları ile mobil uyumlu yeni sayfalar oluşturma ve güncelleme<br>
-    			- Sitelerde bulunan hataların giderilmesi<br>
-    			- Gutenberg blokları ve şablonları (pattern) oluşturma<br>
-    			- Eski Invicti web sitesinin .NET'ten WordPress'e geçirilmesi projesinde görev alınması<br>
-    			- Invicti web sitesinin marka değiştirme kapsamında yeniden güncellenmesi<br>
-    			- Lighthouse skorlarının yükseltilmesi<br>
-			    - Gerekli dokümantasyonların yapılması</p>
-			<p><b>Kullandığım Araçlar: </b>WordPress, Gutenberg, Advanced Custom Fields (ACF), PHP, Laravel Blade, JavaScript, SASS, Tailwind CSS, GitLab, Figma, Jira, Confluence, TeamCity, Scrum</p>
+				</h4>
+				<p>Web uygulama güvenliği alanında global lider olan ABD merkezli şirketin iki ürünü <a href="https://www.invicti.com/" target="_blank">Invicti</a> ve <a href="https://www.acunetix.com/" target="_blank">Acunetix</a>'in WordPress tabanlı web sitelerinden sorumluydum. Burada yaptığım işler özetle şu şekildedir:</p>
+				<p> - Verilen Figma tasarımlarına göre özelleştirilmiş Gutenberg blokları ile mobil uyumlu yeni sayfalar oluşturma ve güncelleme<br>
+					- Sitelerde bulunan hataların giderilmesi<br>
+					- Gutenberg blokları ve şablonları (pattern) oluşturma<br>
+					- Eski Invicti web sitesinin .NET'ten WordPress'e geçirilmesi projesinde görev alınması<br>
+					- Invicti web sitesinin marka değiştirme kapsamında yeniden güncellenmesi<br>
+					- Lighthouse skorlarının yükseltilmesi<br>
+					- Gerekli dokümantasyonların yapılması</p>
+				<p><b>Kullandığım Araçlar: </b>WordPress, Gutenberg, Advanced Custom Fields (ACF), PHP, Laravel Blade, JavaScript, SASS, Tailwind CSS, GitLab, Figma, Jira, Confluence, TeamCity, Scrum</p>
 
-		</li>
+			</li>
 
-		<li>
+			<li>
 
-			<div class="deneyim satir">
+				<div class="deneyim satir">
 
-				<h3 class="baslik sutun-6">WordPress Geliştiricisi</h3>
-				<span class="periyot sutun-6">Ocak 2021 - Ocak 2022</span>
+					<h3 class="baslik sutun-6">WordPress Geliştiricisi</h3>
+					<span class="periyot sutun-6">Ocak 2021 - Ocak 2022</span>
 
-			</div>
+				</div>
 
-			<h4 class="isAdi">
+				<h4 class="isAdi">
 
-				<i class="fa fa-suitcase"></i>
-				<a href="https://www.rewiresecurity.co.uk/" target="_blank">Rewire Security</a>
+					<i class="fa fa-suitcase"></i>
+					<a href="https://www.rewiresecurity.co.uk/" target="_blank">Rewire Security</a>
 
-			</h4>
-			<p>GPS izleme ve telematik alanında teknolojiler üreten İngiltere merkezli şirketin ana <a href="https://www.rewiresecurity.co.uk/" target="_blank">web sitesinden</a> ve Slovakya’daki Avrupa satış ofisinin e-ticaret web sitesi olan <a href="https://gpslive.sk/" target="_blank">GPSLive</a>'dan sorumluydum. Burada yaptığım işler özetle şu şekildedir:</p>
-    		<p> - Ana sitenin yeni tasarım ile yeniden geliştirilmesi<br>
-    			- GPSLive Slovakya sitesinin geliştirilmesi ve çoklu dil desteğinin verilmesi<br>
-    			- Bu iki sitenin bakımı, hata düzeltmeleri ve güncellenmeleri</p>
-			<p><b>Kullandığım Araçlar: </b>WordPress, WooCommerce, WPBakery, WPML ile Çoklu Dil Desteği, SCSS, JavaScript, jQuery, WordPress Hooks, WordPress Shortcodes, Mobil Uyumluluk, Adobe XD</p>
+				</h4>
+				<p>GPS izleme ve telematik alanında teknolojiler üreten İngiltere merkezli şirketin ana <a href="https://www.rewiresecurity.co.uk/" target="_blank">web sitesinden</a> ve Slovakya’daki Avrupa satış ofisinin e-ticaret web sitesi olan <a href="https://gpslive.sk/" target="_blank">GPSLive</a>'dan sorumluydum. Burada yaptığım işler özetle şu şekildedir:</p>
+				<p> - Ana sitenin yeni tasarım ile yeniden geliştirilmesi<br>
+					- GPSLive Slovakya sitesinin geliştirilmesi ve çoklu dil desteğinin verilmesi<br>
+					- Bu iki sitenin bakımı, hata düzeltmeleri ve güncellenmeleri</p>
+				<p><b>Kullandığım Araçlar: </b>WordPress, WooCommerce, WPBakery, WPML ile Çoklu Dil Desteği, SCSS, JavaScript, jQuery, WordPress Hooks, WordPress Shortcodes, Mobil Uyumluluk, Adobe XD</p>
 
-		</li>
+			</li>
 
-		<li>
+			<li>
 
-			<div class="deneyim satir">
+				<div class="deneyim satir">
 
-				<h3 class="baslik sutun-6">Web Geliştiricisi</h3>
-				<span class="periyot sutun-6">Mayıs 2017 - Kasım 2020</span>
+					<h3 class="baslik sutun-6">Web Geliştiricisi</h3>
+					<span class="periyot sutun-6">Mayıs 2017 - Kasım 2020</span>
 
-			</div>
+				</div>
 
-			<h4 class="isAdi">
+				<h4 class="isAdi">
 
-				<i class="fa fa-suitcase"></i>
-				<a href="https://www.twelve12.com" target="_blank">Twelve12</a>
+					<i class="fa fa-suitcase"></i>
+					<a href="https://www.twelve12.com" target="_blank">Twelve12</a>
 
-			</h4>
-			<p>Şirketin web geliştirme departmanında PHP ve WordPress kullanarak web sitesi geliştirme ve bakımlarından sorumluydum. Burada yaptığım işler özetle şu şekildedir:</p>
-			<p> - Yaklaşık 60 müşterinin Figma/Photoshop’ta tasarlanmış web sitelerinin geliştirilmesi<br>
-    			- Bu web sitelerin bakım ve güncellemelerinin yapılması<br>
-    			- Sitelerin akıllı telefon, tablet, masaüstü ve büyük ekran versiyonlarının geliştirilmesi<br>
-    			- Sitelerin ACF kullanılarak düzenlenebilir ve dinamik hale getirilmesi<br>
-    			- "Staging" ortamında ön testlerin yapılması<br>
-    			- Şirket websitelerinin bakımı ve geliştirilmesi<br>
-			    - Tasarıma göre HTML e-posta taslakları geliştirme<br>
-			    - Sitelerin WCAG (Erişilebilirlik [Accessibility]) uyumlu hale getirilmesi</p>
-			<p><b>Kullandığım Araçlar: </b>WordPress, WooCommerce, Advanced Custom Fields (ACF), PHP, MySQL, JavaScript, jQuery, HTML, CSS, SCSS, Mobil Uyumluluk, Web Erişilebilirliği (WCAG), Gulp, Figma/Photoshop, Git/GitHub/Bitbucket, Bootstrap, Zurb Foundation</p>
+				</h4>
+				<p>Şirketin web geliştirme departmanında PHP ve WordPress kullanarak web sitesi geliştirme ve bakımlarından sorumluydum. Burada yaptığım işler özetle şu şekildedir:</p>
+				<p> - Yaklaşık 60 müşterinin Figma/Photoshop’ta tasarlanmış web sitelerinin geliştirilmesi<br>
+					- Bu web sitelerin bakım ve güncellemelerinin yapılması<br>
+					- Sitelerin akıllı telefon, tablet, masaüstü ve büyük ekran versiyonlarının geliştirilmesi<br>
+					- Sitelerin ACF kullanılarak düzenlenebilir ve dinamik hale getirilmesi<br>
+					- "Staging" ortamında ön testlerin yapılması<br>
+					- Şirket websitelerinin bakımı ve geliştirilmesi<br>
+					- Tasarıma göre HTML e-posta taslakları geliştirme<br>
+					- Sitelerin WCAG (Erişilebilirlik [Accessibility]) uyumlu hale getirilmesi</p>
+				<p><b>Kullandığım Araçlar: </b>WordPress, WooCommerce, Advanced Custom Fields (ACF), PHP, MySQL, JavaScript, jQuery, HTML, CSS, SCSS, Mobil Uyumluluk, Web Erişilebilirliği (WCAG), Gulp, Figma/Photoshop, Git/GitHub/Bitbucket, Bootstrap, Zurb Foundation</p>
 
-		</li>
-		<li>
+			</li>
+			<li>
 
-			<div class="deneyim satir">
+				<div class="deneyim satir">
 
-				<h3 class="baslik sutun-6">Bilgi Teknolojileri Uzman Yardımcısı</h3>
-				<span class="periyot sutun-6">Aralık 2015 - Şubat 2016</span>
+					<h3 class="baslik sutun-6">Bilgi Teknolojileri Uzman Yardımcısı</h3>
+					<span class="periyot sutun-6">Aralık 2015 - Şubat 2016</span>
 
-			</div>
+				</div>
 
-			<h4 class="isAdi">
+				<h4 class="isAdi">
 
-				<i class="fa fa-suitcase"></i>
-				<a href="https://www.greyder.com/" target="_blank">Greyder</a>
+					<i class="fa fa-suitcase"></i>
+					<a href="https://www.greyder.com/" target="_blank">Greyder</a>
 
-			</h4>
-			<p>Çorum Merkez ve İskilip Greyder fabrikalarının sunucu ve bilgisayarlarının bakım ve onarımı, ülke genelindeki mağazalara uzaktan teknik destek gibi işlerden sorumluydum. </p>
+				</h4>
+				<p>Çorum Merkez ve İskilip Greyder fabrikalarının sunucu ve bilgisayarlarının bakım ve onarımı, ülke genelindeki mağazalara uzaktan teknik destek gibi işlerden sorumluydum. </p>
 
-		</li>
-		<li>
+			</li>
+			<li>
 
-			<div class="deneyim satir">
+				<div class="deneyim satir">
 
-				<h3 class="baslik sutun-6">Stajyer</h3>
-				<span class="periyot sutun-6">Ağustos 2014</span>
+					<h3 class="baslik sutun-6">Stajyer</h3>
+					<span class="periyot sutun-6">Ağustos 2014</span>
 
-			</div>
+				</div>
 
-			<h4 class="isAdi">
+				<h4 class="isAdi">
 
-				<i class="fa fa-suitcase"></i>
-				<a href="http://corumeah.saglik.gov.tr/" target="_blank">Hitit Üniversitesi Eğitim ve Araştırma Hastanesi Bilgi İşlem Birimi</a>
+					<i class="fa fa-suitcase"></i>
+					<a href="http://corumeah.saglik.gov.tr/" target="_blank">Hitit Üniversitesi Eğitim ve Araştırma Hastanesi Bilgi İşlem Birimi</a>
 
-			</h4>
-			<p>Birimler arası ağ kablolama ve teknik destek gibi alanlarda çalıştım.</p>
+				</h4>
+				<p>Birimler arası ağ kablolama ve teknik destek gibi alanlarda çalıştım.</p>
 
-		</li>
-		<li>
-			<div class="deneyim satir">
+			</li>
+			<li>
+				<div class="deneyim satir">
 
-				<h3 class="baslik sutun-6">Stajyer</h3>
-				<span class="periyot sutun-6">Haziran 2014 - Temmuz 2014</span>
+					<h3 class="baslik sutun-6">Stajyer</h3>
+					<span class="periyot sutun-6">Haziran 2014 - Temmuz 2014</span>
 
-			</div>
-			<h4 class="isAdi">
+				</div>
+				<h4 class="isAdi">
 
-				<i class="fa fa-suitcase"></i>
-				<a href="http://www.corum.gov.tr/bilgi-islem-sube-mudurlugu" target="_blank">Çorum Valiliği Bilgi İşlem Müdürlüğü</a>
+					<i class="fa fa-suitcase"></i>
+					<a href="http://www.corum.gov.tr/bilgi-islem-sube-mudurlugu" target="_blank">Çorum Valiliği Bilgi İşlem Müdürlüğü</a>
 
-			</h4>
-			<p> Sunucuya Windows Server 2008 işletim sisteminin kurulumunun öğrenilmesi; DNS, DHCP ve Active Directory kurulumu, Labris UTM-52 Güvenlik Cihazının Kontrolü, IP Dağıtma gibi işlemler yaptım. </p>
+				</h4>
+				<p> Sunucuya Windows Server 2008 işletim sisteminin kurulumunun öğrenilmesi; DNS, DHCP ve Active Directory kurulumu, Labris UTM-52 Güvenlik Cihazının Kontrolü, IP Dağıtma gibi işlemler yaptım. </p>
 
-		</li>
-		<li>
+			</li>
+			<li>
 
-			<div class="deneyim satir">
+				<div class="deneyim satir">
 
-				<h3 class="baslik sutun-6">Stajyer</h3>
-				<span class="periyot sutun-6">Temmuz 2013 - Ağustos 2013</span>
+					<h3 class="baslik sutun-6">Stajyer</h3>
+					<span class="periyot sutun-6">Temmuz 2013 - Ağustos 2013</span>
 
-			</div>
-			<h4 class="isAdi">
+				</div>
+				<h4 class="isAdi">
 
-				<i class="fa fa-suitcase"></i>
-				<a href="http://www.osoa.com.tr/" target="_blank">OSOA Yazılım ve Danışmanlık</a>
+					<i class="fa fa-suitcase"></i>
+					<a href="http://www.osoa.com.tr/" target="_blank">OSOA Yazılım ve Danışmanlık</a>
 
-			</h4>
-			<p> C# programlama dili üzerine çalışarak bununla ilgili uygulamalar yaptım.</p>
+				</h4>
+				<p> C# programlama dili üzerine çalışarak bununla ilgili uygulamalar yaptım.</p>
 
-		</li>
+			</li>
 
-	</ul>
-	<h2>Eğitim Bilgileri</h2>
-	<ul class="basliklar">
+		</ul>
+		<h2>Eğitim Bilgileri</h2>
+		<ul class="basliklar">
 
-		<li>
+			<li>
 
-			<div class="satir">
+				<div class="satir">
 
-				<h3 class="baslik sutun-6">Üniversite (Lisans)</h3>
-				<span class="periyot sutun-6">2010 - 2015</span>
+					<h3 class="baslik sutun-6">Üniversite (Lisans)</h3>
+					<span class="periyot sutun-6">2010 - 2015</span>
 
-			</div>
-			<h4 class="isAdi">
+				</div>
+				<h4 class="isAdi">
 
-				<i class="fa fa-graduation-cap"></i>
-				<a href="http://bil.muh.firat.edu.tr/" target="_blank">Fırat Üniversitesi Mühendislik Fakültesi Bilgisayar Mühendisliği Bölümü</a>
+					<i class="fa fa-graduation-cap"></i>
+					<a href="http://bil.muh.firat.edu.tr/" target="_blank">Fırat Üniversitesi Mühendislik Fakültesi Bilgisayar Mühendisliği Bölümü</a>
 
-			</h4>
-			<p>Yarım dönem gecikmeli olarak bitirdim. Mezuniyet puanım 4'lük sisteme göre 2.38'dir.</p>
-			<div class="dersBolumu">
+				</h4>
+				<p>Yarım dönem gecikmeli olarak bitirdim. Mezuniyet puanım 4'lük sisteme göre 2.38'dir.</p>
+				<div class="dersBolumu">
 
-				<h5 class="dersler"><i class="fa fa-book"></i>DERSLER</h5>
+					<h5 class="dersler"><i class="fa fa-book"></i>DERSLER</h5>
 
-				<div class="sinifBolumu satir">
+					<div class="sinifBolumu satir">
 
-	 			<h6 class="sinif sutun-2">1. Sınıf</h6>
-	 			<ul class="ders sutun-10">
+					<h6 class="sinif sutun-2">1. Sınıf</h6>
+					<ul class="ders sutun-10">
 
-		 			<li>Fizik-1</li>
-		 			<li>Matematik-1</li>
-		 			<li>Bilgisayar Mühendisliği için Elektrik Devreleri</li>
-		 			<li>Algoritma ve Programlama-1</li>
-		 			<li>Matematik-2</li>
-		 			<li>Algoritma ve Programlama-2</li>
+						<li>Fizik-1</li>
+						<li>Matematik-1</li>
+						<li>Bilgisayar Mühendisliği için Elektrik Devreleri</li>
+						<li>Algoritma ve Programlama-1</li>
+						<li>Matematik-2</li>
+						<li>Algoritma ve Programlama-2</li>
 
-	 			</ul>
+					</ul>
 
-				</div> <!-- sinifBolumu sonu  -->
-				<div class="sinifBolumu satir">
+					</div> <!-- sinifBolumu sonu  -->
+					<div class="sinifBolumu satir">
 
-	 			<h6 class="sinif sutun-2">2. Sınıf</h6>
-	 			<ul class="ders sutun-10">
+					<h6 class="sinif sutun-2">2. Sınıf</h6>
+					<ul class="ders sutun-10">
 
-		 			<li>Meslekî İngilizce-1</li>
-		 			<li>Lineer Cebir</li>
-		 			<li>Meslekî İngilizce-2</li>
-		 			<li>Sayısal İşaret İşleme</li>
-		 			<li>Olasılık ve İstatistik</li>
-		 			<li>Diferansiyel Denklemler</li>
-		 			<li>Bilgisayar Bilimi için Ayrık Yapılar</li>
-		 			<li>Sayısal Kontrol</li>
-		 			<li>Sistem Teorisi</li>
-		 			<li>Sayısal Tasarım</li>
-		 			<li>Bilgisayar Organizasyonu ve Tasarımı</li>
-		 			<li>Sayısal Elektronik Laboratuvarı</li>
-		 			<li>Veri Yapıları</li>
-		 			<li>Sayısal Yöntemler</li>
+						<li>Meslekî İngilizce-1</li>
+						<li>Lineer Cebir</li>
+						<li>Meslekî İngilizce-2</li>
+						<li>Sayısal İşaret İşleme</li>
+						<li>Olasılık ve İstatistik</li>
+						<li>Diferansiyel Denklemler</li>
+						<li>Bilgisayar Bilimi için Ayrık Yapılar</li>
+						<li>Sayısal Kontrol</li>
+						<li>Sistem Teorisi</li>
+						<li>Sayısal Tasarım</li>
+						<li>Bilgisayar Organizasyonu ve Tasarımı</li>
+						<li>Sayısal Elektronik Laboratuvarı</li>
+						<li>Veri Yapıları</li>
+						<li>Sayısal Yöntemler</li>
 
-	 			</ul>
-	 			<div class="temizle"></div>
+					</ul>
+					<div class="temizle"></div>
 
-				</div> <!-- sinifBolumu sonu  -->
-				<div class="sinifBolumu satir">
+					</div> <!-- sinifBolumu sonu  -->
+					<div class="sinifBolumu satir">
 
-	 			<h6 class="sinif sutun-2">3. Sınıf</h6>
-	 			<ul class="ders sutun-10">
+					<h6 class="sinif sutun-2">3. Sınıf</h6>
+					<ul class="ders sutun-10">
 
-		 			<li>Programlama Dilleri</li>
-		 			<li>Ekonomi</li>
-		 			<li>İşletim Sistemleri</li>
-		 			<li>Veritabanı Sistemleri</li>
-		 			<li>Yazılım Mühendisliği</li>
-		 			<li>Bilgisayarlı Grafik</li>
-		 			<li>Bilgisayar Ağları</li>
-		 			<li>Meslekî Uygulama-1</li>
-		 			<li>Mikroişlemciler</li>
-		 			<li>Biçimsel Diller ve Otomata Teorisi</li>
-		 			<li>Algoritma Analizi</li>
+						<li>Programlama Dilleri</li>
+						<li>Ekonomi</li>
+						<li>İşletim Sistemleri</li>
+						<li>Veritabanı Sistemleri</li>
+						<li>Yazılım Mühendisliği</li>
+						<li>Bilgisayarlı Grafik</li>
+						<li>Bilgisayar Ağları</li>
+						<li>Meslekî Uygulama-1</li>
+						<li>Mikroişlemciler</li>
+						<li>Biçimsel Diller ve Otomata Teorisi</li>
+						<li>Algoritma Analizi</li>
 
-	 			</ul>
-	 			<div class="temizle"></div>
+					</ul>
+					<div class="temizle"></div>
 
-				</div> <!-- sinifBolumu sonu  -->
-				<div class="sinifBolumu satir">
+					</div> <!-- sinifBolumu sonu  -->
+					<div class="sinifBolumu satir">
 
-	 			<h6 class="sinif sutun-2">4. Sınıf</h6>
-	 			<ul class="ders sutun-10">
+					<h6 class="sinif sutun-2">4. Sınıf</h6>
+					<ul class="ders sutun-10">
 
-		 			<li>Endüstri Sosyolojisi</li>
-		 			<li>Duyarga Ağları</li>
-		 			<li>Bilgisayar Mimarisi</li>
-		 			<li>Bilgisayar Sistemleri Laboratuvarı</li>
-		 			<li>Robotik</li>
-		 			<li>Gömülü Sistem Tasarımı</li>
-		 			<li>Bitirme Projesi</li>
-		 			<li>Yönetim Sosyolojisi</li>
-		 			<li>Derleyici Tasarımı</li>
-		 			<li>Benzetim ve Modelleme</li>
-		 			<li>İnternet Programlama</li>
-		 			<li>Meslekî Uygulama-2</li>
-		 			<li>Bilgisayar Mühendisliğinde Tasarım</li>
+						<li>Endüstri Sosyolojisi</li>
+						<li>Duyarga Ağları</li>
+						<li>Bilgisayar Mimarisi</li>
+						<li>Bilgisayar Sistemleri Laboratuvarı</li>
+						<li>Robotik</li>
+						<li>Gömülü Sistem Tasarımı</li>
+						<li>Bitirme Projesi</li>
+						<li>Yönetim Sosyolojisi</li>
+						<li>Derleyici Tasarımı</li>
+						<li>Benzetim ve Modelleme</li>
+						<li>İnternet Programlama</li>
+						<li>Meslekî Uygulama-2</li>
+						<li>Bilgisayar Mühendisliğinde Tasarım</li>
 
-	 			</ul>
+					</ul>
 
-				</div> <!-- sinifBolumu sonu  -->
+					</div> <!-- sinifBolumu sonu  -->
 
-			</div> <!-- dersBolumu sonu  -->
+				</div> <!-- dersBolumu sonu  -->
 
-		</li>
-		<li>
+			</li>
+			<li>
 
-			<div class="satir">
+				<div class="satir">
 
-				<h3 class="baslik sutun-6">Üniversite (Lisans - Terk)</h3>
-				<span class="periyot sutun-6">2008 - 2010</span>
+					<h3 class="baslik sutun-6">Üniversite (Lisans - Terk)</h3>
+					<span class="periyot sutun-6">2008 - 2010</span>
 
-			</div>
-			<h4 class="isAdi">
+				</div>
+				<h4 class="isAdi">
 
-				<i class="fa fa-graduation-cap"></i>
-				<a href="https://egitim.amasya.edu.tr/bolumler/matematik-ve-fen-bilimleri-egitimi-bolumu/fen-bilgisi-egitimi-anabilim-dali.aspx" target="_blank">Amasya Üniversitesi Eğitim Fakültesi Fen Bilgisi Öğretmenliği Bölümü</a>
+					<i class="fa fa-graduation-cap"></i>
+					<a href="https://egitim.amasya.edu.tr/bolumler/matematik-ve-fen-bilimleri-egitimi-bolumu/fen-bilgisi-egitimi-anabilim-dali.aspx" target="_blank">Amasya Üniversitesi Eğitim Fakültesi Fen Bilgisi Öğretmenliği Bölümü</a>
 
-			</h4>
-			<p>2. sınıfın sonunda yeniden ÖSS'ye girip diğer bölümü kazandığımdan okulu bıraktım. Aşağıda öğrenim gördüğüm süre içerisinde başarılı olup geçtiğim dersler listelenmiştir.</p>
-			<div class="dersBolumu">
+				</h4>
+				<p>2. sınıfın sonunda yeniden ÖSS'ye girip diğer bölümü kazandığımdan okulu bıraktım. Aşağıda öğrenim gördüğüm süre içerisinde başarılı olup geçtiğim dersler listelenmiştir.</p>
+				<div class="dersBolumu">
 
-				<h5 class="dersler"><i class="fa fa-book"></i>DERSLER</h5>
+					<h5 class="dersler"><i class="fa fa-book"></i>DERSLER</h5>
 
-				<div class="sinifBolumu satir">
+					<div class="sinifBolumu satir">
 
-	 			<h6 class="sinif sutun-2">1. Sınıf</h6>
-	 			<ul class="ders sutun-10">
+					<h6 class="sinif sutun-2">1. Sınıf</h6>
+					<ul class="ders sutun-10">
 
-		 			<li>Genel Fizik Laboratuvarı-1</li>
-		 			<li>Genel Kimya Laboratuvarı-1</li>
-		 			<li>Eğitim Bilimine Giriş</li>
-		 			<li>Atatürk İlkeleri ve İnkılap Tarihi-1</li>
-		 			<li>Türkçe-1: Yazılı Anlatım</li>
-		 			<li>Genel Fizik-2</li>
-		 			<li>Genel Fizik Laboratuvarı-2</li>
-		 			<li>Genel Kimya-2</li>
-		 			<li>Genel Kimya Laboratuvarı-2</li>
-		 			<li>Eğitim Psikolojisi</li>
-		 			<li>Atatürk İlkeleri ve İnkılap Tarihi-2</li>
-		 			<li>Türkçe-2: Sözlü Anlatım</li>
+						<li>Genel Fizik Laboratuvarı-1</li>
+						<li>Genel Kimya Laboratuvarı-1</li>
+						<li>Eğitim Bilimine Giriş</li>
+						<li>Atatürk İlkeleri ve İnkılap Tarihi-1</li>
+						<li>Türkçe-1: Yazılı Anlatım</li>
+						<li>Genel Fizik-2</li>
+						<li>Genel Fizik Laboratuvarı-2</li>
+						<li>Genel Kimya-2</li>
+						<li>Genel Kimya Laboratuvarı-2</li>
+						<li>Eğitim Psikolojisi</li>
+						<li>Atatürk İlkeleri ve İnkılap Tarihi-2</li>
+						<li>Türkçe-2: Sözlü Anlatım</li>
 
-	 			</ul>
+					</ul>
 
-				</div> <!-- sinifBolumu sonu  -->
-				<div class="sinifBolumu satir">
+					</div> <!-- sinifBolumu sonu  -->
+					<div class="sinifBolumu satir">
 
-	 			<h6 class="sinif sutun-2">2. Sınıf</h6>
-	 			<ul class="ders sutun-10">
+					<h6 class="sinif sutun-2">2. Sınıf</h6>
+					<ul class="ders sutun-10">
 
-		 			<li>Bilgisayar-1</li>
-		 			<li>İngilizce-1</li>
-		 			<li>Genel Biyoloji-1</li>
-		 			<li>Genel Biyoloji Laboratuvarı-1</li>
-		 			<li>Öğretim İlke ve Yöntemleri</li>
-		 			<li>İngilizce-2</li>
-		 			<li>Genel Biyoloji-2</li>
-		 			<li>Genel Biyoloji Laboratuvarı-2</li>
-		 			<li>Modern Fiziğe Giriş</li>
-		 			<li>Bilgisayar-2</li>
-		 			<li>Meslekî İngilizce</li>
+						<li>Bilgisayar-1</li>
+						<li>İngilizce-1</li>
+						<li>Genel Biyoloji-1</li>
+						<li>Genel Biyoloji Laboratuvarı-1</li>
+						<li>Öğretim İlke ve Yöntemleri</li>
+						<li>İngilizce-2</li>
+						<li>Genel Biyoloji-2</li>
+						<li>Genel Biyoloji Laboratuvarı-2</li>
+						<li>Modern Fiziğe Giriş</li>
+						<li>Bilgisayar-2</li>
+						<li>Meslekî İngilizce</li>
 
-	 			</ul>
+					</ul>
 
-				</div> <!-- sinifBolumu sonu  -->
+					</div> <!-- sinifBolumu sonu  -->
 
-			</div> <!-- dersBolumu sonu  -->
+				</div> <!-- dersBolumu sonu  -->
 
-		</li>
-		<li>
+			</li>
+			<li>
 
-			<div class="satir">
+				<div class="satir">
 
-				<h3 class="baslik sutun-6">Lise</h3>
-				<span class="periyot sutun-6">2003 - 2007</span>
+					<h3 class="baslik sutun-6">Lise</h3>
+					<span class="periyot sutun-6">2003 - 2007</span>
 
-			</div>
-			<h4 class="isAdi">
+				</div>
+				<h4 class="isAdi">
 
-				<i class="fa fa-graduation-cap"></i>
-				<a href="http://corumfatihanadolulisesi.meb.k12.tr/" target="_blank">Çorum Fatih Lisesi (Yabancı Dil Ağırlıklı)</a>
+					<i class="fa fa-graduation-cap"></i>
+					<a href="http://corumfatihanadolulisesi.meb.k12.tr/" target="_blank">Çorum Fatih Lisesi (Yabancı Dil Ağırlıklı)</a>
 
-			</h4>
-			<p>Süper lise olarak da adlandırılan İngilizce ağırlıklı liseydi. Lise 2. sınıfta Fen Bilimleri (Sayısal) alanını seçtim. Mezuniyet puanım 100'lük not sistemine göre 83'tür.</p>
-			<div class="dersBolumu">
+				</h4>
+				<p>Süper lise olarak da adlandırılan İngilizce ağırlıklı liseydi. Lise 2. sınıfta Fen Bilimleri (Sayısal) alanını seçtim. Mezuniyet puanım 100'lük not sistemine göre 83'tür.</p>
+				<div class="dersBolumu">
 
-				<h5 class="dersler"><i class="fa fa-book"></i>DERSLER</h5>
+					<h5 class="dersler"><i class="fa fa-book"></i>DERSLER</h5>
 
-				<div class="sinifBolumu satir">
+					<div class="sinifBolumu satir">
 
-	 			<h6 class="sinif sutun-2">Hazırlık Sınıfı</h6>
-	 			<ul class="ders sutun-10">
+					<h6 class="sinif sutun-2">Hazırlık Sınıfı</h6>
+					<ul class="ders sutun-10">
 
-		 			<li>Türkçe</li>
-		 			<li>İngilizce</li>
-		 			<li>Beden Eğitimi</li>
-		 			<li>Müzik</li>
-		 			<li>Bilgisayar</li>
+						<li>Türkçe</li>
+						<li>İngilizce</li>
+						<li>Beden Eğitimi</li>
+						<li>Müzik</li>
+						<li>Bilgisayar</li>
 
-	 			</ul>
+					</ul>
 
-				</div> <!-- sinifBolumu sonu  -->
-				<div class="sinifBolumu satir">
+					</div> <!-- sinifBolumu sonu  -->
+					<div class="sinifBolumu satir">
 
-	 			<h6 class="sinif sutun-2">1. Sınıf</h6>
-	 			<ul class="ders sutun-10">
+					<h6 class="sinif sutun-2">1. Sınıf</h6>
+					<ul class="ders sutun-10">
 
-		 			<li>Türk Dili ve Edebiyatı</li>
-		 			<li>Din Kültürü ve Ahlak Bilgisi</li>
-		 			<li>Tarih</li>
-		 			<li>Coğrafya</li>
-		 			<li>Matematik</li>
-		 			<li>Biyoloji</li>
-		 			<li>Fizik</li>
-		 			<li>Kimya</li>
-		 			<li>Sağlık Bilgisi</li>
-		 			<li>İngilizce</li>
-		 			<li>Beden Eğitimi</li>
-		 			<li>Bilgisayar</li>
-		 			<li>Müzik</li>
+						<li>Türk Dili ve Edebiyatı</li>
+						<li>Din Kültürü ve Ahlak Bilgisi</li>
+						<li>Tarih</li>
+						<li>Coğrafya</li>
+						<li>Matematik</li>
+						<li>Biyoloji</li>
+						<li>Fizik</li>
+						<li>Kimya</li>
+						<li>Sağlık Bilgisi</li>
+						<li>İngilizce</li>
+						<li>Beden Eğitimi</li>
+						<li>Bilgisayar</li>
+						<li>Müzik</li>
 
-	 			</ul>
+					</ul>
 
-				</div> <!-- sinifBolumu sonu  -->
-				<div class="sinifBolumu satir">
+					</div> <!-- sinifBolumu sonu  -->
+					<div class="sinifBolumu satir">
 
-	 			<h6 class="sinif sutun-2">2. Sınıf</h6>
-	 			<ul class="ders sutun-10">
+					<h6 class="sinif sutun-2">2. Sınıf</h6>
+					<ul class="ders sutun-10">
 
-		 			<li>Türk Dili ve Edebiyatı</li>
-		 			<li>Din Kültürü ve Ahlak Bilgisi</li>
-		 			<li>Tarih</li>
-		 			<li>Millî Güvenlik</li>
-		 			<li>İngilizce</li>
-		 			<li>Biyoloji</li>
-		 			<li>Fizik</li>
-		 			<li>Kimya</li>
-		 			<li>Matematik</li>
-		 			<li>Geometri</li>
-		 			<li>Kimya Uygulamaları</li>
-		 			<li>Fizik Uygulamaları</li>
-		 			<li>Analitik Geometri</li>
-		 			<li>Beden Eğitimi</li>
+						<li>Türk Dili ve Edebiyatı</li>
+						<li>Din Kültürü ve Ahlak Bilgisi</li>
+						<li>Tarih</li>
+						<li>Millî Güvenlik</li>
+						<li>İngilizce</li>
+						<li>Biyoloji</li>
+						<li>Fizik</li>
+						<li>Kimya</li>
+						<li>Matematik</li>
+						<li>Geometri</li>
+						<li>Kimya Uygulamaları</li>
+						<li>Fizik Uygulamaları</li>
+						<li>Analitik Geometri</li>
+						<li>Beden Eğitimi</li>
 
-	 			</ul>
+					</ul>
 
-				</div> <!-- sinifBolumu sonu  -->
-				<div class="sinifBolumu satir">
+					</div> <!-- sinifBolumu sonu  -->
+					<div class="sinifBolumu satir">
 
-	 			<h6 class="sinif sutun-2">3. Sınıf</h6>
-	 			<ul class="ders sutun-10">
+					<h6 class="sinif sutun-2">3. Sınıf</h6>
+					<ul class="ders sutun-10">
 
-		 			<li>Türk Dili ve Edebiyatı</li>
-		 			<li>Din Kültürü ve Ahlak Bilgisi</li>
-		 			<li>Türkiye Cumhuriyeti İnkılap Tarihi ve Atatürkçülük</li>
-		 			<li>Felsefe</li>
-		 			<li>Biyoloji</li>
-		 			<li>Fizik</li>
-		 			<li>Kimya</li>
-		 			<li>Matematik</li>
-		 			<li>Biyoloji Uygulamaları</li>
-		 			<li>Kimya Uygulamaları</li>
-		 			<li>Geometri</li>
-		 			<li>Analitik Geometri</li>
-		 			<li>İngilizce</li>
+						<li>Türk Dili ve Edebiyatı</li>
+						<li>Din Kültürü ve Ahlak Bilgisi</li>
+						<li>Türkiye Cumhuriyeti İnkılap Tarihi ve Atatürkçülük</li>
+						<li>Felsefe</li>
+						<li>Biyoloji</li>
+						<li>Fizik</li>
+						<li>Kimya</li>
+						<li>Matematik</li>
+						<li>Biyoloji Uygulamaları</li>
+						<li>Kimya Uygulamaları</li>
+						<li>Geometri</li>
+						<li>Analitik Geometri</li>
+						<li>İngilizce</li>
 
-	 			</ul>
+					</ul>
 
-				</div> <!-- sinifBolumu sonu  -->
+					</div> <!-- sinifBolumu sonu  -->
 
-			</div> <!-- dersBolumu sonu  -->
+				</div> <!-- dersBolumu sonu  -->
 
-		</li>
-		<li>
+			</li>
+			<li>
 
-			<div class="satir">
+				<div class="satir">
 
-				<h3 class="baslik sutun-6">İlköğretim</h3>
-				<span class="periyot sutun-6">1998 - 2003</span>
+					<h3 class="baslik sutun-6">İlköğretim</h3>
+					<span class="periyot sutun-6">1998 - 2003</span>
 
-			</div>
-			<h4 class="isAdi">
+				</div>
+				<h4 class="isAdi">
 
-				<i class="fa fa-graduation-cap"></i>
-				<a href="http://corummimarsinanortaokulu.meb.k12.tr/" target="_blank">Çorum Mimar Sinan İlköğretim Okulu</a>
+					<i class="fa fa-graduation-cap"></i>
+					<a href="http://corummimarsinanortaokulu.meb.k12.tr/" target="_blank">Çorum Mimar Sinan İlköğretim Okulu</a>
 
-			</h4>
-			<p>4. sınıftan ortaokul 3. sınıfın sonuna kadar da bu okulda öğrenim gördüm. 1998 yılında, 8 yıllık eğitime geçilince eski okulum kapanmış ve bu okula taşınmıştık.</p>
-			<div class="dersBolumu">
+				</h4>
+				<p>4. sınıftan ortaokul 3. sınıfın sonuna kadar da bu okulda öğrenim gördüm. 1998 yılında, 8 yıllık eğitime geçilince eski okulum kapanmış ve bu okula taşınmıştık.</p>
+				<div class="dersBolumu">
 
-				<h5 class="dersler"><i class="fa fa-book"></i>DERSLER</h5>
+					<h5 class="dersler"><i class="fa fa-book"></i>DERSLER</h5>
 
-				<div class="sinifBolumu satir">
+					<div class="sinifBolumu satir">
 
-	 			<h6 class="sinif sutun-2">4. - 5. Sınıf</h6>
-	 			<ul class="ders sutun-10">
+					<h6 class="sinif sutun-2">4. - 5. Sınıf</h6>
+					<ul class="ders sutun-10">
 
-		 			<li>Türkçe</li>
-		 			<li>Matematik</li>
-		 			<li>Fen Bilgisi</li>
-		 			<li>Sosyal Bilgiler</li>
-		 			<li>İngilizce</li>
-		 			<li>Din Kültürü ve Ahlak Bilgisi</li>
-		 			<li>Resim-İş</li>
-		 			<li>Müzik</li>
-		 			<li>Beden Eğitimi</li>
-		 			<li>İş Eğitimi</li>
+						<li>Türkçe</li>
+						<li>Matematik</li>
+						<li>Fen Bilgisi</li>
+						<li>Sosyal Bilgiler</li>
+						<li>İngilizce</li>
+						<li>Din Kültürü ve Ahlak Bilgisi</li>
+						<li>Resim-İş</li>
+						<li>Müzik</li>
+						<li>Beden Eğitimi</li>
+						<li>İş Eğitimi</li>
 
-	 			</ul>
+					</ul>
 
-				</div> <!-- sinifBolumu sonu  -->
-				<div class="sinifBolumu satir">
+					</div> <!-- sinifBolumu sonu  -->
+					<div class="sinifBolumu satir">
 
-	 			<h6 class="sinif sutun-2">6. Sınıf</h6>
-	 			<ul class="ders sutun-10">
+					<h6 class="sinif sutun-2">6. Sınıf</h6>
+					<ul class="ders sutun-10">
 
-		 			<li>Türkçe</li>
-		 			<li>Matematik</li>
-		 			<li>Fen Bilgisi</li>
-		 			<li>Sosyal Bilgiler</li>
-		 			<li>İngilizce</li>
-		 			<li>Din Kültürü ve Ahlak Bilgisi</li>
-		 			<li>Resim-İş</li>
-		 			<li>Müzik</li>
-		 			<li>Beden Eğitimi</li>
-		 			<li>İş Eğitimi</li>
-		 			<li>Trafik ve İlk Yardım Eğitimi</li>
-		 			<li>Tarım</li>
+						<li>Türkçe</li>
+						<li>Matematik</li>
+						<li>Fen Bilgisi</li>
+						<li>Sosyal Bilgiler</li>
+						<li>İngilizce</li>
+						<li>Din Kültürü ve Ahlak Bilgisi</li>
+						<li>Resim-İş</li>
+						<li>Müzik</li>
+						<li>Beden Eğitimi</li>
+						<li>İş Eğitimi</li>
+						<li>Trafik ve İlk Yardım Eğitimi</li>
+						<li>Tarım</li>
 
-	 			</ul>
+					</ul>
 
-				</div> <!-- sinifBolumu sonu  -->
-				<div class="sinifBolumu satir">
+					</div> <!-- sinifBolumu sonu  -->
+					<div class="sinifBolumu satir">
 
-	 			<h6 class="sinif sutun-2">7. Sınıf</h6>
-	 			<ul class="ders sutun-10">
+					<h6 class="sinif sutun-2">7. Sınıf</h6>
+					<ul class="ders sutun-10">
 
-		 			<li>Türkçe</li>
-		 			<li>Matematik</li>
-		 			<li>Fen Bilgisi</li>
-		 			<li>Sosyal Bilgiler</li>
-		 			<li>Vatandaşlık ve İnsan Hakları Eğitimi</li>
-		 			<li>İngilizce</li>
-		 			<li>Din Kültürü ve Ahlak Bilgisi</li>
-		 			<li>Resim-İş</li>
-		 			<li>Müzik</li>
-		 			<li>Beden Eğitimi</li>
-		 			<li>İş Eğitimi</li>
-		 			<li>Tarım</li>
+						<li>Türkçe</li>
+						<li>Matematik</li>
+						<li>Fen Bilgisi</li>
+						<li>Sosyal Bilgiler</li>
+						<li>Vatandaşlık ve İnsan Hakları Eğitimi</li>
+						<li>İngilizce</li>
+						<li>Din Kültürü ve Ahlak Bilgisi</li>
+						<li>Resim-İş</li>
+						<li>Müzik</li>
+						<li>Beden Eğitimi</li>
+						<li>İş Eğitimi</li>
+						<li>Tarım</li>
 
-	 			</ul>
+					</ul>
 
-				</div> <!-- sinifBolumu sonu  -->
-				<div class="sinifBolumu satir">
+					</div> <!-- sinifBolumu sonu  -->
+					<div class="sinifBolumu satir">
 
-	 			<h6 class="sinif sutun-2">8. Sınıf</h6>
-	 			<ul class="ders sutun-10">
+					<h6 class="sinif sutun-2">8. Sınıf</h6>
+					<ul class="ders sutun-10">
 
-		 			<li>Türkçe</li>
-		 			<li>Matematik</li>
-		 			<li>Fen Bilgisi</li>
-		 			<li>Vatandaşlık ve İnsan Hakları Eğitimi</li>
-		 			<li>Türkiye Cumhuriyeti İnkılap Tarihi ve Atatürkçülük</li>
-		 			<li>İngilizce</li>
-		 			<li>Din Kültürü ve Ahlak Bilgisi</li>
-		 			<li>Resim-İş</li>
-		 			<li>Müzik</li>
-		 			<li>Beden Eğitimi</li>
-		 			<li>İş Eğitimi</li>
-		 			<li>Trafik ve İlk Yardım Eğitimi</li>
-		 			<li>Tarım</li>
+						<li>Türkçe</li>
+						<li>Matematik</li>
+						<li>Fen Bilgisi</li>
+						<li>Vatandaşlık ve İnsan Hakları Eğitimi</li>
+						<li>Türkiye Cumhuriyeti İnkılap Tarihi ve Atatürkçülük</li>
+						<li>İngilizce</li>
+						<li>Din Kültürü ve Ahlak Bilgisi</li>
+						<li>Resim-İş</li>
+						<li>Müzik</li>
+						<li>Beden Eğitimi</li>
+						<li>İş Eğitimi</li>
+						<li>Trafik ve İlk Yardım Eğitimi</li>
+						<li>Tarım</li>
 
-	 			</ul>
+					</ul>
 
-				</div> <!-- sinifBolumu sonu  -->
+					</div> <!-- sinifBolumu sonu  -->
 
-			</div> <!-- dersBolumu sonu  -->
+				</div> <!-- dersBolumu sonu  -->
 
-		</li>
-		<li>
+			</li>
+			<li>
 
-			<div class="satir">
+				<div class="satir">
 
-				<h3 class="baslik sutun-6">İlkokul</h3>
-				<span class="periyot sutun-6">1995 - 1998</span>
+					<h3 class="baslik sutun-6">İlkokul</h3>
+					<span class="periyot sutun-6">1995 - 1998</span>
 
-			</div>
-			<h4 class="isAdi">
+				</div>
+				<h4 class="isAdi">
 
-				<i class="fa fa-graduation-cap"></i>
-				Çorum Millî Eğitim Vakfı İlkokulu
+					<i class="fa fa-graduation-cap"></i>
+					Çorum Millî Eğitim Vakfı İlkokulu
 
-			</h4>
-			<p>1. sınıftan 3. sınıfın sonuna kadar bu okuldaydım.</p>
-			<div class="dersBolumu">
+				</h4>
+				<p>1. sınıftan 3. sınıfın sonuna kadar bu okuldaydım.</p>
+				<div class="dersBolumu">
 
-				<h5 class="dersler"><i class="fa fa-book"></i>DERSLER</h5>
+					<h5 class="dersler"><i class="fa fa-book"></i>DERSLER</h5>
 
-				<div class="sinifBolumu satir">
+					<div class="sinifBolumu satir">
 
-	 			<h6 class="sinif sutun-2">1. - 2. - 3. Sınıf</h6>
-	 			<ul class="ders sutun-10">
+					<h6 class="sinif sutun-2">1. - 2. - 3. Sınıf</h6>
+					<ul class="ders sutun-10">
 
-		 			<li>Türkçe</li>
-		 			<li>Matematik</li>
-		 			<li>Hayat Bilgisi</li>
-		 			<li>Resim-İş</li>
-		 			<li>Müzik</li>
-		 			<li>Beden Eğitimi</li>
+						<li>Türkçe</li>
+						<li>Matematik</li>
+						<li>Hayat Bilgisi</li>
+						<li>Resim-İş</li>
+						<li>Müzik</li>
+						<li>Beden Eğitimi</li>
 
-	 			</ul>
+					</ul>
 
-				</div> <!-- sinifBolumu sonu  -->
+					</div> <!-- sinifBolumu sonu  -->
 
-			</div> <!-- dersBolumu sonu  -->
+				</div> <!-- dersBolumu sonu  -->
 
-		</li>
-		<li>
+			</li>
+			<li>
 
-			<div class="satir">
+				<div class="satir">
 
-				<h3 class="baslik sutun-6">Ana Sınıfı</h3>
-				<span class="periyot sutun-6">1994 - 1995</span>
+					<h3 class="baslik sutun-6">Ana Sınıfı</h3>
+					<span class="periyot sutun-6">1994 - 1995</span>
 
-			</div>
-			<h4 class="isAdi">
+				</div>
+				<h4 class="isAdi">
 
-				<i class="fa fa-graduation-cap"></i>
-				Çorum Millî Eğitim Vakfı İlkokulu
+					<i class="fa fa-graduation-cap"></i>
+					Çorum Millî Eğitim Vakfı İlkokulu
 
-			</h4>
+				</h4>
 
-		</li>
+			</li>
 
-	</ul>
+		</ul>
 
 	</div> <!-- iceriğin sol tarafının sonu -->
 
