@@ -36,17 +36,19 @@ if (have_posts()) :
 
 			<h4 class="isAdi">
 
-	 		<i class="fa fa-suitcase"></i>
-	 		<a href="https://www.invicti.com/" target="_blank">Invicti Security</a>
+				<i class="fa fa-suitcase"></i>
+				<a href="https://www.invicti.com/" target="_blank">Invicti Security</a>
 
 			</h4>
-			<p>ABD merkezli şirketin Türkiye ofisine bağlı olarak Çorum'da tam zamanlı ve uzaktan çalışmaktaydım. Web uygulama güvenliği alanında faaliyet gösteren şirketin iki ürünü olan <a href="https://www.invicti.com/" target="_blank">Invicti</a> ve <a href="https://www.acunetix.com/" target="_blank">Acunetix</a>'in WordPress tabanlı iki web sitesinden sorumluydum. Genel olarak burada yaptığım görevler şunlardır:<br>
-    			- Verilen Figma dizaynına göre Gutenberg ile mobil uyumlu yeni sayfalar oluşturma ve güncelleme<br>
+			<p>Web uygulama güvenliği alanında global lider olan ABD merkezli şirketin iki ürünü <a href="https://www.invicti.com/" target="_blank">Invicti</a> ve <a href="https://www.acunetix.com/" target="_blank">Acunetix</a>'in WordPress tabanlı web sitelerinden sorumluydum. Burada yaptığım işler özetle şu şekildedir:</p>
+    		<p> - Verilen Figma tasarımlarına göre özelleştirilmiş Gutenberg blokları ile mobil uyumlu yeni sayfalar oluşturma ve güncelleme<br>
     			- Sitelerde bulunan hataların giderilmesi<br>
     			- Gutenberg blokları ve şablonları (pattern) oluşturma<br>
-    			- Invicti web sitesinin .NET'ten WordPress'e geçirilmesi projesinde görev alınması<br>
-    			- Invicti websitesinin marka değiştirme kapsamında yeniden güncellenmesi<br>
-    			- Lighthouse skorlarının yükseltilmesi</p>
+    			- Eski Invicti web sitesinin .NET'ten WordPress'e geçirilmesi projesinde görev alınması<br>
+    			- Invicti web sitesinin marka değiştirme kapsamında yeniden güncellenmesi<br>
+    			- Lighthouse skorlarının yükseltilmesi<br>
+			    - Gerekli dokümantasyonların yapılması</p>
+			<p><b>Kullandığım Araçlar: </b>WordPress, Gutenberg, Advanced Custom Fields (ACF), PHP, Laravel Blade, JavaScript, SASS, Tailwind CSS, GitLab, Figma, Jira, Confluence, TeamCity, Scrum</p>
 
 		</li>
 
@@ -61,11 +63,15 @@ if (have_posts()) :
 
 			<h4 class="isAdi">
 
-	 		<i class="fa fa-suitcase"></i>
-	 		<a href="https://www.rewiresecurity.co.uk/" target="_blank">Rewire Security</a>
+				<i class="fa fa-suitcase"></i>
+				<a href="https://www.rewiresecurity.co.uk/" target="_blank">Rewire Security</a>
 
 			</h4>
-			<p>GPS izleme ve telematik alanında teknolojiler üreten İngiltere merkezli şirketin Antalya’daki yazılım ofisine bağlı olarak Çorum'da tam zamanlı ve uzaktan çalışmaktaydım. Şirketin Slovakya’daki Avrupa satış ofisinin e-ticaret web sitesi olan GPSLive’ın geliştirilmesinde görev aldım. (<a href="https://gpslive.sk/" target="_blank">gpslive.sk</a>) Ayrıca şirketin ana web sitesi olan "<a href="https://www.rewiresecurity.co.uk/" target="_blank">rewiresecurity.co.uk</a>"in yeni dizayn ile yeniden programlanması projesinde yer aldım.</p>
+			<p>GPS izleme ve telematik alanında teknolojiler üreten İngiltere merkezli şirketin ana <a href="https://www.rewiresecurity.co.uk/" target="_blank">web sitesinden</a> ve Slovakya’daki Avrupa satış ofisinin e-ticaret web sitesi olan <a href="https://gpslive.sk/" target="_blank">GPSLive</a>'dan sorumluydum. Burada yaptığım işler özetle şu şekildedir:</p>
+    		<p> - Ana sitenin yeni tasarım ile yeniden geliştirilmesi<br>
+    			- GPSLive Slovakya sitesinin geliştirilmesi ve çoklu dil desteğinin verilmesi<br>
+    			- Bu iki sitenin bakımı, hata düzeltmeleri ve güncellenmeleri</p>
+			<p><b>Kullandığım Araçlar: </b>WordPress, WooCommerce, WPBakery, WPML ile Çoklu Dil Desteği, SCSS, JavaScript, jQuery, WordPress Hooks, WordPress Shortcodes, Mobil Uyumluluk, Adobe XD</p>
 
 		</li>
 
@@ -80,11 +86,20 @@ if (have_posts()) :
 
 			<h4 class="isAdi">
 
-	 		<i class="fa fa-suitcase"></i>
-	 		<a href="https://www.twelve12.com" target="_blank">Twelve12</a>
+				<i class="fa fa-suitcase"></i>
+				<a href="https://www.twelve12.com" target="_blank">Twelve12</a>
 
 			</h4>
-			<p>Şirketin Web Geliştirme departmanında PHP ve Wordpress kullanarak internet sitesi (web) geliştirme ve bakımından sorumluyum. </p>
+			<p>Şirketin web geliştirme departmanında PHP ve WordPress kullanarak web sitesi geliştirme ve bakımlarından sorumluydum. Burada yaptığım işler özetle şu şekildedir:</p>
+			<p> - Yaklaşık 60 müşterinin Figma/Photoshop’ta tasarlanmış web sitelerinin geliştirilmesi<br>
+    			- Bu web sitelerin bakım ve güncellemelerinin yapılması<br>
+    			- Sitelerin akıllı telefon, tablet, masaüstü ve büyük ekran versiyonlarının geliştirilmesi<br>
+    			- Sitelerin ACF kullanılarak düzenlenebilir ve dinamik hale getirilmesi<br>
+    			- "Staging" ortamında ön testlerin yapılması<br>
+    			- Şirket websitelerinin bakımı ve geliştirilmesi<br>
+			    - Tasarıma göre HTML e-posta taslakları geliştirme<br>
+			    - Sitelerin WCAG (Erişilebilirlik [Accessibility]) uyumlu hale getirilmesi</p>
+			<p><b>Kullandığım Araçlar: </b>WordPress, WooCommerce, Advanced Custom Fields (ACF), PHP, MySQL, JavaScript, jQuery, HTML, CSS, SCSS, Mobil Uyumluluk, Web Erişilebilirliği (WCAG), Gulp, Figma/Photoshop, Git/GitHub/Bitbucket, Bootstrap, Zurb Foundation</p>
 
 		</li>
 		<li>
@@ -98,8 +113,8 @@ if (have_posts()) :
 
 			<h4 class="isAdi">
 
-	 		<i class="fa fa-suitcase"></i>
-	 		<a href="https://www.greyder.com/" target="_blank">Greyder Bilgi Teknolojileri Departmanı</a>
+				<i class="fa fa-suitcase"></i>
+				<a href="https://www.greyder.com/" target="_blank">Greyder Bilgi Teknolojileri Departmanı</a>
 
 			</h4>
 			<p>Çorum Merkez ve İskilip Greyder fabrikalarının sunucu ve bilgisayarlarının bakım ve onarımı, ülke genelindeki mağazalara uzaktan teknik destek gibi işlerden sorumluydum. </p>
@@ -116,8 +131,8 @@ if (have_posts()) :
 
 			<h4 class="isAdi">
 
-	 		<i class="fa fa-suitcase"></i>
-	 		<a href="http://corumeah.saglik.gov.tr/" target="_blank">Hitit Üniversitesi Eğitim ve Araştırma Hastanesi Bilgi İşlem Birimi</a>
+				<i class="fa fa-suitcase"></i>
+				<a href="http://corumeah.saglik.gov.tr/" target="_blank">Hitit Üniversitesi Eğitim ve Araştırma Hastanesi Bilgi İşlem Birimi</a>
 
 			</h4>
 			<p>Birimler arası ağ kablolama ve teknik destek gibi alanlarda çalıştım.</p>
@@ -132,8 +147,8 @@ if (have_posts()) :
 			</div>
 			<h4 class="isAdi">
 
-	 		<i class="fa fa-suitcase"></i>
-			<a href="http://www.corum.gov.tr/bilgi-islem-sube-mudurlugu" target="_blank">Çorum Valiliği Bilgi İşlem Müdürlüğü</a>
+				<i class="fa fa-suitcase"></i>
+				<a href="http://www.corum.gov.tr/bilgi-islem-sube-mudurlugu" target="_blank">Çorum Valiliği Bilgi İşlem Müdürlüğü</a>
 
 			</h4>
 			<p> Sunucuya Windows Server 2008 işletim sisteminin kurulumunun öğrenilmesi; DNS, DHCP ve Active Directory kurulumu, Labris UTM-52 Güvenlik Cihazının Kontrolü, IP Dağıtma gibi işlemler yaptım. </p>
@@ -149,11 +164,11 @@ if (have_posts()) :
 			</div>
 			<h4 class="isAdi">
 
-	 		<i class="fa fa-suitcase"></i>
-	 		<a href="http://www.osoa.com.tr/" target="_blank">OSOA Yazılım ve Danışmanlık</a>
+				<i class="fa fa-suitcase"></i>
+				<a href="http://www.osoa.com.tr/" target="_blank">OSOA Yazılım ve Danışmanlık</a>
 
 			</h4>
-			<p> C# programlama dili üzerine çalışarak bununla ilgili uygulamalar yaptım.</p>
+			<p> C# programlama dili üzerine çalışarak bununla ilgili uygulamalar yaptım.</p>
 
 		</li>
 
