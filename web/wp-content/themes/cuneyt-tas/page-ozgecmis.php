@@ -12,13 +12,13 @@ if (have_posts()) :
 	<h2>Genel Bilgiler</h2>
 	<ul class="profil">
 
-		<li class="satir"><label class="proBaslik sutun-4">Memleketim ve Yaşadığım Şehir:</label><span class="proBilgi sutun-8">Çorum</span></li>
-		<li class="satir"><label class="proBaslik sutun-4">Diller:</label><span class="proBilgi sutun-8">Türkçe (Ana Dil Seviyesi)<br>İngilizce (Başlangıç Seviyesi)</span></li>
-		<li class="satir"><label class="proBaslik sutun-4">Dinî İnancım:</label><span class="proBilgi sutun-8">İslâm</span></li>
-		<li class="satir"><label class="proBaslik sutun-4">Medenî Durumum:</label><span class="proBilgi sutun-8">Evli ve 1 Çocuk Babası</span></li>
-		<li class="satir"><label class="proBaslik sutun-4">Tuttuğum Takım:</label><span class="proBilgi sutun-8">Yok</span></li>
-		<li class="satir"><label class="proBaslik sutun-4">İlgi Alanlarım:</label><span class="proBilgi sutun-8">Sinema, Kitap, Ev Hayvanları Bakımı, Bitki Yetiştirme, Koleksiyon, Bisiklet</span></li>
+		<li class="satir"><label class="proBaslik sutun-4">Memleketim ve Yaşadığım Şehir:</label><span class="proBilgi sutun-8">Çorum/Merkez</span></li>
+		<li class="satir"><label class="proBaslik sutun-4">Diller:</label><span class="proBilgi sutun-8">Türkçe (Ana Dil Seviyesi)<br>İngilizce (Yazma ve okuma = B1 Seviyesi, Konuşma ve dinleme = A2 Seviyesi)</span></li>
+		<li class="satir"><label class="proBaslik sutun-4">İlgi Alanlarım:</label><span class="proBilgi sutun-8">Sinema, Kitap, Ev Hayvanları Bakımı, Bitki Yetiştirme, Koleksiyon, Bisiklet, Elektronik</span></li>
 		<li class="satir"><label class="proBaslik sutun-4">Sürücü Belgesi:</label><span class="proBilgi sutun-8">B Sınıfı (2007)</span></li>
+		<li class="satir"><label class="proBaslik sutun-4">Medenî Durumum:</label><span class="proBilgi sutun-8">Evli ve 1 Çocuk Babası</span></li>
+		<li class="satir"><label class="proBaslik sutun-4">Dinî İnancım:</label><span class="proBilgi sutun-8">İslâm</span></li>
+		<li class="satir"><label class="proBaslik sutun-4">Tuttuğum Takım:</label><span class="proBilgi sutun-8">Yok</span></li>
 		<li class="satir"><label class="proBaslik sutun-4">Sigara ve Alkol Kullanımı:</label><span class="proBilgi sutun-8">Kullanmıyorum</span></li>
 
 	</ul>
@@ -47,7 +47,7 @@ if (have_posts()) :
     			- Invicti web sitesinin .NET'ten WordPress'e geçirilmesi projesinde görev alınması<br>
     			- Invicti websitesinin marka değiştirme kapsamında yeniden güncellenmesi<br>
     			- Lighthouse skorlarının yükseltilmesi</p>
-			
+
 		</li>
 
 		<li>
