@@ -187,7 +187,7 @@ if (have_posts()) :
 				<h4 class="isAdi">
 
 					<i class="fa fa-graduation-cap"></i>
-					<a href="http://bil.muh.firat.edu.tr/" target="_blank">Fırat Üniversitesi Mühendislik Fakültesi Bilgisayar Mühendisliği Bölümü</a>
+					<a href="https://bilgisayarmf.firat.edu.tr/" target="_blank">Fırat Üniversitesi Mühendislik Fakültesi Bilgisayar Mühendisliği Bölümü</a>
 
 				</h4>
 				<p>Yarım dönem gecikmeli olarak bitirdim. Mezuniyet puanım 4'lük sisteme göre 2.38'dir.</p>
@@ -292,7 +292,7 @@ if (have_posts()) :
 				<h4 class="isAdi">
 
 					<i class="fa fa-graduation-cap"></i>
-					<a href="https://egitim.amasya.edu.tr/bolumler/matematik-ve-fen-bilimleri-egitimi-bolumu/fen-bilgisi-egitimi-anabilim-dali.aspx" target="_blank">Amasya Üniversitesi Eğitim Fakültesi Fen Bilgisi Öğretmenliği Bölümü</a>
+					<a href="https://fbabd.amasya.edu.tr/" target="_blank">Amasya Üniversitesi Eğitim Fakültesi Fen Bilgisi Öğretmenliği Bölümü</a>
 
 				</h4>
 				<p>2. sınıfın sonunda yeniden ÖSS'ye girip diğer bölümü kazandığımdan okulu bıraktım. Aşağıda öğrenim gördüğüm süre içerisinde başarılı olup geçtiğim dersler listelenmiştir.</p>
