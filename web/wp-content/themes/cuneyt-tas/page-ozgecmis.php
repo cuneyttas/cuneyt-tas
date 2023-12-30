@@ -1271,15 +1271,22 @@ if (have_posts()) :
 					<span class="tarih sutun-4">Aralık 2011</span>
 
 				</div>
-				<p>Katılım Sertifikası</p>
+				<p><b>Katılım Sertifikası</b></p>
 
-				<p><ul>
+				<p>Bilişimin İş Hayatındaki Önemi ve Akınsoft'ta Kariyer Olanakları konulu eğitim aldım.</p>
 
-					<li>- Akınsoft Firma Profili</li>
-					<li>- Bilişimin İş Hayatındaki Önemi</li>
-					<li>- Akınsoft'ta Kariyer Olanakları</li>
+			</li>
+			<li>
 
-				</ul></p>
+				<div class="deneyim satir">
+
+					<h3 class="ozBilgi sutun-8"><i class="fa fa-certificate" aria-hidden="true"></i><a href="https://credly.com/badges/063d0e7c-0e85-47cd-8170-bf61b797d485" target="_blank">ACM Agile</a></h3>
+					<span class="tarih sutun-4">Ekim 2022</span>
+
+				</div>
+				<p><b>Oyunlaştırılmış Agile ve Scrum Eğitimi</b></p>
+
+				<p>Agile'ı geniş bir perspektiften anlama, Scrum'ı deneyimleyerek nerede ve nasıl uygulanacağını öğrenme üzerine eğitim aldım.</p>
 
 			</li>
 
