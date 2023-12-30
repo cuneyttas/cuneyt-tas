@@ -742,6 +742,7 @@ if (have_posts()) :
 			</li>
 
 		</ul>
+
 		<h3 class="yetBaslik">Ön Yüz (Front-End)</h3>
 		<ul class="basliklar">
 
@@ -951,6 +952,7 @@ if (have_posts()) :
 			</li>
 
 		</ul>
+
 		<h3 class="yetBaslik">Arka Yüz (Back-End)</h3>
 		<ul class="basliklar">
 
@@ -1130,6 +1132,7 @@ if (have_posts()) :
 			</li>
 
 		</ul>
+
 		<h3 class="yetBaslik">Elektronik</h3>
 		<ul class="basliklar">
 
@@ -1159,6 +1162,7 @@ if (have_posts()) :
 			</li>
 
 		</ul>
+
 		<h3 class="yetBaslik">Diğer</h3>
 		<p>Aşağıda çoğunlukla okulda ve stajda öğrenip, bir daha alan değiştirince kullanmadığım teknolojileri sıralayacağım. Bu teknolojilere olan yetkinlik düzeylerim başlangıç düzeyinde veya yüksek olmasına rağmen zamanla kullanmayınca azalmıştır.</p>
 		<ul class="basliklar">
@@ -1168,196 +1172,164 @@ if (have_posts()) :
 				<span class="yetenek sutun-12">Java, JSP, PIC Assembly, MIPS Assembly, MATLAB, VHDL, C#, Lisp, Prolog, Netbeans, Eclipse, MPLAB, Adobe Dreamweaver, Microsoft Visual Studio 2010, Clisp, MySQL Workbench, SQL Server 2005, Microchip PIC, Proteus, Electronics Workbench, XBee, Opnet, Duyarga (Sensör) Ağları, OpenGL</span>
 
 			</li>
+
+		</ul>
+
 		<h2>Sınavlar</h2>
+		<p>Aşağıdaki puanlar her bir sınavda şu ana kadar en yüksek puan aldığım seneleri baz almaktadır.</p>
 		<ul class="basliklar">
 
-		<li>
+			<li>
 
-			<div class="deneyim satir">
+				<div class="deneyim satir">
 
-				<h3 class="ozBilgi sutun-8"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>KPSS (Ortaöğretim)</h3>
-				<span class="tarih sutun-4">Eylül 2008</span>
+					<h3 class="ozBilgi sutun-8"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>ALES</h3>
+					<span class="tarih sutun-4">Mayıs 2016</span>
 
-			</div>
+				</div>
 
-			<div class="sinavNotu satir">
+				<div class="sinavNotu satir">
 
-				<p class="sutun-3">Puan:</p>
-				<p class="sutun-9">77</p>
+					<p class="sutun-3">Puan:</p>
+					<p class="sutun-9">74</p>
 
-			</div>
-			<p>KPSS P94 puan türü belirtilmektedir.</p>
+				</div>
+				<p>ALES Sayısal Puanı belirtilmektedir.</p>
 
-		</li>
-		<li>
+			</li>
+			<li>
 
-			<div class="deneyim satir">
+				<div class="deneyim satir">
 
-				<h3 class="ozBilgi sutun-8"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>ÖSS</h3>
-				<span class="tarih sutun-4">Haziran 2010</span>
+					<h3 class="ozBilgi sutun-8"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>KPSS (Lisans)</h3>
+					<span class="tarih sutun-4">Mayıs 2016</span>
 
-			</div>
+				</div>
 
-			<div class="sinavNotu satir">
+				<div class="sinavNotu satir">
 
-				<p class="sutun-3">YGS Puanı:</p>
-				<p class="sutun-9">454</p>
+					<p class="sutun-3">Puan:</p>
+					<p class="sutun-9">88</p>
 
-			</div>
-			<div class="sinavNotu satir">
+				</div>
+				<p>KPSS P3 puan türü belirtilmektedir.</p>
 
-				<p class="sutun-3">LYS Puanı:</p>
-				<p class="sutun-9">412</p>
+			</li>
+			<li>
 
-			</div>
-			<p>YGS-1 ve MF-2 puan türlerinde "alanında" yerleştirme puanım belirtilmektedir.</p>
+				<div class="deneyim satir">
 
-		</li>
-		<li>
+					<h3 class="ozBilgi sutun-8"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>KPSS (Ortaöğretim)</h3>
+					<span class="tarih sutun-4">Eylül 2008</span>
 
-			<div class="deneyim satir">
+				</div>
 
-				<h3 class="ozBilgi sutun-8"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>GUYS</h3>
-				<span class="tarih sutun-4">Kasım 2015</span>
+				<div class="sinavNotu satir">
 
-			</div>
+					<p class="sutun-3">Puan:</p>
+					<p class="sutun-9">77</p>
 
-			<div class="sinavNotu satir">
+				</div>
+				<p>KPSS P94 puan türü belirtilmektedir.</p>
 
-				<p class="sutun-3">Puan:</p>
-				<p class="sutun-9">68</p>
+			</li>
+			<li>
 
-			</div>
-			<p>Gelir İdaresi Başkanlığının açmış olduğu Gelir Uzman Yardımcılığı Sınavı. Bu sınavdan geçmek için 70 alınması gerekiyorken 2 puanla kaçırmıştım.</p>
+				<div class="deneyim satir">
 
-		</li>
-		<li>
+					<h3 class="ozBilgi sutun-8"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>ÖSS</h3>
+					<span class="tarih sutun-4">Haziran 2010</span>
 
-			<div class="deneyim satir">
+				</div>
 
-				<h3 class="ozBilgi sutun-8"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>ALES</h3>
-				<span class="tarih sutun-4">Mayıs 2016</span>
+				<div class="sinavNotu satir">
 
-			</div>
+					<p class="sutun-3">YGS Puanı:</p>
+					<p class="sutun-9">454</p>
 
-			<div class="sinavNotu satir">
+				</div>
+				<div class="sinavNotu satir">
 
-				<p class="sutun-3">Puan:</p>
-				<p class="sutun-9">74</p>
+					<p class="sutun-3">LYS Puanı:</p>
+					<p class="sutun-9">412</p>
 
-			</div>
-			<p>ALES Sayısal Puanı belirtilmektedir.</p>
+				</div>
+				<p>YGS-1 ve MF-2 puan türlerinde "alanında" yerleştirme puanım belirtilmektedir.</p>
 
-		</li>
-		<li>
+			</li>
 
-			<div class="deneyim satir">
+		</ul>
 
-				<h3 class="ozBilgi sutun-8"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>KPSS (Lisans)</h3>
-				<span class="tarih sutun-4">Mayıs 2016</span>
+		<h2>Sertifikalar</h2>
+		<ul class="basliklar">
 
-			</div>
+			<li>
 
-			<div class="sinavNotu satir">
+				<div class="deneyim satir">
 
-				<p class="sutun-3">Puan:</p>
-				<p class="sutun-9">88</p>
+					<h3 class="ozBilgi sutun-8"><i class="fa fa-certificate" aria-hidden="true"></i><a href="http://www.akinsoft.com.tr/" target="_blank">Akınsoft</a></h3>
+					<span class="tarih sutun-4">Aralık 2011</span>
 
-			</div>
-			<p>KPSS P3 puan türü belirtilmektedir.</p>
+				</div>
+				<p>Katılım Sertifikası</p>
 
-		</li>
-		<li>
+				<p><ul>
 
-			<div class="deneyim satir">
+					<li>- Akınsoft Firma Profili</li>
+					<li>- Bilişimin İş Hayatındaki Önemi</li>
+					<li>- Akınsoft'ta Kariyer Olanakları</li>
 
-				<h3 class="ozBilgi sutun-8"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>YDS</h3>
-				<span class="tarih sutun-4">Eylül 2016</span>
-
-			</div>
-
-			<div class="sinavNotu satir">
-
-				<p class="sutun-3">Puan:</p>
-				<p class="sutun-9">37</p>
-
-			</div>
-			<p>YDS'den başarılı sayılabilmek için en az 50 puan almak gerekiyor. Önceki sene çalışmadan girdiğim sınavdan 36 almıştım. Bu sene yaklaşık 1 hafta dil bilgisi çalıştıktan sonra 1 soru daha fazla doğru cevaplandırarak 37 puana yükseltmeyi başardım. </p>
-
-		</li>
-
-	</ul>
-
-	<h2>Sertifikalar</h2>
-	<ul class="basliklar">
-
-		<li>
-
-			<div class="deneyim satir">
-
-				<h3 class="ozBilgi sutun-8"><i class="fa fa-certificate" aria-hidden="true"></i><a href="http://www.akinsoft.com.tr/" target="_blank">Akınsoft</a></h3>
-				<span class="tarih sutun-4">Aralık 2011</span>
-
-			</div>
-			<p>Katılım Sertifikası</p>
-
-			<p><ul>
-
-				<li>- Akınsoft Firma Profili</li>
-				<li>- Bilişimin İş Hayatındaki Önemi</li>
-				<li>- Akınsoft'ta Kariyer Olanakları</li>
-
-			</ul></p>
-
-		</li>
-
-	</ul>
-
-	<h2>Askerlik Bilgileri</h2>
-	<ul class="profil">
-
-		<li><h3 class="ozBilgi" style="color: grey; border-bottom: none"><i class="fa fa-flag" aria-hidden="true" style="margin-right: 5px"></i>Acemilik Dönemi</h3>
-
-			<li class="satir"><label class="proBaslik sutun-4">Eğitim Birliği:</label><span class="proBilgi sutun-8">İstihkam Okulu ve Eğitim Merkezi Komutanlığı</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">Şehir:</label><span class="proBilgi sutun-8">İzmir/Narlıdere</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">Giriş Tarihi:</label><span class="proBilgi sutun-8">3 Kasım 2016</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">Ayrılış Tarihi:</label><span class="proBilgi sutun-8">25 Kasım 2016</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">Kuvvet:</label><span class="proBilgi sutun-8">Kara Kuvvetleri Komutanlığı</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">Ordu:</label><span class="proBilgi sutun-8">Ege Ordusu Komutanlığı (4. Ordu)</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">Tabur:</label><span class="proBilgi sutun-8">2. Eğitim Taburu</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">Bölük:</label><span class="proBilgi sutun-8">1. Temel Eğitim Bölüğü</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">Takım:</label><span class="proBilgi sutun-8">2. Takım</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">Manga:</label><span class="proBilgi sutun-8">7. Manga</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">Sınıf:</label><span class="proBilgi sutun-8">İstihkam</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">Rütbe:</label><span class="proBilgi sutun-8">Er</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">Tertip:</label><span class="proBilgi sutun-8">365. Kısa Dönem</span></li>
-
-		</li>
-
-	</ul>
-
-	<ul class="profil">
-
-		<li><h3 class="ozBilgi" style="color: grey; border-bottom: none"><i class="fa fa-flag" aria-hidden="true" style="margin-right: 5px"></i>Ustalık Dönemi</h3>
-
-			<li class="satir"><label class="proBaslik sutun-4">Esas Birliği:</label><span class="proBilgi sutun-8">1. Motorlu Piyade Tugayı Taşkısığı Komutan Yardımcılığı Elmasağa Cephaneliği</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">Şehir:</label><span class="proBilgi sutun-8">Sakarya/Adapazarı</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">Giriş Tarihi:</label><span class="proBilgi sutun-8">27 Kasım 2016</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">Ayrılış Tarihi:</label><span class="proBilgi sutun-8">18 Nisan 2017</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">Kuvvet:</label><span class="proBilgi sutun-8">Kara Kuvvetleri Komutanlığı</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">Ordu:</label><span class="proBilgi sutun-8">Ege Ordusu Komutanlığı (4. Ordu)</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">Tabur:</label><span class="proBilgi sutun-8">1. Motorlu Piyade Taburu</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">Bölük:</label><span class="proBilgi sutun-8">Karargâh ve Karargâh Bölüğü</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">Takım:</label><span class="proBilgi sutun-8">Emniyet ve Muhafız Takım Komutanlığı</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">Sınıf:</label><span class="proBilgi sutun-8">Piyade</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">Rütbe:</label><span class="proBilgi sutun-8">Er</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">Nöbet Sayısı:</label><span class="proBilgi sutun-8">82 (3 tanesi 1'er saat, diğerleri 2'şer saat)</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">Silah Cinsi:</label><span class="proBilgi sutun-8">G3</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">Görevler:</label><span class="proBilgi sutun-8">Telsiz-Telefon İşletmeni, Silahlık Görevlisi, Görüntü İzleme Uzmanı</span></li>
-
-		</li>
-
-	</ul>
+				</ul></p>
+
+			</li>
+
+		</ul>
+
+		<h2>Askerlik Bilgileri</h2>
+		<ul class="profil">
+
+			<li><h3 class="ozBilgi" style="color: grey; border-bottom: none"><i class="fa fa-flag" aria-hidden="true" style="margin-right: 5px"></i>Acemilik Dönemi</h3>
+
+				<li class="satir"><label class="proBaslik sutun-4">Eğitim Birliği:</label><span class="proBilgi sutun-8">İstihkam Okulu ve Eğitim Merkezi Komutanlığı</span></li>
+				<li class="satir"><label class="proBaslik sutun-4">Şehir:</label><span class="proBilgi sutun-8">İzmir/Narlıdere</span></li>
+				<li class="satir"><label class="proBaslik sutun-4">Giriş Tarihi:</label><span class="proBilgi sutun-8">3 Kasım 2016</span></li>
+				<li class="satir"><label class="proBaslik sutun-4">Ayrılış Tarihi:</label><span class="proBilgi sutun-8">25 Kasım 2016</span></li>
+				<li class="satir"><label class="proBaslik sutun-4">Kuvvet:</label><span class="proBilgi sutun-8">Kara Kuvvetleri Komutanlığı</span></li>
+				<li class="satir"><label class="proBaslik sutun-4">Ordu:</label><span class="proBilgi sutun-8">Ege Ordusu Komutanlığı (4. Ordu)</span></li>
+				<li class="satir"><label class="proBaslik sutun-4">Tabur:</label><span class="proBilgi sutun-8">2. Eğitim Taburu</span></li>
+				<li class="satir"><label class="proBaslik sutun-4">Bölük:</label><span class="proBilgi sutun-8">1. Temel Eğitim Bölüğü</span></li>
+				<li class="satir"><label class="proBaslik sutun-4">Takım:</label><span class="proBilgi sutun-8">2. Takım</span></li>
+				<li class="satir"><label class="proBaslik sutun-4">Manga:</label><span class="proBilgi sutun-8">7. Manga</span></li>
+				<li class="satir"><label class="proBaslik sutun-4">Sınıf:</label><span class="proBilgi sutun-8">İstihkam</span></li>
+				<li class="satir"><label class="proBaslik sutun-4">Rütbe:</label><span class="proBilgi sutun-8">Er</span></li>
+				<li class="satir"><label class="proBaslik sutun-4">Tertip:</label><span class="proBilgi sutun-8">365. Kısa Dönem</span></li>
+
+			</li>
+
+		</ul>
+
+		<ul class="profil">
+
+			<li><h3 class="ozBilgi" style="color: grey; border-bottom: none"><i class="fa fa-flag" aria-hidden="true" style="margin-right: 5px"></i>Ustalık Dönemi</h3>
+
+				<li class="satir"><label class="proBaslik sutun-4">Esas Birliği:</label><span class="proBilgi sutun-8">1. Motorlu Piyade Tugayı Taşkısığı Komutan Yardımcılığı Elmasağa Cephaneliği</span></li>
+				<li class="satir"><label class="proBaslik sutun-4">Şehir:</label><span class="proBilgi sutun-8">Sakarya/Adapazarı</span></li>
+				<li class="satir"><label class="proBaslik sutun-4">Giriş Tarihi:</label><span class="proBilgi sutun-8">27 Kasım 2016</span></li>
+				<li class="satir"><label class="proBaslik sutun-4">Ayrılış Tarihi:</label><span class="proBilgi sutun-8">18 Nisan 2017</span></li>
+				<li class="satir"><label class="proBaslik sutun-4">Kuvvet:</label><span class="proBilgi sutun-8">Kara Kuvvetleri Komutanlığı</span></li>
+				<li class="satir"><label class="proBaslik sutun-4">Ordu:</label><span class="proBilgi sutun-8">Ege Ordusu Komutanlığı (4. Ordu)</span></li>
+				<li class="satir"><label class="proBaslik sutun-4">Tabur:</label><span class="proBilgi sutun-8">1. Motorlu Piyade Taburu</span></li>
+				<li class="satir"><label class="proBaslik sutun-4">Bölük:</label><span class="proBilgi sutun-8">Karargâh ve Karargâh Bölüğü</span></li>
+				<li class="satir"><label class="proBaslik sutun-4">Takım:</label><span class="proBilgi sutun-8">Emniyet ve Muhafız Takım Komutanlığı</span></li>
+				<li class="satir"><label class="proBaslik sutun-4">Sınıf:</label><span class="proBilgi sutun-8">Piyade</span></li>
+				<li class="satir"><label class="proBaslik sutun-4">Rütbe:</label><span class="proBilgi sutun-8">Er</span></li>
+				<li class="satir"><label class="proBaslik sutun-4">Nöbet Sayısı:</label><span class="proBilgi sutun-8">82 (3 tanesi 1'er saat, diğerleri 2'şer saat)</span></li>
+				<li class="satir"><label class="proBaslik sutun-4">Silah Cinsi:</label><span class="proBilgi sutun-8">G3</span></li>
+				<li class="satir"><label class="proBaslik sutun-4">Görevler:</label><span class="proBilgi sutun-8">Telsiz-Telefon İşletmeni, Silahlık Görevlisi, Görüntü İzleme Uzmanı</span></li>
+
+			</li>
+
+		</ul>
 
 	</div> <!-- iceriğin sağ tarafının sonu -->
 
