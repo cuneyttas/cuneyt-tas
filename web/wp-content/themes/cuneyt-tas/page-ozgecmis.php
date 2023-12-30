@@ -114,7 +114,7 @@ if (have_posts()) :
 			<h4 class="isAdi">
 
 				<i class="fa fa-suitcase"></i>
-				<a href="https://www.greyder.com/" target="_blank">Greyder Bilgi Teknolojileri Departmanı</a>
+				<a href="https://www.greyder.com/" target="_blank">Greyder</a>
 
 			</h4>
 			<p>Çorum Merkez ve İskilip Greyder fabrikalarının sunucu ve bilgisayarlarının bakım ve onarımı, ülke genelindeki mağazalara uzaktan teknik destek gibi işlerden sorumluydum. </p>
