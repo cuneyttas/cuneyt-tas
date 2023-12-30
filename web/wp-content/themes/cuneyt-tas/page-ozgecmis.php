@@ -617,48 +617,36 @@ if (have_posts()) :
 	<div class="ozSag sutun-6">
 
 		<h2>Yetenekler</h2>
-		<h3 class="yetBaslik">Programlama Dilleri</h3>
+		<h3 class="yetBaslik">WordPress Bileşenleri</h3>
 		<ul class="basliklar">
 
 			<li class="satir">
 
-				<span class="yetenek sutun-8">PHP</span>
+				<span class="yetenek sutun-8">WordPress</span>
 				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+				</span>
+
+			</li>
+			<li class="satir">
+
+				<span class="yetenek sutun-8">Tema Geliştirme</span>
+				<span class="seviye sutun-4">
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 				</span>
 
 			</li>
 			<li class="satir">
 
-				<span class="yetenek sutun-8">JSP</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-				</span>
-
-			</li>
-			<li class="satir">
-
-				<span class="yetenek sutun-8">Java</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-				</span>
-
-			</li>
-			<li class="satir">
-
-				<span class="yetenek sutun-8">PIC Assembly</span>
+				<span class="yetenek sutun-8">Eklenti Geliştirme</span>
 				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
@@ -670,10 +658,70 @@ if (have_posts()) :
 			</li>
 			<li class="satir">
 
-				<span class="yetenek sutun-8">MIPS Assembly</span>
+				<span class="yetenek sutun-8">Çoklu Dil Desteği (WPML)</span>
 				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
+				</span>
+
+			</li>
+			<li class="satir">
+
+				<span class="yetenek sutun-8">WooCommerce</span>
+				<span class="seviye sutun-4">
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+				</span>
+
+			</li>
+			<li class="satir">
+
+				<span class="yetenek sutun-8">Advanced Custom Fields (ACF)</span>
+				<span class="seviye sutun-4">
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+				</span>
+
+			</li>
+			<li class="satir">
+
+				<span class="yetenek sutun-8">Arama Motoru Optimizasyonu (SEO)</span>
+				<span class="seviye sutun-4">
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+				</span>
+
+			</li>
+			<li class="satir">
+
+				<span class="yetenek sutun-8">Gutenberg Blokları</span>
+				<span class="seviye sutun-4">
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+				</span>
+
+			</li>
+			<li class="satir">
+
+				<span class="yetenek sutun-8">Sayfa/Şablon Oluşturucular (WPBakery vb.)</span>
+				<span class="seviye sutun-4">
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
@@ -682,58 +730,10 @@ if (have_posts()) :
 			</li>
 			<li class="satir">
 
-				<span class="yetenek sutun-8">MATLAB</span>
+				<span class="yetenek sutun-8">WordPress Hooks (Filters & Actions)</span>
 				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-				</span>
-
-			</li>
-			<li class="satir">
-
-				<span class="yetenek sutun-8">VHDL</span>
-				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-				</span>
-
-			</li>
-			<li class="satir">
-
-				<span class="yetenek sutun-8">C#</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-				</span>
-
-			</li>
-			<li class="satir">
-
-				<span class="yetenek sutun-8">Lisp</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-				</span>
-
-			</li>
-			<li class="satir">
-
-				<span class="yetenek sutun-8">Prolog</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
@@ -742,12 +742,12 @@ if (have_posts()) :
 			</li>
 
 		</ul>
-		<h3 class="yetBaslik">Web Tasarım</h3>
+		<h3 class="yetBaslik">Ön Yüz (Front-End)</h3>
 		<ul class="basliklar">
 
 			<li class="satir">
 
-				<span class="yetenek sutun-8">HTML/HTML5</span>
+				<span class="yetenek sutun-8">HTML</span>
 				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
@@ -759,7 +759,79 @@ if (have_posts()) :
 			</li>
 			<li class="satir">
 
-				<span class="yetenek sutun-8">CSS/CSS3</span>
+				<span class="yetenek sutun-8">CSS</span>
+				<span class="seviye sutun-4">
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+				</span>
+
+			</li>
+			<li class="satir">
+
+				<span class="yetenek sutun-8">SCSS</span>
+				<span class="seviye sutun-4">
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+				</span>
+
+			</li>
+			<li class="satir">
+
+				<span class="yetenek sutun-8">PostCSS</span>
+				<span class="seviye sutun-4">
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+				</span>
+
+			</li>
+			<li class="satir">
+
+				<span class="yetenek sutun-8">Tailwind CSS</span>
+				<span class="seviye sutun-4">
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+				</span>
+
+			</li>
+			<li class="satir">
+
+				<span class="yetenek sutun-8">Flowbite</span>
+				<span class="seviye sutun-4">
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+				</span>
+
+			</li>
+			<li class="satir">
+
+				<span class="yetenek sutun-8">Bootstrap</span>
+				<span class="seviye sutun-4">
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+				</span>
+
+			</li>
+			<li class="satir">
+
+				<span class="yetenek sutun-8">Mobil Uyumluluk</span>
 				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
@@ -788,14 +860,38 @@ if (have_posts()) :
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 				</span>
 
 			</li>
 			<li class="satir">
 
-				<span class="yetenek sutun-8">Bootstrap</span>
+				<span class="yetenek sutun-8">Astro</span>
+				<span class="seviye sutun-4">
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+				</span>
+
+			</li>
+			<li class="satir">
+
+				<span class="yetenek sutun-8">Nuxt</span>
+				<span class="seviye sutun-4">
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+				</span>
+
+			</li>
+			<li class="satir">
+
+				<span class="yetenek sutun-8">Laravel Blade</span>
 				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
@@ -807,30 +903,168 @@ if (have_posts()) :
 			</li>
 			<li class="satir">
 
-				<span class="yetenek sutun-8">Wordpress</span>
+				<span class="yetenek sutun-8">Gulp / Laravel Mix</span>
+				<span class="seviye sutun-4">
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+				</span>
+
+			</li>
+			<li class="satir">
+
+				<span class="yetenek sutun-8">Web Erişilebilirliği (WCAG)</span>
 				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+				</span>
+
+			</li>
+			<li class="satir">
+
+				<span class="yetenek sutun-8">W3 Doğrulama (Validation)</span>
+				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+				</span>
+
+			</li>
+			<li class="satir">
+
+				<span class="yetenek sutun-8">HTML E-posta Geliştirme</span>
+				<span class="seviye sutun-4">
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
 				</span>
 
 			</li>
 
 		</ul>
-		<h3 class="yetBaslik">Yazılım Geliştirme Araçları</h3>
+		<h3 class="yetBaslik">Arka Yüz (Back-End)</h3>
 		<ul class="basliklar">
 
 			<li class="satir">
 
-				<span class="yetenek sutun-8">Coda</span>
+				<span class="yetenek sutun-8">PHP</span>
+				<span class="seviye sutun-4">
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+				</span>
+
+			</li>
+			<li class="satir">
+
+				<span class="yetenek sutun-8">SQL/MySQL</span>
+				<span class="seviye sutun-4">
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+				</span>
+
+			</li>
+
+		</ul>
+
+		<h3 class="yetBaslik">Araçlar</h3>
+		<ul class="basliklar">
+
+			<li class="satir">
+
+				<span class="yetenek sutun-8">Git</span>
+				<span class="seviye sutun-4">
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+				</span>
+
+			</li>
+			<li class="satir">
+
+				<span class="yetenek sutun-8">Github</span>
 				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
+				</span>
+
+			</li>
+			<li class="satir">
+
+				<span class="yetenek sutun-8">GitLab</span>
+				<span class="seviye sutun-4">
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+				</span>
+
+			</li>
+			<li class="satir">
+
+				<span class="yetenek sutun-8">Bitbucket</span>
+				<span class="seviye sutun-4">
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+				</span>
+
+			</li>
+			<li class="satir">
+
+				<span class="yetenek sutun-8">Figma</span>
+				<span class="seviye sutun-4">
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+				</span>
+
+			</li>
+			<li class="satir">
+
+				<span class="yetenek sutun-8">Adobe XD</span>
+				<span class="seviye sutun-4">
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+				</span>
+
+			</li>
+			<li class="satir">
+
+				<span class="yetenek sutun-8">Adobe Photoshop</span>
+				<span class="seviye sutun-4">
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
 				</span>
 
 			</li>
@@ -841,62 +1075,38 @@ if (have_posts()) :
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
 				</span>
 
 			</li>
 			<li class="satir">
 
-				<span class="yetenek sutun-8">Netbeans</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-				</span>
-
-			</li>
-			<li class="satir">
-
-				<span class="yetenek sutun-8">Eclipse</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-				</span>
-
-			</li>
-			<li class="satir">
-
-				<span class="yetenek sutun-8">MPLAB</span>
+				<span class="yetenek sutun-8">Asana</span>
 				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
 				</span>
 
 			</li>
 			<li class="satir">
 
-				<span class="yetenek sutun-8">Adobe Dreamweaver</span>
+				<span class="yetenek sutun-8">Jira</span>
 				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
 				</span>
 
 			</li>
 			<li class="satir">
 
-				<span class="yetenek sutun-8">Xcode</span>
+				<span class="yetenek sutun-8">Docker</span>
 				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
@@ -908,89 +1118,11 @@ if (have_posts()) :
 			</li>
 			<li class="satir">
 
-				<span class="yetenek sutun-8">Microsoft Visual Studio 2010</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-				</span>
-
-			</li>
-			<li class="satir">
-
-				<span class="yetenek sutun-8">Clisp</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-				</span>
-
-			</li>
-
-		</ul>
-
-		<h3 class="yetBaslik">Veritabanı</h3>
-		<ul class="basliklar">
-
-			<li class="satir">
-
-				<span class="yetenek sutun-8">SQL</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-				</span>
-
-			</li>
-			<li class="satir">
-
-				<span class="yetenek sutun-8">MySQL</span>
+				<span class="yetenek sutun-8">TeamCity</span>
 				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-				</span>
-
-			</li>
-			<li class="satir">
-
-				<span class="yetenek sutun-8">phpMyAdmin</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-				</span>
-
-			</li>
-			<li class="satir">
-
-				<span class="yetenek sutun-8">MySQL Workbench</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-				</span>
-
-			</li>
-			<li class="satir">
-
-				<span class="yetenek sutun-8">SQL Server 2005</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 				</span>
@@ -1003,54 +1135,6 @@ if (have_posts()) :
 
 			<li class="satir">
 
-				<span class="yetenek sutun-8">Microchip PIC</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-				</span>
-
-			</li>
-			<li class="satir">
-
-				<span class="yetenek sutun-8">Proteus</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-				</span>
-
-			</li>
-			<li class="satir">
-
-				<span class="yetenek sutun-8">Electronics Workbench</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-				</span>
-
-			</li>
-			<li class="satir">
-
-				<span class="yetenek sutun-8">XBee</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-				</span>
-
-			</li>
-			<li class="satir">
-
 				<span class="yetenek sutun-8">Arduino</span>
 				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
@@ -1061,155 +1145,29 @@ if (have_posts()) :
 				</span>
 
 			</li>
+			<li class="satir">
+
+				<span class="yetenek sutun-8">ESP32</span>
+				<span class="seviye sutun-4">
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
+				</span>
+
+			</li>
 
 		</ul>
-		<h3 class="yetBaslik">Ağlar</h3>
+		<h3 class="yetBaslik">Diğer</h3>
+		<p>Aşağıda çoğunlukla okulda ve stajda öğrenip, bir daha alan değiştirince kullanmadığım teknolojileri sıralayacağım. Bu teknolojilere olan yetkinlik düzeylerim başlangıç düzeyinde veya yüksek olmasına rağmen zamanla kullanmayınca azalmıştır.</p>
 		<ul class="basliklar">
 
 			<li class="satir">
 
-				<span class="yetenek sutun-8">Opnet</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-				</span>
+				<span class="yetenek sutun-12">Java, JSP, PIC Assembly, MIPS Assembly, MATLAB, VHDL, C#, Lisp, Prolog, Netbeans, Eclipse, MPLAB, Adobe Dreamweaver, Microsoft Visual Studio 2010, Clisp, MySQL Workbench, SQL Server 2005, Microchip PIC, Proteus, Electronics Workbench, XBee, Opnet, Duyarga (Sensör) Ağları, OpenGL</span>
 
 			</li>
-			<li class="satir">
-
-				<span class="yetenek sutun-8">Duyarga(Sensör) Ağları</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-				</span>
-
-			</li>
-
-		</ul>
-		<h3 class="yetBaslik">Grafik</h3>
-		<ul class="basliklar">
-
-			<li class="satir">
-
-				<span class="yetenek sutun-8">OpenGL</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-				</span>
-
-			</li>
-
-		</ul>
-		<h3 class="yetBaslik">İşletim Sistemleri</h3>
-		<ul class="basliklar">
-
-			<li class="satir">
-
-				<span class="yetenek sutun-8">Mac OS</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-				</span>
-
-			</li>
-			<li class="satir">
-
-				<span class="yetenek sutun-8">Windows 7 ve Sonrası</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-				</span>
-
-			</li>
-			<li class="satir">
-
-				<span class="yetenek sutun-8">Windows Server 2008</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-				</span>
-
-			</li>
-			<li class="satir">
-
-				<span class="yetenek sutun-8">Ubuntu</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-				</span>
-
-			</li>
-			<li class="satir">
-
-				<span class="yetenek sutun-8">Windows XP</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-				</span>
-
-			</li>
-			<li class="satir">
-
-				<span class="yetenek sutun-8">Windows 98</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-				</span>
-
-			</li>
-			<li class="satir">
-
-				<span class="yetenek sutun-8">Windows 3.1</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-				</span>
-
-			</li>
-			<li class="satir">
-
-				<span class="yetenek sutun-8">MS-DOS</span>
-				<span class="seviye sutun-4">
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-				</span>
-
-			</li>
-
-		</ul>
 		<h2>Sınavlar</h2>
 		<ul class="basliklar">
 
