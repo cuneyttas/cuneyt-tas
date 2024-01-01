@@ -941,6 +941,10 @@ article.ozet {
 
 }
 
+article.ozet:first-of-type {
+	padding-top: 50px;
+}
+
 article.ozet:last-child {
 
 	border-bottom: none;
