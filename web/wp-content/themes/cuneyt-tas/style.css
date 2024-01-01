@@ -911,6 +911,19 @@ figure.ozetResim {
 
 }
 
+figure.ozetResim a img {
+
+	transition: 0.3s;
+	opacity: 1;
+
+}
+
+figure.ozetResim a:hover img {
+
+	opacity: 0.8;
+
+}
+
 figure img {
 
 	width: 100%;
