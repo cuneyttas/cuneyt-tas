@@ -1000,6 +1000,13 @@ article.blog p { /* Paragraf Başı */
 
 }
 
+article.blog p iframe {
+
+	max-width: 100%;
+    margin-left: -20px;
+
+}
+
 article.blog p:first-of-type:first-letter { /* İlk Harfi  Büyütme */
 
 	font-size: 40px;
