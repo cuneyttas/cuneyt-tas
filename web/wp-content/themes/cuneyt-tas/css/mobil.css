@@ -184,6 +184,12 @@
 
 	}
 
+	figure.blogResim {
+
+		width: 100%;
+
+	}
+
 	ul.kitaplik > li.sutun-4 {
 
 		width: 50%;
@@ -345,12 +351,6 @@
 
 		width: 40% !important;
 		font-size: 0.9em;
-
-	}
-
-	figure.blogResim {
-
-		width: 100%;
 
 	}
 
