@@ -553,6 +553,10 @@
 
 	}
 
+	.sayfalama .page-numbers:not(.prev, .next) {
+		display: none;
+	}
+
 	section.kitapIcerik {
 
 		padding-top: 0;
