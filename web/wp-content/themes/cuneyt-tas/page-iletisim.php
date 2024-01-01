@@ -129,15 +129,11 @@ if (have_posts()) :
 			<?php
 
 				$adresDegeri=esc_attr(get_option('adres'));
-				$birincilEpostaDegeri=esc_attr(get_option('birincilEposta'));
-				$ikincilEpostaDegeri=esc_attr(get_option('ikincilEposta'));
 				$haritaBilgisiDegeri=get_option('haritaBilgisi');
 
 			?>
 
 				<li class="satir"><label class="proBaslik sutun-4">Adres:</label><span class="proBilgi sutun-8"><address><?= $adresDegeri ?></address></span></li>
-				<li class="satir"><label class="proBaslik sutun-4">E-posta (Hotmail):</label><span class="proBilgi sutun-8"><a href="mailto:cuneyttas@hotmail.com.tr"><?= $birincilEpostaDegeri ?></a></span></li>
-				<li class="satir"><label class="proBaslik sutun-4">E-posta (Gmail):</label><span class="proBilgi sutun-8"><a href="mailto:tascuneyd@gmail.com"><?= $ikincilEpostaDegeri ?></a></span></li>
 
 			</ul>
 
