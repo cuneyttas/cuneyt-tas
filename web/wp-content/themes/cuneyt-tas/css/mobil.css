@@ -500,6 +500,10 @@
 
 	}
 
+	.ozSol .profil .proBaslik {
+		padding-right: 5px;
+	}
+
 	ul.resimler li {
 
 	    width: 100%;
