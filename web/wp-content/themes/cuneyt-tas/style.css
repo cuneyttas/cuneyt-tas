@@ -1270,6 +1270,11 @@ span.kalemSimgesi {
 }
 
 /* Kitap içerik sayfası*/
+
+.single-kitap .icerik > div {
+	padding-bottom: 50px !important;
+}
+
 section.kitapIcerik {
 
 	padding-bottom: 15px;
