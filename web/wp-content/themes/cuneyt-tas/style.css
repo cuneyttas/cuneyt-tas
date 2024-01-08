@@ -1303,6 +1303,11 @@ figure.kitapAnaResim {
 
 }
 
+article.kitapAciklamasi {
+	padding-left: 0;
+	padding-right: 0;
+}
+
 div.kitapAlt {
 
 	margin-top: 20px;
