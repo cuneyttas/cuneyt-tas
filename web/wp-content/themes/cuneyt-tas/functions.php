@@ -293,7 +293,7 @@ function zamanDuzenle($zaman) {
 
 	}
 
-	return strftime( '%e %B %Y', strtotime($zaman) );
+	return date( 'j F Y', strtotime($zaman) );
 
 }
 
