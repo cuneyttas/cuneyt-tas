@@ -921,8 +921,8 @@ if (have_posts()) :
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
 				</span>
 
 			</li>
