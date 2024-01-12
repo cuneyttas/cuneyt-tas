@@ -640,7 +640,7 @@ if (have_posts()) :
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
 				</span>
 
 			</li>
@@ -650,8 +650,8 @@ if (have_posts()) :
 				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 				</span>
 
@@ -664,7 +664,7 @@ if (have_posts()) :
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
 				</span>
 
 			</li>
@@ -694,13 +694,13 @@ if (have_posts()) :
 			</li>
 			<li class="satir">
 
-				<span class="yetenek sutun-8">Arama Motoru Optimizasyonu (SEO)</span>
+				<span class="yetenek sutun-8">Arama Motoru Optimizasyonu (SEO - Teknik Kısmı)</span>
 				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
 				</span>
 
 			</li>
@@ -722,7 +722,7 @@ if (have_posts()) :
 				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 				</span>
@@ -734,8 +734,8 @@ if (have_posts()) :
 				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 				</span>
 
@@ -788,8 +788,8 @@ if (have_posts()) :
 				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 				</span>
 
@@ -824,7 +824,7 @@ if (have_posts()) :
 				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 				</span>
@@ -861,7 +861,7 @@ if (have_posts()) :
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 				</span>
 
@@ -897,7 +897,7 @@ if (have_posts()) :
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 				</span>
 
@@ -908,7 +908,7 @@ if (have_posts()) :
 				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 				</span>
@@ -933,8 +933,8 @@ if (have_posts()) :
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
 				</span>
 
 			</li>
@@ -944,7 +944,7 @@ if (have_posts()) :
 				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 				</span>
@@ -973,7 +973,7 @@ if (have_posts()) :
 				<span class="yetenek sutun-8">SQL/MySQL</span>
 				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
@@ -1018,7 +1018,7 @@ if (have_posts()) :
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg dolu"></i>
+					<i class="fa fa-tint fa-lg bos"></i>
 				</span>
 
 			</li>
@@ -1063,7 +1063,7 @@ if (have_posts()) :
 				<span class="yetenek sutun-8">Adobe Photoshop</span>
 				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
@@ -1111,7 +1111,7 @@ if (have_posts()) :
 				<span class="yetenek sutun-8">Docker</span>
 				<span class="seviye sutun-4">
 					<i class="fa fa-tint fa-lg dolu"></i>
-					<i class="fa fa-tint fa-lg bos"></i>
+					<i class="fa fa-tint fa-lg dolu"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
 					<i class="fa fa-tint fa-lg bos"></i>
