@@ -29,6 +29,24 @@ if (have_posts()) :
 
 				<div class="deneyim satir">
 
+					<h3 class="baslik sutun-6">Web Geliştiricisi ve Teknik Destek Mühendisi</h3>
+					<span class="periyot sutun-6">Mart 2024 - ?</span>
+
+				</div>
+
+				<h4 class="isAdi">
+
+					<i class="fa fa-suitcase"></i>
+					<a href="https://www.scaloft.com.tr/" target="_blank">Scaloft</a>
+
+				</h4>
+
+			</li>
+
+			<li>
+
+				<div class="deneyim satir">
+
 					<h3 class="baslik sutun-6">Web Geliştiricisi</h3>
 					<span class="periyot sutun-6">Ocak 2022 - Ağustos 2023</span>
 
