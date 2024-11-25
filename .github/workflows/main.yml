@@ -16,5 +16,5 @@ jobs:
         password: ${{ secrets.FTP_PAROLAM }}
         local-dir: web/wp-content/themes/cuneyt-tas/
         server-dir: wp-content/themes/cuneyt-tas/
-        protocol: ftps-legacy
+        protocol: ftps
         log-level: verbose
