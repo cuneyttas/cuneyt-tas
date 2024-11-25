@@ -17,4 +17,3 @@ jobs:
         local-dir: web/wp-content/themes/cuneyt-tas/
         server-dir: wp-content/themes/cuneyt-tas/
         protocol: ftps
-        security: strict
