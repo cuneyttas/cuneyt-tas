@@ -15,6 +15,6 @@ jobs:
         username: ${{ secrets.FTP_KULLANICI_ADIM }}
         password: ${{ secrets.FTP_PAROLAM }}
         local-dir: web/wp-content/themes/cuneyt-tas/
-        server-dir: wp-content/themes/cuneyt-tas/
+        server-dir: public_html/wp-content/themes/cuneyt-tas/
         protocol: ftps
         log-level: verbose
