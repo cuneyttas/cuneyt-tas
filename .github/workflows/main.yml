@@ -3,7 +3,7 @@ name: 🚀 Deploy website on push
 jobs:
   web-deploy:
     name: 🎉 Deploy
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest c
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v4
@@ -17,4 +17,3 @@ jobs:
         local-dir: web/wp-content/themes/cuneyt-tas/
         server-dir: public_html/wp-content/themes/cuneyt-tas/
         protocol: ftps
-        log-level: verbose
