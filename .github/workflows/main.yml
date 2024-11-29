@@ -4,7 +4,7 @@ on: push
 
 jobs:
   Fast-FTP-Action:
-    name: Fast FTP Action
+    name: Fast FTP Actionn
     runs-on: ubuntu-latest
 
     steps:
