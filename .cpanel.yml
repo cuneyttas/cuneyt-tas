@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/cuneytta/public_html/wp-content/themes/cuneyt-tas/
-    - /bin/cp -R web/wp-content/themes/cuneyt-tas/ $DEPLOYPATH
+    - export DEPLOYPATH=/home/cuneytta/public_html/wp-content/themes/cuneyt-tas
+    - /bin/cp -R web/wp-content/themes/cuneyt-tas $DEPLOYPATH
