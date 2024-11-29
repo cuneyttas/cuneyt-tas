@@ -18,4 +18,4 @@ jobs:
         host: ${{ secrets.FTP_HOST }}
         src: "web/wp-content/themes/cuneyt-tas/"
         dest: "public_html/wp-content/themes/cuneyt-tas/"
-        secure: true
+        secure: implicit
