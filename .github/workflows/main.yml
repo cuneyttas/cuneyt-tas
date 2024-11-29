@@ -1,23 +1,21 @@
-name: Deploy via FTP
+name: Publish Website
 
-on:
-  push:
-    branches:
-      - main
+on: push
 
 jobs:
-  ftp-deploy:
+  Fast-FTP-Action:
+    name: Fast FTP Action
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout source
-        uses: actions/checkout@v3
 
-      - name: FTP Deploy
-        uses: appleboy/ftp-action@v0.6.0
-        with:
-          host: ${{ secrets.FTP_HOST }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          port: 21
-          local-dir: "web/wp-content/themes/cuneyt-tas/"
-          remote-dir: "public_html/wp-content/themes/cuneyt-tas/"
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Fast FTP Action
+      uses: anvil-solutions/Fast-FTP-Action@2.1.0
+      with:
+        server: ${{ secrets.FTP_HOST }}
+        port: 21
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        local_dir: "web/wp-content/themes/cuneyt-tas/"
+        remote_dir: "public_html/wp-content/themes/cuneyt-tas/"
