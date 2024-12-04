@@ -12,7 +12,7 @@ if (have_posts()) :
 		<h2>Genel Bilgiler</h2>
 		<ul class="profil">
 
-			<li class="satir"><label class="proBaslik sutun-4 test-classi">Memleketim ve Yaşadığım Şehir:</label><span class="proBilgi sutun-8">Çorum/Merkez</span></li>
+			<li class="satir"><label class="proBaslik sutun-4">Memleketim ve Yaşadığım Şehir:</label><span class="proBilgi sutun-8">Çorum/Merkez</span></li>
 			<li class="satir"><label class="proBaslik sutun-4">Diller:</label><span class="proBilgi sutun-8">Türkçe (Ana Dil Seviyesi)<br>İngilizce (Yazma ve okuma = B1 Seviyesi, Konuşma ve dinleme = A2 Seviyesi)</span></li>
 			<li class="satir"><label class="proBaslik sutun-4">İlgi Alanlarım:</label><span class="proBilgi sutun-8">Sinema, Kitap, Ev Hayvanları Bakımı, Bitki Yetiştirme, Koleksiyon, Bisiklet, Elektronik</span></li>
 			<li class="satir"><label class="proBaslik sutun-4">Sürücü Belgesi:</label><span class="proBilgi sutun-8">B Sınıfı (2007)</span></li>
