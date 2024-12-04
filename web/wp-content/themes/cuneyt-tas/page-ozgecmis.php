@@ -14,7 +14,7 @@ if (have_posts()) :
 
 			<li class="satir"><label class="proBaslik sutun-4">Memleketim ve Yaşadığım Şehir:</label><span class="proBilgi sutun-8">Çorum/Merkez</span></li>
 			<li class="satir"><label class="proBaslik sutun-4">Diller:</label><span class="proBilgi sutun-8">Türkçe (Ana Dil Seviyesi)<br>İngilizce (Yazma ve okuma = B1 Seviyesi, Konuşma ve dinleme = A2 Seviyesi)</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">İlgi Alanlarım:</label><span class="proBilgi sutun-8">Sinema, Kitap, Ev Hayvanları Bakımı, Bitki Yetiştirme, Koleksiyon, Bisiklet, Elektronik</span></li>
+			<li class="satir"><label class="proBaslik sutun-4">İlgi Alanlarım:</label><span class="proBilgi sutun-8">Sinema, Kitap, Ev Hayvanları Bakımı, Bitki Yetiştirme, Koleksiyon, Bisiklet, Elektronik, Nesnelerin İnterneti (IoT)</span></li>
 			<li class="satir"><label class="proBaslik sutun-4">Sürücü Belgesi:</label><span class="proBilgi sutun-8">B Sınıfı (2007)</span></li>
 			<li class="satir"><label class="proBaslik sutun-4">Medenî Durumum:</label><span class="proBilgi sutun-8">Evli ve 1 Çocuk Babası</span></li>
 			<li class="satir"><label class="proBaslik sutun-4">Dinî İnancım:</label><span class="proBilgi sutun-8">İslâm</span></li>
