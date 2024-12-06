@@ -133,7 +133,7 @@ if (have_posts()) :
 				<h4 class="isAdi">
 
 					<i class="fa fa-suitcase"></i>
-					<a href="https://www.greyder.com/" target="_blank">Greyder</a>
+					<a href="https://www.greyder.com.tr/" target="_blank">Greyder</a>
 
 				</h4>
 				<p>Çorum Merkez ve İskilip Greyder fabrikalarının sunucu ve bilgisayarlarının bakım ve onarımı, ülke genelindeki mağazalara uzaktan teknik destek gibi işlerden sorumluydum. </p>
@@ -151,7 +151,7 @@ if (have_posts()) :
 				<h4 class="isAdi">
 
 					<i class="fa fa-suitcase"></i>
-					<a href="http://corumeah.saglik.gov.tr/" target="_blank">Hitit Üniversitesi Eğitim ve Araştırma Hastanesi Bilgi İşlem Birimi</a>
+					<a href="https://corumeah.saglik.gov.tr/" target="_blank">Hitit Üniversitesi Eğitim ve Araştırma Hastanesi Bilgi İşlem Birimi</a>
 
 				</h4>
 				<p>Birimler arası ağ kablolama ve teknik destek gibi alanlarda çalıştım.</p>
@@ -184,7 +184,7 @@ if (have_posts()) :
 				<h4 class="isAdi">
 
 					<i class="fa fa-suitcase"></i>
-					<a href="http://www.osoa.com.tr/" target="_blank">OSOA Yazılım ve Danışmanlık</a>
+					<a href="https://osoa.com.tr/" target="_blank">OSOA Yazılım ve Danışmanlık</a>
 
 				</h4>
 				<p> C# programlama dili üzerine çalışarak bununla ilgili uygulamalar yaptım.</p>
@@ -375,7 +375,7 @@ if (have_posts()) :
 				<h4 class="isAdi">
 
 					<i class="fa fa-graduation-cap"></i>
-					<a href="http://corumfatihanadolulisesi.meb.k12.tr/" target="_blank">Çorum Fatih Lisesi (Yabancı Dil Ağırlıklı)</a>
+					<a href="https://corumfatihanadolulisesi.meb.k12.tr/" target="_blank">Çorum Fatih Lisesi (Yabancı Dil Ağırlıklı)</a>
 
 				</h4>
 				<p>Süper lise olarak da adlandırılan İngilizce ağırlıklı liseydi. Lise 2. sınıfta Fen Bilimleri (Sayısal) alanını seçtim. Mezuniyet puanım 100'lük not sistemine göre 83'tür.</p>
@@ -479,7 +479,7 @@ if (have_posts()) :
 				<h4 class="isAdi">
 
 					<i class="fa fa-graduation-cap"></i>
-					<a href="http://corummimarsinanortaokulu.meb.k12.tr/" target="_blank">Çorum Mimar Sinan İlköğretim Okulu</a>
+					<a href="https://corummimarsinanortaokulu.meb.k12.tr/" target="_blank">Çorum Mimar Sinan İlköğretim Okulu</a>
 
 				</h4>
 				<p>4. sınıftan ortaokul 3. sınıfın sonuna kadar da bu okulda öğrenim gördüm. 1998 yılında, 8 yıllık eğitime geçilince eski okulum kapanmış ve bu okula taşınmıştık.</p>
@@ -1286,7 +1286,7 @@ if (have_posts()) :
 
 				<div class="deneyim satir">
 
-					<h3 class="ozBilgi sutun-8"><i class="fa fa-certificate" aria-hidden="true"></i><a href="http://www.akinsoft.com.tr/" target="_blank">Akınsoft</a></h3>
+					<h3 class="ozBilgi sutun-8"><i class="fa fa-certificate" aria-hidden="true"></i><a href="https://www.akinsoft.com.tr/" target="_blank">Akınsoft</a></h3>
 					<span class="tarih sutun-4">Aralık 2011</span>
 
 				</div>

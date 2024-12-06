@@ -77,19 +77,19 @@ if (have_posts()) :
 
 			<div class="kitapMenu">
 
-				<!-- Bloglar Düğmesi -->
-				<a class="buton" href="<?= site_url('okudugum-kitaplar') ?>"><i class="fa fa-arrow-left okIkonu"></i>Kitap Listesine Dön</a>
+				<!-- Kitap Listesi Düğmesi -->
+				<a class="buton" href="/okudugum-kitaplar/"><i class="fa fa-arrow-left okIkonu"></i>Kitap Listesine Dön</a>
 
-				<!-- Önceki Blog Düğmesi -->
+				<!-- Önceki Kitap Düğmesi -->
 				<a class="buton <?= oncekiTusu() == '#' ? 'deaktif' : '' ?>" href="<?= oncekiTusu() ?>"><i class="fa fa-arrow-left"></i></a>
 
-				<!-- Sonraki Blog Düğmesi -->
+				<!-- Sonraki Kitap Düğmesi -->
 				<a class="buton <?= sonrakiTusu() == '#' ? 'deaktif' : '' ?>" href="<?= sonrakiTusu() ?>"><i class="fa fa-arrow-right"></i></a>
 
 
-			</div> <!-- blogMenu sonu -->
+			</div>
 
-		</div> <!-- blogAlt sonu -->
+		</div>
 
 <?php
 
