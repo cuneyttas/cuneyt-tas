@@ -91,7 +91,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			$basliklar =
 			"MIME-Version: 1.0 \r\n" .
 			"Content-type: text/html; charset=utf-8 \r\n" .
-			"From: $isim <iletisim@cuneyt-tas.com> \r\n".
+			"From: $isim <iletisim@cuneyttas.net> \r\n".
 			"Reply-To: $isim <$eposta>  \r\n";
 
 			$gonderildi = mail($kime, '=?utf-8?B?'.base64_encode($epostaKonu).'?=', $mesaj, $basliklar);
