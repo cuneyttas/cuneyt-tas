@@ -18,7 +18,7 @@
 			<a href="<?php the_permalink(); ?>" class="kitapIsimBaglanti"><h2 class="kitIsmi"><?php the_title(); ?></h2></a>
 		    <ul class="profil">
 
-				<li class="satir"><label class="proBaslik sutun-6">Yazar Adı:</label><span class="proBilgi sutun-6"><?= kategoriGetir($post->ID, 'yazarlar', $ayrac = '<br>') ?></span></li>
+				<li class="satir"><label class="proBaslik sutun-6">Yazar Adı:</label><span class="proBilgi sutun-6"><?= kategoriGetir($post->ID, 'yazarlar', $ayrac = ',<br>') ?></span></li>
 				<li class="satir"><label class="proBaslik sutun-6">Kategori:</label><span class="proBilgi sutun-6"><?= kategoriGetir($post->ID, 'kitaplar', $ayrac = ', ') ?></span></li>
 				<li class="satir"><label class="proBaslik sutun-6">Sayfa Sayısı:</label><span class="proBilgi sutun-6"><?= get_post_meta($post->ID, 'sayfaSayisiAnahtari', true) ?></span></li>
 				<li class="satir"><label class="proBaslik sutun-6">Basım Yılı:</label><span class="proBilgi sutun-6"><?php
