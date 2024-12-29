@@ -16,7 +16,7 @@ if (have_posts()) :
 			<li class="satir"><label class="proBaslik sutun-4">Diller:</label><span class="proBilgi sutun-8">Türkçe (Ana Dil Seviyesi)<br>İngilizce (Yazma ve okuma = B1 Seviyesi, Konuşma ve dinleme = A2 Seviyesi)</span></li>
 			<li class="satir"><label class="proBaslik sutun-4">İlgi Alanlarım:</label><span class="proBilgi sutun-8">Sinema, Kitap, Ev Hayvanları Bakımı, Bitki Yetiştirme, Koleksiyon, Bisiklet, Elektronik, Nesnelerin İnterneti (IoT)</span></li>
 			<li class="satir"><label class="proBaslik sutun-4">Sürücü Belgesi:</label><span class="proBilgi sutun-8">B Sınıfı (2007)</span></li>
-			<li class="satir"><label class="proBaslik sutun-4">Medenî Durumum:</label><span class="proBilgi sutun-8">Evli ve 1 Çocuk Babası</span></li>
+			<li class="satir"><label class="proBaslik sutun-4">Medenî Durumum:</label><span class="proBilgi sutun-8">Evli ve 2 Çocuk Babası</span></li>
 			<li class="satir"><label class="proBaslik sutun-4">Dinî İnancım:</label><span class="proBilgi sutun-8">İslâm</span></li>
 			<li class="satir"><label class="proBaslik sutun-4">Tuttuğum Takım:</label><span class="proBilgi sutun-8">Yok</span></li>
 			<li class="satir"><label class="proBaslik sutun-4">Sigara ve Alkol Kullanımı:</label><span class="proBilgi sutun-8">Kullanmıyorum</span></li>
@@ -37,10 +37,10 @@ if (have_posts()) :
 				<h4 class="isAdi">
 
 					<i class="fa fa-suitcase"></i>
-					<a href="https://www.scaloft.com.tr/" target="_blank">Scaloft</a>
+					<a href="https://www.scaloft.com.tr/" target="_blank" rel="dofollow noreferrer">Scaloft</a>
 
 				</h4>
-				<p>Şirketin <a href="https://uzmanwp.com/" target="_blank">UzmanWP</a> markası altında web geliştirme üzerinde çalışıyorum. Ayrıca <a href="https://verimay.com/" target="_blank">Verimay</a> markası altında barındırma hizmeti veren bölümünde teknik destek sorumlusu olarak görev alıyorum.</p>
+				<p>Şirketin <a href="https://uzmanwp.com/" target="_blank" rel="dofollow noreferrer">UzmanWP</a> markası altında web geliştirme üzerinde çalışıyorum. Ayrıca <a href="https://verimay.com/" target="_blank" rel="dofollow noreferrer">Verimay</a> markası altında barındırma hizmeti veren bölümünde teknik destek sorumlusu olarak görev alıyorum.</p>
 
 			</li>
 
@@ -56,10 +56,10 @@ if (have_posts()) :
 				<h4 class="isAdi">
 
 					<i class="fa fa-suitcase"></i>
-					<a href="https://www.invicti.com/" target="_blank">Invicti Security</a>
+					<a href="https://www.invicti.com/" target="_blank" rel="nofollow noreferrer">Invicti Security</a>
 
 				</h4>
-				<p>Web uygulama güvenliği alanında global lider olan ABD merkezli şirketin iki ürünü <a href="https://www.invicti.com/" target="_blank">Invicti</a> ve <a href="https://www.acunetix.com/" target="_blank">Acunetix</a>'in WordPress tabanlı web sitelerinden sorumluydum. Burada yaptığım işler özetle şu şekildedir:</p>
+				<p>Web uygulama güvenliği alanında global lider olan ABD merkezli şirketin iki ürünü <a href="https://www.invicti.com/" target="_blank" rel="nofollow noreferrer">Invicti</a> ve <a href="https://www.acunetix.com/" target="_blank" rel="nofollow noreferrer">Acunetix</a>'in WordPress tabanlı web sitelerinden sorumluydum. Burada yaptığım işler özetle şu şekildedir:</p>
 				<p> - Verilen Figma tasarımlarına göre özelleştirilmiş Gutenberg blokları ile mobil uyumlu yeni sayfalar oluşturma ve güncelleme<br>
 					- Sitelerde bulunan hataların giderilmesi<br>
 					- Gutenberg blokları ve şablonları (pattern) oluşturma<br>
@@ -83,10 +83,10 @@ if (have_posts()) :
 				<h4 class="isAdi">
 
 					<i class="fa fa-suitcase"></i>
-					<a href="https://www.rewiresecurity.co.uk/" target="_blank">Rewire Security</a>
+					<a href="https://www.rewiresecurity.co.uk/" target="_blank" rel="nofollow noreferrer">Rewire Security</a>
 
 				</h4>
-				<p>GPS izleme ve telematik alanında teknolojiler üreten İngiltere merkezli şirketin ana <a href="https://www.rewiresecurity.co.uk/" target="_blank">web sitesinden</a> ve Slovakya’daki Avrupa satış ofisinin e-ticaret web sitesi olan <a href="https://gpslive.sk/" target="_blank">GPSLive</a>'dan sorumluydum. Burada yaptığım işler özetle şu şekildedir:</p>
+				<p>GPS izleme ve telematik alanında teknolojiler üreten İngiltere merkezli şirketin ana <a href="https://www.rewiresecurity.co.uk/" target="_blank" rel="nofollow noreferrer">web sitesinden</a> ve Slovakya’daki Avrupa satış ofisinin e-ticaret web sitesi olan <a href="https://gpslive.sk/" target="_blank" rel="nofollow noreferrer">GPSLive</a>'dan sorumluydum. Burada yaptığım işler özetle şu şekildedir:</p>
 				<p> - Ana sitenin yeni tasarım ile yeniden geliştirilmesi<br>
 					- GPSLive Slovakya sitesinin geliştirilmesi ve çoklu dil desteğinin verilmesi<br>
 					- Bu iki sitenin bakımı, hata düzeltmeleri ve güncellenmeleri</p>
@@ -106,7 +106,7 @@ if (have_posts()) :
 				<h4 class="isAdi">
 
 					<i class="fa fa-suitcase"></i>
-					<a href="https://www.twelve12.com" target="_blank">Twelve12</a>
+					<a href="https://www.twelve12.com" target="_blank" rel="nofollow noreferrer">Twelve12</a>
 
 				</h4>
 				<p>Şirketin web geliştirme departmanında PHP ve WordPress kullanarak web sitesi geliştirme ve bakımlarından sorumluydum. Burada yaptığım işler özetle şu şekildedir:</p>
@@ -133,7 +133,7 @@ if (have_posts()) :
 				<h4 class="isAdi">
 
 					<i class="fa fa-suitcase"></i>
-					<a href="https://www.greyder.com.tr/" target="_blank">Greyder</a>
+					<a href="https://www.greyder.com.tr/" target="_blank" rel="nofollow noreferrer">Greyder</a>
 
 				</h4>
 				<p>Çorum Merkez ve İskilip Greyder fabrikalarının sunucu ve bilgisayarlarının bakım ve onarımı, ülke genelindeki mağazalara uzaktan teknik destek gibi işlerden sorumluydum. </p>
@@ -151,7 +151,7 @@ if (have_posts()) :
 				<h4 class="isAdi">
 
 					<i class="fa fa-suitcase"></i>
-					<a href="https://corumeah.saglik.gov.tr/" target="_blank">Hitit Üniversitesi Eğitim ve Araştırma Hastanesi Bilgi İşlem Birimi</a>
+					<a href="https://corumeah.saglik.gov.tr/" target="_blank" rel="nofollow noreferrer">Hitit Üniversitesi Eğitim ve Araştırma Hastanesi Bilgi İşlem Birimi</a>
 
 				</h4>
 				<p>Birimler arası ağ kablolama ve teknik destek gibi alanlarda çalıştım.</p>
@@ -167,7 +167,7 @@ if (have_posts()) :
 				<h4 class="isAdi">
 
 					<i class="fa fa-suitcase"></i>
-					<a href="http://www.corum.gov.tr/bilgi-islem-sube-mudurlugu" target="_blank">Çorum Valiliği Bilgi İşlem Müdürlüğü</a>
+					<a href="http://www.corum.gov.tr/bilgi-islem-sube-mudurlugu" target="_blank" rel="nofollow noreferrer">Çorum Valiliği Bilgi İşlem Müdürlüğü</a>
 
 				</h4>
 				<p> Sunucuya Windows Server 2008 işletim sisteminin kurulumunun öğrenilmesi; DNS, DHCP ve Active Directory kurulumu, Labris UTM-52 Güvenlik Cihazının Kontrolü, IP Dağıtma gibi işlemler yaptım. </p>
@@ -184,7 +184,7 @@ if (have_posts()) :
 				<h4 class="isAdi">
 
 					<i class="fa fa-suitcase"></i>
-					<a href="https://osoa.com.tr/" target="_blank">OSOA Yazılım ve Danışmanlık</a>
+					<a href="https://osoa.com.tr/" target="_blank" rel="nofollow noreferrer">OSOA Yazılım ve Danışmanlık</a>
 
 				</h4>
 				<p> C# programlama dili üzerine çalışarak bununla ilgili uygulamalar yaptım.</p>
@@ -206,7 +206,7 @@ if (have_posts()) :
 				<h4 class="isAdi">
 
 					<i class="fa fa-graduation-cap"></i>
-					<a href="https://bilgisayarmf.firat.edu.tr/" target="_blank">Fırat Üniversitesi Mühendislik Fakültesi Bilgisayar Mühendisliği Bölümü</a>
+					<a href="https://bilgisayarmf.firat.edu.tr/" target="_blank" rel="nofollow noreferrer">Fırat Üniversitesi Mühendislik Fakültesi Bilgisayar Mühendisliği Bölümü</a>
 
 				</h4>
 				<p>Yarım dönem gecikmeli olarak bitirdim. Mezuniyet puanım 4'lük sisteme göre 2.38'dir.</p>
@@ -311,7 +311,7 @@ if (have_posts()) :
 				<h4 class="isAdi">
 
 					<i class="fa fa-graduation-cap"></i>
-					<a href="https://fbabd.amasya.edu.tr/" target="_blank">Amasya Üniversitesi Eğitim Fakültesi Fen Bilgisi Öğretmenliği Bölümü</a>
+					<a href="https://fbabd.amasya.edu.tr/" target="_blank" rel="nofollow noreferrer">Amasya Üniversitesi Eğitim Fakültesi Fen Bilgisi Öğretmenliği Bölümü</a>
 
 				</h4>
 				<p>2. sınıfın sonunda yeniden ÖSS'ye girip diğer bölümü kazandığımdan okulu bıraktım. Aşağıda öğrenim gördüğüm süre içerisinde başarılı olup geçtiğim dersler listelenmiştir.</p>
@@ -375,7 +375,7 @@ if (have_posts()) :
 				<h4 class="isAdi">
 
 					<i class="fa fa-graduation-cap"></i>
-					<a href="https://corumfatihanadolulisesi.meb.k12.tr/" target="_blank">Çorum Fatih Lisesi (Yabancı Dil Ağırlıklı)</a>
+					<a href="https://corumfatihanadolulisesi.meb.k12.tr/" target="_blank" rel="nofollow noreferrer">Çorum Fatih Lisesi (Yabancı Dil Ağırlıklı)</a>
 
 				</h4>
 				<p>Süper lise olarak da adlandırılan İngilizce ağırlıklı liseydi. Lise 2. sınıfta Fen Bilimleri (Sayısal) alanını seçtim. Mezuniyet puanım 100'lük not sistemine göre 83'tür.</p>
@@ -479,7 +479,7 @@ if (have_posts()) :
 				<h4 class="isAdi">
 
 					<i class="fa fa-graduation-cap"></i>
-					<a href="https://corummimarsinanortaokulu.meb.k12.tr/" target="_blank">Çorum Mimar Sinan İlköğretim Okulu</a>
+					<a href="https://corummimarsinanortaokulu.meb.k12.tr/" target="_blank" rel="nofollow noreferrer">Çorum Mimar Sinan İlköğretim Okulu</a>
 
 				</h4>
 				<p>4. sınıftan ortaokul 3. sınıfın sonuna kadar da bu okulda öğrenim gördüm. 1998 yılında, 8 yıllık eğitime geçilince eski okulum kapanmış ve bu okula taşınmıştık.</p>
@@ -1286,7 +1286,7 @@ if (have_posts()) :
 
 				<div class="deneyim satir">
 
-					<h3 class="ozBilgi sutun-8"><i class="fa fa-certificate" aria-hidden="true"></i><a href="https://www.akinsoft.com.tr/" target="_blank">Akınsoft</a></h3>
+					<h3 class="ozBilgi sutun-8"><i class="fa fa-certificate" aria-hidden="true"></i><a href="https://www.akinsoft.com.tr/" target="_blank" rel="nofollow noreferrer">Akınsoft</a></h3>
 					<span class="tarih sutun-4">Aralık 2011</span>
 
 				</div>
@@ -1299,7 +1299,7 @@ if (have_posts()) :
 
 				<div class="deneyim satir">
 
-					<h3 class="ozBilgi sutun-8"><i class="fa fa-certificate" aria-hidden="true"></i><a href="https://credly.com/badges/063d0e7c-0e85-47cd-8170-bf61b797d485" target="_blank">ACM Agile</a></h3>
+					<h3 class="ozBilgi sutun-8"><i class="fa fa-certificate" aria-hidden="true"></i><a href="https://credly.com/badges/063d0e7c-0e85-47cd-8170-bf61b797d485" target="_blank" rel="nofollow noreferrer">ACM Agile</a></h3>
 					<span class="tarih sutun-4">Ekim 2022</span>
 
 				</div>

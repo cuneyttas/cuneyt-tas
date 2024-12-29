@@ -78,13 +78,13 @@ if (have_posts()) :
 			<div class="kitapMenu">
 
 				<!-- Kitap Listesi Düğmesi -->
-				<a class="buton" href="/okudugum-kitaplar/"><i class="fa fa-arrow-left okIkonu"></i>Kitap Listesine Dön</a>
+				<a class="buton" href="/okudugum-kitaplar/" rel="dofollow"><i class="fa fa-arrow-left okIkonu"></i>Kitap Listesine Dön</a>
 
 				<!-- Önceki Kitap Düğmesi -->
-				<a class="buton <?= oncekiTusu() == '#' ? 'deaktif' : '' ?>" href="<?= oncekiTusu() ?>"><i class="fa fa-arrow-left"></i></a>
+				<a class="buton <?= oncekiTusu() == '#' ? 'deaktif' : '' ?>" href="<?= oncekiTusu() ?>" rel="dofollow"><i class="fa fa-arrow-left"></i></a>
 
 				<!-- Sonraki Kitap Düğmesi -->
-				<a class="buton <?= sonrakiTusu() == '#' ? 'deaktif' : '' ?>" href="<?= sonrakiTusu() ?>"><i class="fa fa-arrow-right"></i></a>
+				<a class="buton <?= sonrakiTusu() == '#' ? 'deaktif' : '' ?>" href="<?= sonrakiTusu() ?>" rel="dofollow"><i class="fa fa-arrow-right"></i></a>
 
 
 			</div>

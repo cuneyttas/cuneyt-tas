@@ -37,7 +37,7 @@ if (have_posts()) :
 
 						foreach ($kategoriler as $kategori) {
 
-							$yazim .='<a href="'.get_category_link($kategori->term_id).'"> '.$kategori->cat_name.'</a>'.$ayrac;
+							$yazim .='<a href="'.get_category_link($kategori->term_id).'" rel="dofollow"> '.$kategori->cat_name.'</a>'.$ayrac;
 
 						}
 
@@ -52,13 +52,13 @@ if (have_posts()) :
 			<div class="blogMenu">
 
 				<!-- Bloglar Düğmesi -->
-				<a class="buton" href="/blog/"><i class="fa fa-arrow-left okIkonu"></i>Bloglar</a>
+				<a class="buton" href="/blog/" rel="dofollow"><i class="fa fa-arrow-left okIkonu"></i>Bloglar</a>
 
 				<!-- Önceki Blog Düğmesi -->
-				<a class="buton <?= oncekiTusu() == '#' ? 'deaktif' : '' ?>" href="<?= oncekiTusu() ?>"><i class="fa fa-arrow-left"></i></a>
+				<a class="buton <?= oncekiTusu() == '#' ? 'deaktif' : '' ?>" href="<?= oncekiTusu() ?>" rel="dofollow"><i class="fa fa-arrow-left"></i></a>
 
 				<!-- Sonraki Blog Düğmesi -->
-				<a class="buton <?= sonrakiTusu() == '#' ? 'deaktif' : '' ?>" href="<?= sonrakiTusu() ?>"><i class="fa fa-arrow-right"></i></a>
+				<a class="buton <?= sonrakiTusu() == '#' ? 'deaktif' : '' ?>" href="<?= sonrakiTusu() ?>" rel="dofollow"><i class="fa fa-arrow-right"></i></a>
 
 
 			</div> <!-- blogMenu sonu -->

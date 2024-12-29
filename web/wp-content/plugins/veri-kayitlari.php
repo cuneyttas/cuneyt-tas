@@ -578,7 +578,7 @@ function mesajKolonlariniDuzelt($kolon, $mesajID) {
 		case 'eposta' :
 
 			$eposta  = get_post_meta($mesajID, '_epostaAnahtari', true);
-			echo '<a href="mailto:'.$eposta.'">'.$eposta.'</a>';
+			echo '<a href="mailto:'.$eposta.'" rel="dofollow">'.$eposta.'</a>';
 
 		break;
 

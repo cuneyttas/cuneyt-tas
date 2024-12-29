@@ -7,7 +7,7 @@
 
 		<div class="bilgi">
 
-	 		<h1 class="isim"><a href="<?= home_url() ?>"></a><?= get_theme_mod('isimDegisimi') ?><span class="kalemSimgesi" id="profilIsimAlani"></span></h1>
+	 		<h1 class="isim"><a href="<?= home_url() ?>" rel="dofollow"></a><?= get_theme_mod('isimDegisimi') ?><span class="kalemSimgesi" id="profilIsimAlani"></span></h1>
 	 		<p class="baslik"><?= get_theme_mod('unvanDegisimi') ?><span class="kalemSimgesi" id="profilUnvanAlani"></span></p>
 	 		<hr class="cizgi">
 

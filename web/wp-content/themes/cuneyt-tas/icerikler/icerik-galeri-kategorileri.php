@@ -1,5 +1,5 @@
 <ul class="kategori sekmeler">
-	<li><a href="<?= site_url('/galeri') ?>" class="btn grup <?= is_tax() ? "" : "aktif" ?>">Tümü</a></li>
+	<li><a href="<?= site_url('/galeri') ?>" rel="dofollow" class="btn grup <?= is_tax() ? "" : "aktif" ?>">Tümü</a></li>
 
 <?php
 $terimler = get_terms([  //terim = term
@@ -13,7 +13,7 @@ foreach($terimler as $terim) {
 
 ?>
 
-	<li><a href="<?= get_term_link($terim) ?>" class="btn grup <?= $suAnkiTerim == $terim->name ? "aktif" : "" ?>"><?= $terim->name ?></a></li>
+	<li><a href="<?= get_term_link($terim) ?>" rel="dofollow" class="btn grup <?= $suAnkiTerim == $terim->name ? "aktif" : "" ?>"><?= $terim->name ?></a></li>
 
 <?php } ?>
 

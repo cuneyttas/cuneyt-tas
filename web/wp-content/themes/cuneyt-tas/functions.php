@@ -229,7 +229,7 @@ function kategoriGetir($postID, $kategoriAdi, $ayrac = ', ') {
 		foreach ($kategorilerDizisi as $kategori) { $i++;
 
 			if ($i>1) $kategoriler .= $ayrac;
-			$kategoriler .='<a href="'.get_term_link($kategori->term_id).'">'.$kategori->name.'</a>';
+			$kategoriler .='<a href="'.get_term_link($kategori->term_id).'" rel="dofollow">'.$kategori->name.'</a>';
 
 		}
 

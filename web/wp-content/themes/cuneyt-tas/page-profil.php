@@ -28,8 +28,8 @@ if (have_posts()) :
 			?>
 
 					<div class="son-gonderi">
-						<a href="<?php the_permalink(); ?>" class="son-gonderiler-resim"><?php the_post_thumbnail('medium'); ?></a>
-						<a href="<?php the_permalink(); ?>" class="son-gonderiler-baslik"><h3><?php the_title(); ?></h3></a>
+						<a href="<?php the_permalink(); ?>" rel="dofollow" class="son-gonderiler-resim"><?php the_post_thumbnail('medium'); ?></a>
+						<a href="<?php the_permalink(); ?>" rel="dofollow" class="son-gonderiler-baslik"><h3><?php the_title(); ?></h3></a>
 						<?php the_excerpt(); ?>
 					</div>
 			<?php
