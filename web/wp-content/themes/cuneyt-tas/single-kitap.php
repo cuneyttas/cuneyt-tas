@@ -12,7 +12,7 @@ if (have_posts()) :
 
 		<section class="kitapIcerik satir">
 
-			<h2> Okuduğum Kitaplar - <?php the_title(); ?></h2>
+			<h2><?php the_title(); ?></h2>
 			<figure class="kitapAnaResim kivrikKose sutun-4">
 
 				<?php the_post_thumbnail(); ?>
