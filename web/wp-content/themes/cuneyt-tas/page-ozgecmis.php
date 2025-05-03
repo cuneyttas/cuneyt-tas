@@ -40,7 +40,7 @@ if (have_posts()) :
 					<a href="https://www.scaloft.com.tr/" target="_blank" rel="dofollow noreferrer">Scaloft</a>
 
 				</h4>
-				<p>Şirketin <a href="https://uzmanwp.com/" target="_blank" rel="dofollow noreferrer">UzmanWP</a> markası altında web geliştirme üzerinde çalışıyorum. Ayrıca <a href="https://verimay.com/" target="_blank" rel="dofollow noreferrer">Verimay</a> markası altında barındırma hizmeti veren bölümünde teknik destek sorumlusu olarak görev alıyorum.</p>
+				<p>Şirketin <a href="https://wnm.com.tr/ekibimiz/" target="_blank" rel="dofollow noreferrer">WNM Yazılım</a> markası altında web geliştirme üzerinde çalışıyorum. Ayrıca <a href="https://verimay.com/" target="_blank" rel="dofollow noreferrer">Verimay</a> markası altında barındırma hizmeti veren bölümünde teknik destek sorumlusu olarak görev alıyorum.</p>
 
 			</li>
 
