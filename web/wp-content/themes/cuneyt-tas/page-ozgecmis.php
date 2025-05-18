@@ -30,7 +30,7 @@ if (have_posts()) :
 				<div class="deneyim satir">
 
 					<h3 class="baslik sutun-6">Web Geliştiricisi ve Teknik Destek Sorumlusu</h3>
-					<span class="periyot sutun-6">Mart 2024 - ??</span>
+					<span class="periyot sutun-6">Mart 2024 - ?</span>
 
 				</div>
 
