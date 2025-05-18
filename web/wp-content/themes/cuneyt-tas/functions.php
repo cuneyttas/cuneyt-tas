@@ -287,8 +287,6 @@ function sonrakiTusu() {
 // Zaman formatını düzenleme
 function zamanDuzenle($zaman) {
 
-	setlocale(LC_TIME, 'tr_TR.UTF-8');
-
 	if (strlen($zaman) == 4) {
 
 		return $zaman;
