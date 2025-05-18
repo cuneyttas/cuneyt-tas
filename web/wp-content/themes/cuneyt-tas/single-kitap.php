@@ -63,7 +63,7 @@ if (have_posts()) :
 			<article class="sutun-12 kitapAciklamasi">
 
 				<h3>Kitap Açıklaması</h3>
-				<p><?= get_post_meta($post->ID, 'kitapAciklamaAnahtari', true) ?></p>
+				<p><?= wpautop(get_post_meta($post->ID, 'kitapAciklamaAnahtari', true)) ?></p>
 
 
 			</article>
