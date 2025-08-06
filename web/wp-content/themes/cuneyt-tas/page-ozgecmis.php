@@ -194,7 +194,22 @@ if (have_posts()) :
 		</ul>
 		<h2>Eğitim Bilgileri</h2>
 		<ul class="basliklar">
+			<li>
 
+				<div class="satir">
+
+					<h3 class="baslik sutun-6">Üniversite (Yüksek Lisans)</h3>
+					<span class="periyot sutun-6">2025 - ?</span>
+
+				</div>
+				<h4 class="isAdi">
+
+					<i class="fa fa-graduation-cap"></i>
+					<a href="https://bilgisayarmf.firat.edu.tr/" target="_blank" rel="nofollow noreferrer">Hitit Üniversitesi Lisansüstü Eğitim Enstitüsü Enerji Sistemleri Mühendisliği Bölümü</a>
+
+				</h4>
+
+			</li>
 			<li>
 
 				<div class="satir">
