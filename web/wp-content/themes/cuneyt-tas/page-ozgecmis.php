@@ -205,7 +205,7 @@ if (have_posts()) :
 				<h4 class="isAdi">
 
 					<i class="fa fa-graduation-cap"></i>
-					<a href="https://bilgisayarmf.firat.edu.tr/" target="_blank" rel="nofollow noreferrer">Hitit Üniversitesi Lisansüstü Eğitim Enstitüsü Enerji Sistemleri Mühendisliği Bölümü</a>
+					<a href="https://lee.hitit.edu.tr/tr/esm" target="_blank" rel="nofollow noreferrer">Hitit Üniversitesi Lisansüstü Eğitim Enstitüsü Enerji Sistemleri Mühendisliği Anabilim Dalı</a>
 
 				</h4>
 
