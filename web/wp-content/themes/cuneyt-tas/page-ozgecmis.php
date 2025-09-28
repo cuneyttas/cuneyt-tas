@@ -198,7 +198,7 @@ if (have_posts()) :
 
 				<div class="satir">
 
-					<h3 class="baslik sutun-6">Üniversite (Yüksek Lisans)</h3>
+					<h3 class="baslik sutun-6">Üniversite (Tezli Yüksek Lisans)</h3>
 					<span class="periyot sutun-6">2025 - ?</span>
 
 				</div>
@@ -208,6 +208,43 @@ if (have_posts()) :
 					<a href="https://lee.hitit.edu.tr/tr/esm" target="_blank" rel="nofollow noreferrer">Hitit Üniversitesi Lisansüstü Eğitim Enstitüsü Enerji Sistemleri Mühendisliği Anabilim Dalı</a>
 
 				</h4>
+				<p>"Bilimsel Araştırma Teknikleri ve Yayın Etiği" dersinden Hitit Üniversitesi Adli Bilimler ana bilim dalında geçtiğim için muaf oldum.</p>
+
+			</li>
+			<li>
+
+				<div class="satir">
+
+					<h3 class="baslik sutun-6">Üniversite (Tezli Yüksek Lisans - Terk)</h3>
+					<span class="periyot sutun-6">2018 - 2019</span>
+
+				</div>
+				<h4 class="isAdi">
+
+					<i class="fa fa-graduation-cap"></i>
+					<a href="https://lee.hitit.edu.tr/tr/adlibilimler" target="_blank" rel="nofollow noreferrer">Hitit Üniversitesi Fen Bilimleri Enstitüsü Adli Bilimler Anabilim Dalı</a>
+
+				</h4>
+				<p>1. sınıfın 1. döneminin sonunda işlerimin yoğunluğundan dolayı terk edildi. Aşağıda öğrenim gördüğüm süre içerisinde başarılı olup geçtiğim dersler listelenmiştir. Enstitünün ismi daha sonra "Lisansüstü Eğitim Enstitüsü" oalrak değiştirilmiştir.</p>
+				<div class="dersBolumu">
+
+					<h5 class="dersler"><i class="fa fa-book"></i>DERSLER</h5>
+
+					<div class="sinifBolumu satir">
+
+					<h6 class="sinif sutun-2">1. Sınıf</h6>
+					<ul class="ders sutun-10">
+
+						<li>Adli Bilimler ve Kriminalistik</li>
+						<li>Adli Antropoloji</li>
+						<li>Adli Bilişim</li>
+						<li>Bilimsel Araştırma Teknikleri ve Yayın Etiği</li>
+
+					</ul>
+
+					</div> <!-- sinifBolumu sonu  -->
+
+				</div> <!-- dersBolumu sonu  -->
 
 			</li>
 			<li>
@@ -224,7 +261,7 @@ if (have_posts()) :
 					<a href="https://bilgisayarmf.firat.edu.tr/" target="_blank" rel="nofollow noreferrer">Fırat Üniversitesi Mühendislik Fakültesi Bilgisayar Mühendisliği Bölümü</a>
 
 				</h4>
-				<p>Yarım dönem gecikmeli olarak bitirdim. Mezuniyet puanım 4'lük sisteme göre 2.38'dir.</p>
+				<p>Yarım dönem gecikmeli olarak bitirdim. "Bilgisayar Mühendisliğine Giriş", "Türk Dili-1", "Türk Dili-2", "İngilizce-1", "İngilizce-2", "Fizik-2", "Atatürk İlkeleri ve İnkılap Tarihi-1" ve "Atatürk İlkeleri ve İnkılap Tarihi-2" derslerinden Amasya Üniversitesi Fen Bilgisi Öğretmenliği bölümünde eşdeğerlerinden geçtiğim için muaf oldum. Mezuniyet puanım 4'lük sisteme göre 2.38'dir.</p>
 				<div class="dersBolumu">
 
 					<h5 class="dersler"><i class="fa fa-book"></i>DERSLER</h5>
@@ -393,7 +430,7 @@ if (have_posts()) :
 					<a href="https://corumfatihanadolulisesi.meb.k12.tr/" target="_blank" rel="nofollow noreferrer">Çorum Fatih Lisesi (Yabancı Dil Ağırlıklı)</a>
 
 				</h4>
-				<p>Süper lise olarak da adlandırılan İngilizce ağırlıklı liseydi. Lise 2. sınıfta Fen Bilimleri (Sayısal) alanını seçtim. Mezuniyet puanım 100'lük not sistemine göre 83'tür.</p>
+				<p>Süper lise olarak da adlandırılan İngilizce ağırlıklı liseydi. Lise 2. sınıfta Fen Bilimleri (Sayısal) alanını seçtim. Mezuniyet puanım 100'lük not sistemine göre 83'tür. Lisenin ismi daha sonra "Çorum Fatih Anadolu Lisesi" olarak değişti.</p>
 				<div class="dersBolumu">
 
 					<h5 class="dersler"><i class="fa fa-book"></i>DERSLER</h5>
@@ -497,7 +534,7 @@ if (have_posts()) :
 					<a href="https://corummimarsinanortaokulu.meb.k12.tr/" target="_blank" rel="nofollow noreferrer">Çorum Mimar Sinan İlköğretim Okulu</a>
 
 				</h4>
-				<p>4. sınıftan ortaokul 3. sınıfın sonuna kadar da bu okulda öğrenim gördüm. 1998 yılında, 8 yıllık eğitime geçilince eski okulum kapanmış ve bu okula taşınmıştık.</p>
+				<p>4. sınıftan ortaokul 3. sınıfın sonuna kadar da bu okulda öğrenim gördüm. 1998 yılında, 8 yıllık eğitime geçilince eski okulum kapanmış ve bu okula taşınmıştık. Okul daha sonra "Çorum Mimar Sinan Ortaokulu" olarak değişti.</p>
 				<div class="dersBolumu">
 
 					<h5 class="dersler"><i class="fa fa-book"></i>DERSLER</h5>
@@ -603,7 +640,7 @@ if (have_posts()) :
 					Çorum Millî Eğitim Vakfı İlkokulu
 
 				</h4>
-				<p>1. sınıftan 3. sınıfın sonuna kadar bu okuldaydım.</p>
+				<p>1. sınıftan 3. sınıfın sonuna kadar bu okuldaydım. Bu okul tamamen kapandı. Uzun süre lise olarak kullanıldı ve en son "Öğretmen Mukadder Akaydın İlkokulu" olarak hizmet vermektedir.</p>
 				<div class="dersBolumu">
 
 					<h5 class="dersler"><i class="fa fa-book"></i>DERSLER</h5>
@@ -641,6 +678,7 @@ if (have_posts()) :
 					Çorum Millî Eğitim Vakfı İlkokulu
 
 				</h4>
+				<p>İlkokul binasının içindeki bir sınıf ana sınıfı olarak kullanılıyordu.</p>
 
 			</li>
 

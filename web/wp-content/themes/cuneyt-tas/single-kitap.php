@@ -68,8 +68,6 @@ if (have_posts()) :
 
 			</article>
 
-
-
 		</section>
 
 		<!-- <div class="temizle"></div> -->
