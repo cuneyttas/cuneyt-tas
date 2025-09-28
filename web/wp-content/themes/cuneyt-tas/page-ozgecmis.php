@@ -198,8 +198,8 @@ if (have_posts()) :
 
 				<div class="satir">
 
-					<h3 class="baslik sutun-6">Üniversite (Tezli Yüksek Lisans)</h3>
-					<span class="periyot sutun-6">2025 - ?</span>
+					<h3 class="baslik sutun-9">Üniversite (Tezli Yüksek Lisans)</h3>
+					<span class="periyot sutun-3">2025 - ?</span>
 
 				</div>
 				<h4 class="isAdi">
@@ -215,8 +215,8 @@ if (have_posts()) :
 
 				<div class="satir">
 
-					<h3 class="baslik sutun-6">Üniversite (Tezli Yüksek Lisans - Terk)</h3>
-					<span class="periyot sutun-6">2018 - 2019</span>
+					<h3 class="baslik sutun-9">Üniversite (Tezli Yüksek Lisans - Terk)</h3>
+					<span class="periyot sutun-3">2018 - 2019</span>
 
 				</div>
 				<h4 class="isAdi">
@@ -251,8 +251,8 @@ if (have_posts()) :
 
 				<div class="satir">
 
-					<h3 class="baslik sutun-6">Üniversite (Lisans)</h3>
-					<span class="periyot sutun-6">2010 - 2015</span>
+					<h3 class="baslik sutun-9">Üniversite (Lisans)</h3>
+					<span class="periyot sutun-3">2010 - 2015</span>
 
 				</div>
 				<h4 class="isAdi">
@@ -356,8 +356,8 @@ if (have_posts()) :
 
 				<div class="satir">
 
-					<h3 class="baslik sutun-6">Üniversite (Lisans - Terk)</h3>
-					<span class="periyot sutun-6">2008 - 2010</span>
+					<h3 class="baslik sutun-9">Üniversite (Lisans - Terk)</h3>
+					<span class="periyot sutun-3">2008 - 2010</span>
 
 				</div>
 				<h4 class="isAdi">
@@ -420,8 +420,8 @@ if (have_posts()) :
 
 				<div class="satir">
 
-					<h3 class="baslik sutun-6">Lise</h3>
-					<span class="periyot sutun-6">2003 - 2007</span>
+					<h3 class="baslik sutun-9">Lise</h3>
+					<span class="periyot sutun-3">2003 - 2007</span>
 
 				</div>
 				<h4 class="isAdi">
@@ -524,8 +524,8 @@ if (have_posts()) :
 
 				<div class="satir">
 
-					<h3 class="baslik sutun-6">İlköğretim</h3>
-					<span class="periyot sutun-6">1998 - 2003</span>
+					<h3 class="baslik sutun-9">İlköğretim</h3>
+					<span class="periyot sutun-3">1998 - 2003</span>
 
 				</div>
 				<h4 class="isAdi">
@@ -630,8 +630,8 @@ if (have_posts()) :
 
 				<div class="satir">
 
-					<h3 class="baslik sutun-6">İlkokul</h3>
-					<span class="periyot sutun-6">1995 - 1998</span>
+					<h3 class="baslik sutun-9">İlkokul</h3>
+					<span class="periyot sutun-3">1995 - 1998</span>
 
 				</div>
 				<h4 class="isAdi">
@@ -668,8 +668,8 @@ if (have_posts()) :
 
 				<div class="satir">
 
-					<h3 class="baslik sutun-6">Ana Sınıfı</h3>
-					<span class="periyot sutun-6">1994 - 1995</span>
+					<h3 class="baslik sutun-9">Ana Sınıfı</h3>
+					<span class="periyot sutun-3">1994 - 1995</span>
 
 				</div>
 				<h4 class="isAdi">
