@@ -225,7 +225,7 @@ if (have_posts()) :
 					<a href="https://lee.hitit.edu.tr/tr/adlibilimler" target="_blank" rel="nofollow noreferrer">Hitit Üniversitesi Fen Bilimleri Enstitüsü Adli Bilimler Anabilim Dalı</a>
 
 				</h4>
-				<p>1. sınıfın 1. döneminin sonunda işlerimin yoğunluğundan dolayı terk edildi. Aşağıda öğrenim gördüğüm süre içerisinde başarılı olup geçtiğim dersler listelenmiştir. Enstitünün ismi daha sonra "Lisansüstü Eğitim Enstitüsü" oalrak değiştirilmiştir.</p>
+				<p>1. sınıfın 1. döneminin sonunda işlerimin yoğunluğundan dolayı terk edildi. Aşağıda öğrenim gördüğüm süre içerisinde başarılı olup geçtiğim dersler listelenmiştir. Enstitünün ismi daha sonra "Lisansüstü Eğitim Enstitüsü" olarak değiştirilmiştir.</p>
 				<div class="dersBolumu">
 
 					<h5 class="dersler"><i class="fa fa-book"></i>DERSLER</h5>
