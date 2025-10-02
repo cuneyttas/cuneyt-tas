@@ -87,7 +87,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		  	// Eğer gönderi eklendiyse, e-posta gönder
 
 			$kime = "cuneyttas@hotmail.com.tr";
-			$epostaKonu = $konu == "" ? "$isim sana internet sitenden mesaj gönderdi!" : $konu;
+			$epostaKonu = $konu == "" ? "$isim sana internet sitenden mesaj gönderdi!" : "$konu (İnternet sitenden gönderildi!)";
 			$basliklar =
 			"MIME-Version: 1.0 \r\n" .
 			"Content-type: text/html; charset=utf-8 \r\n" .
