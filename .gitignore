@@ -39,6 +39,5 @@ web/wp-content/upgrade
 /vendor
 
 # Other
-.vscode
 .nova
 *.DS_Store
