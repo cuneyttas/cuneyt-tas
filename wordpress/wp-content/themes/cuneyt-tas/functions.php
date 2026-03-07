@@ -1,10 +1,11 @@
 <?php
 
-require get_template_directory().'/dahili/function-admin.php';
-require get_template_directory().'/dahili/kuyruk.php';
+require get_template_directory() . '/dahili/function-admin.php';
+require get_template_directory() . '/dahili/kuyruk.php';
 
 
-function kurulum() {
+function kurulum()
+{
 
 	// Zaman Türkçeleştirmesi
 	setlocale(LC_TIME, 'tr_TR.UTF-8');
@@ -40,14 +41,15 @@ add_action('after_setup_theme', 'kurulum');
 
 
 // Bileşenlerin Kurulumu
-function bilesenleriBaslat() {
+function bilesenleriBaslat()
+{
 
-	register_sidebar( array(
+	register_sidebar(array(
 
-		'name'          => 'Mavi Alan',
-		'id'            => 'mavi-alan',
+		'name' => 'Mavi Alan',
+		'id' => 'mavi-alan',
 		'before_widget' => '',
-		'after_widget'  => '',
+		'after_widget' => '',
 		'before_title' => '<span>',
 		'after_title' => '</span><hr class="cizgi">'
 
@@ -55,42 +57,43 @@ function bilesenleriBaslat() {
 
 }
 
-add_action('widgets_init', 'bilesenleriBaslat' );
+add_action('widgets_init', 'bilesenleriBaslat');
 
 
 
 // Özelleştirmelerin Kurulumu
-function ozellestirmeleriBaslat($ozellestirme) {
+function ozellestirmeleriBaslat($ozellestirme)
+{
 
-	$ozellestirme -> add_section('temaRenkleri', array(
+	$ozellestirme->add_section('temaRenkleri', array(
 
 		'title' => 'Tema Renkleri',
 		'priority' => 30   //Tema özelleştirici kenar çubuğunda görünme önceliği (30 rastgele verildi)
 
 	));
 
-	$ozellestirme -> add_setting('baglantiRengi', array(
+	$ozellestirme->add_setting('baglantiRengi', array(
 
 		'default' => '#44AADD',
 		'transport' => 'refresh'  // Renk seçerken otomatik olarak renkleri değiştirmesi için
 
 	));
 
-	$ozellestirme -> add_setting('fareAltiRengi', array(
+	$ozellestirme->add_setting('fareAltiRengi', array(
 
 		'default' => '#44AADD',
 		'transport' => 'refresh'
 
 	));
 
-	$ozellestirme -> add_setting('blogDugmeRengi', array(
+	$ozellestirme->add_setting('blogDugmeRengi', array(
 
 		'default' => '#44AADD',
 		'transport' => 'refresh'
 
 	));
 
-	$ozellestirme -> add_control(new WP_Customize_Color_Control($ozellestirme, 'baglantiRengiKontrolu', array(
+	$ozellestirme->add_control(new WP_Customize_Color_Control($ozellestirme, 'baglantiRengiKontrolu', array(
 
 		'label' => 'Bağlantı Rengi',
 		'section' => 'temaRenkleri',
@@ -98,7 +101,7 @@ function ozellestirmeleriBaslat($ozellestirme) {
 
 	)));
 
-	$ozellestirme -> add_control(new WP_Customize_Color_Control($ozellestirme, 'fareAltiRengiKontrolu', array(
+	$ozellestirme->add_control(new WP_Customize_Color_Control($ozellestirme, 'fareAltiRengiKontrolu', array(
 
 		'label' => 'Fare Altı Rengi',
 		'section' => 'temaRenkleri',
@@ -106,7 +109,7 @@ function ozellestirmeleriBaslat($ozellestirme) {
 
 	)));
 
-	$ozellestirme -> add_control(new WP_Customize_Color_Control($ozellestirme, 'blogDugmeRengiKontrolu', array(
+	$ozellestirme->add_control(new WP_Customize_Color_Control($ozellestirme, 'blogDugmeRengiKontrolu', array(
 
 		'label' => 'Blog Düğme Rengi',
 		'section' => 'temaRenkleri',
@@ -116,34 +119,36 @@ function ozellestirmeleriBaslat($ozellestirme) {
 
 }
 
-add_action('customize_register', 'ozellestirmeleriBaslat' );
+add_action('customize_register', 'ozellestirmeleriBaslat');
 
 
 
 // CSS'lerin Özelleştirilmesi
-function cssOzellestir() { ?>
+function cssOzellestir()
+{ ?>
 
 	<style type="text/css">
-
 		a:link,
 		a:visited {
 
-			color: <?php echo get_theme_mod('baglantiRengi') ?>
+			color:
+				<?php echo get_theme_mod('baglantiRengi') ?>
 
 		}
 
 		a:hover {
 
-			color: <?php echo get_theme_mod('fareAltiRengi') ?>
+			color:
+				<?php echo get_theme_mod('fareAltiRengi') ?>
 
 		}
 
 		a.buton {
 
-			border-color: <?php echo get_theme_mod('blogDugmeRengi') ?>
+			border-color:
+				<?php echo get_theme_mod('blogDugmeRengi') ?>
 
 		}
-
 	</style>
 
 
@@ -154,19 +159,20 @@ add_action('wp_head', 'cssOzellestir');
 
 
 // Özelleştirmeyle (Customize) mavi alan ayarları yapma
-function maviAlaniOzellestir($ozellestirme) {
+function maviAlaniOzellestir($ozellestirme)
+{
 
-	$ozellestirme -> add_section('maviAlan', array(
+	$ozellestirme->add_section('maviAlan', array(
 
 		'title' => "Mavi Alan Ayarları"
 
 	));
 
-	$ozellestirme -> add_setting('profilResmiDegisimi');
-	$ozellestirme -> add_setting('isimDegisimi');
-	$ozellestirme -> add_setting('unvanDegisimi');
+	$ozellestirme->add_setting('profilResmiDegisimi');
+	$ozellestirme->add_setting('isimDegisimi');
+	$ozellestirme->add_setting('unvanDegisimi');
 
-	$ozellestirme -> add_control(new WP_Customize_Cropped_Image_Control($ozellestirme, 'profilResmiKontrolu', array(
+	$ozellestirme->add_control(new WP_Customize_Cropped_Image_Control($ozellestirme, 'profilResmiKontrolu', array(
 
 		'label' => 'Profil Resmini Değiştir',
 		'section' => 'maviAlan',
@@ -177,37 +183,37 @@ function maviAlaniOzellestir($ozellestirme) {
 	)));
 
 	// Yönetici sayfasının özelleştirme yerinden kalemle düzeltme yapılmasını sağlar.
-    $ozellestirme->selective_refresh->add_partial( 'profilResmiDegisimi', array(
+	$ozellestirme->selective_refresh->add_partial('profilResmiDegisimi', array(
 
-	    'selector' => '#profilResimAlani'
+		'selector' => '#profilResimAlani'
 
 	));
 
 	$ozellestirme->add_control('isimKontrolu', array(
 
-        'label'      => 'İsmini Değiştir',
-        'section'    => 'maviAlan',
-        'settings'   => 'isimDegisimi'
-
-    ));
-
-    $ozellestirme->selective_refresh->add_partial( 'isimDegisimi', array(
-
-	    'selector' => '#profilIsimAlani'
+		'label' => 'İsmini Değiştir',
+		'section' => 'maviAlan',
+		'settings' => 'isimDegisimi'
 
 	));
 
-    $ozellestirme->add_control('unvanKontrolu', array(
+	$ozellestirme->selective_refresh->add_partial('isimDegisimi', array(
 
-        'label'      => 'Unvanını Değiştir',
-        'section'    => 'maviAlan',
-        'settings'   => 'unvanDegisimi'
+		'selector' => '#profilIsimAlani'
 
-    ));
+	));
 
-    $ozellestirme->selective_refresh->add_partial( 'unvanDegisimi', array(
+	$ozellestirme->add_control('unvanKontrolu', array(
 
-	    'selector' => '#profilUnvanAlani'
+		'label' => 'Unvanını Değiştir',
+		'section' => 'maviAlan',
+		'settings' => 'unvanDegisimi'
+
+	));
+
+	$ozellestirme->selective_refresh->add_partial('unvanDegisimi', array(
+
+		'selector' => '#profilUnvanAlani'
 
 	));
 
@@ -217,7 +223,8 @@ add_action('customize_register', 'maviAlaniOzellestir');
 
 
 // Kategori getirme fonksiyonu
-function kategoriGetir($postID, $kategoriAdi, $ayrac = ', ') {
+function kategoriGetir($postID, $kategoriAdi, $ayrac = ', ')
+{
 
 	$kategorilerDizisi = wp_get_post_terms($postID, $kategoriAdi);
 
@@ -225,11 +232,13 @@ function kategoriGetir($postID, $kategoriAdi, $ayrac = ', ') {
 
 	if ($kategorilerDizisi) {
 
-		$i=0;
-		foreach ($kategorilerDizisi as $kategori) { $i++;
+		$i = 0;
+		foreach ($kategorilerDizisi as $kategori) {
+			$i++;
 
-			if ($i>1) $kategoriler .= $ayrac;
-			$kategoriler .='<a href="'.get_term_link($kategori->term_id).'" rel="dofollow">'.$kategori->name.'</a>';
+			if ($i > 1)
+				$kategoriler .= $ayrac;
+			$kategoriler .= '<a href="' . get_term_link($kategori->term_id) . '" rel="dofollow">' . $kategori->name . '</a>';
 
 		}
 
@@ -243,24 +252,27 @@ function kategoriGetir($postID, $kategoriAdi, $ayrac = ', ') {
 
 
 // Kısa kod örneği
-function cuneytTasiKisalt(){ //Parametre de alabiliyor.
+function cuneytTasiKisalt()
+{ //Parametre de alabiliyor.
 
 	return "Cüneyt TAŞ";
 
 }
 
-add_shortcode( 'ct', 'cuneytTasiKisalt' );
+add_shortcode('ct', 'cuneytTasiKisalt');
 
 
 
 // Sayfalamalarda önceki tuşun fonksiyonu
-function oncekiTusu() {
+function oncekiTusu()
+{
 
-	$oncekiGonderiNesnesi = get_adjacent_post( '', '', true );
-	$oncekiGonderiID = isset( $oncekiGonderiNesnesi->ID ) ? $oncekiGonderiNesnesi->ID : '';
-	$oncekiGonderiBaglantisi = get_permalink( $oncekiGonderiID );
+	$oncekiGonderiNesnesi = get_adjacent_post('', '', true);
+	$oncekiGonderiID = isset($oncekiGonderiNesnesi->ID) ? $oncekiGonderiNesnesi->ID : '';
+	$oncekiGonderiBaglantisi = get_permalink($oncekiGonderiID);
 
-	if ($oncekiGonderiID == '') $oncekiGonderiBaglantisi = '#';
+	if ($oncekiGonderiID == '')
+		$oncekiGonderiBaglantisi = '#';
 
 	return $oncekiGonderiBaglantisi;
 
@@ -269,14 +281,16 @@ function oncekiTusu() {
 
 
 // Sayfalamalarda sonraki tuşun fonksiyonu
-function sonrakiTusu() {
+function sonrakiTusu()
+{
 
-	$sonrakiGonderiNesnesi = get_adjacent_post( '', '', false );
-	$sonrakiGonderiID = isset( $sonrakiGonderiNesnesi->ID ) ? $sonrakiGonderiNesnesi->ID : '';
-	$sonrakiGonderiBaglantisi = get_permalink( $sonrakiGonderiID );
+	$sonrakiGonderiNesnesi = get_adjacent_post('', '', false);
+	$sonrakiGonderiID = isset($sonrakiGonderiNesnesi->ID) ? $sonrakiGonderiNesnesi->ID : '';
+	$sonrakiGonderiBaglantisi = get_permalink($sonrakiGonderiID);
 	//$next_post_title    = '&raquo;'; // "»" işaretini başlık olarak eklemek istersek kullanırız
 
-	if ($sonrakiGonderiID == '') $sonrakiGonderiBaglantisi = '#';
+	if ($sonrakiGonderiID == '')
+		$sonrakiGonderiBaglantisi = '#';
 
 	return $sonrakiGonderiBaglantisi;
 
@@ -285,7 +299,8 @@ function sonrakiTusu() {
 
 
 // Zaman formatını düzenleme
-function zamanDuzenle($zaman) {
+function zamanDuzenle($zaman)
+{
 
 	if (strlen($zaman) == 4) {
 
@@ -293,19 +308,21 @@ function zamanDuzenle($zaman) {
 
 	}
 
-	return strftime( '%e %B %Y', strtotime($zaman) );
+	return wp_date('j F Y', strtotime($zaman));
+
 
 }
 
 
 // Github'tan son versiyon bilgisi alma (Bu kod canlıda düzgün çalışmıyor)
-function sonVersiyonuGetir() {
+function sonVersiyonuGetir()
+{
 
 	$ayar = [
-	    'http' => [
-	        'method' => 'GET',
-	        'header' => ['User-Agent: PHP']
-	    ]
+		'http' => [
+			'method' => 'GET',
+			'header' => ['User-Agent: PHP']
+		]
 	];
 	$ayarDuzeni = stream_context_create($ayar);
 	$json = file_get_contents("https://api.github.com/repos/cuneyttas/cuneyt-tas/releases", false, $ayarDuzeni);
