@@ -40,7 +40,7 @@ if (have_posts()):
 					<div class="deneyim satir">
 
 						<h3 class="baslik sutun-6">Web Geliştiricisi ve Teknik Destek Sorumlusu</h3>
-						<span class="periyot sutun-6">Mart 2024 - ?</span>
+						<span class="periyot sutun-6">Mart 2024 - Mart 2026</span>
 
 					</div>
 
@@ -51,9 +51,9 @@ if (have_posts()):
 
 					</h4>
 					<p>Şirketin <a href="https://wnm.com.tr/ekibimiz/" target="_blank" rel="dofollow noreferrer">WNM Yazılım</a>
-						markası altında web geliştirme üzerinde çalışıyorum. Ayrıca <a href="https://verimay.com/"
-							target="_blank" rel="dofollow noreferrer">Verimay</a> markası altında barındırma hizmeti veren
-						bölümünde teknik destek sorumlusu olarak görev alıyorum.</p>
+						markası altında web geliştirme üzerinde çalıştım. Ayrıca <a href="https://verimay.com/" target="_blank"
+							rel="dofollow noreferrer">Verimay</a> markası altında barındırma hizmeti veren
+						bölümünde teknik destek sorumlusu olarak görev aldım.</p>
 
 				</li>
 
