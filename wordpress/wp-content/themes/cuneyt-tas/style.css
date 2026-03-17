@@ -1251,6 +1251,7 @@ div.kitAlani img {
 	height: auto;
 	transition: 0.3s;
 	opacity: 1;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }
 
