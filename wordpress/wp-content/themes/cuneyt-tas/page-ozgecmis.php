@@ -255,6 +255,10 @@ if (have_posts()):
 								<li>Akıllı Şebekeler ve Uygulamaları</li>
 								<li>Enerji Sistemleri Simülasyonu</li>
 								<li>Mikrodenetleyici Tabanlı Enerji Sistemleri</li>
+								<li>Güneş Enerjisi Termal Uygulamaları</li>
+								<li>Elektrik Enerjisi Sistemleri Analizi ve Modelleme</li>
+								<li>Seminer</li>
+								<li>Makine Öğrenmesi</li>
 
 							</ul>
 
