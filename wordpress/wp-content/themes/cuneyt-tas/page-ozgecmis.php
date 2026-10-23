@@ -231,18 +231,45 @@ if (have_posts()):
 					<div class="satir">
 
 						<h3 class="baslik sutun-9">Üniversite (Tezli Yüksek Lisans)</h3>
-						<span class="periyot sutun-3">2025 - ?</span>
+						<span class="periyot sutun-3">2026 - ?</span>
+
+					</div>
+					<h4 class="isAdi">
+
+						<i class="fa fa-graduation-cap"></i>
+						<a href="https://hitit.edu.tr/tr/lee/bilgisayar" target="_blank" rel="nofollow noreferrer">Hitit
+							Üniversitesi Lisansüstü Eğitim Enstitüsü Bilgisayar Mühendisliği Ana Bilim Dalı</a>
+
+					</h4>
+					<p>Bilimsel Araştırma Teknikleri ve Yayın Etiği" dersinden Hitit Üniversitesi Adli Bilimler ana bilim
+						dalında geçtiğim için muaf oldum. Ayrıca "Gömülü Sistem Uygulamaları" ve "İleri Makine Öğrenmesi"
+						derslerinden Hitit Üniversitesi Enerji Sistemleri Mühendisliği ana bilim dalında sırasıyla
+						"Mikrodenetleyici Tabanlı Enerji Sistemleri" ve "Makine Öğrenmesi" derslerinden geçtiğim için muaf
+						oldum.</p>
+
+				</li>
+				<li>
+
+					<div class="satir">
+
+						<h3 class="baslik sutun-9">Üniversite (Tezli Yüksek Lisans - Terk)</h3>
+						<span class="periyot sutun-3">2025 - 2026</span>
 
 					</div>
 					<h4 class="isAdi">
 
 						<i class="fa fa-graduation-cap"></i>
 						<a href="https://hitit.edu.tr/tr/lee/enerjisistemleri/" target="_blank" rel="nofollow noreferrer">Hitit
-							Üniversitesi Lisansüstü Eğitim Enstitüsü Enerji Sistemleri Mühendisliği Anabilim Dalı</a>
+							Üniversitesi Lisansüstü Eğitim Enstitüsü Enerji Sistemleri Mühendisliği Ana Bilim Dalı</a>
 
 					</h4>
 					<p>"Bilimsel Araştırma Teknikleri ve Yayın Etiği" dersinden Hitit Üniversitesi Adli Bilimler ana bilim
-						dalında geçtiğim için muaf oldum.</p>
+						dalında geçtiğim için muaf oldum. Bu bölüme başladıktan kısa süre sonra üniversitenin Bilgisayar
+						Mühendisliği yüksek lisans bölümü açıldı. Enerji Sistemleri Mühendisliğinde de kendi alanıma yakın
+						çalışmalar yapmamdan ve lisansımın da bilgisayar mühendisliği olmasının sağlayacağı avantajlardan dolayı
+						1. sınıfı bitirdikten sonra Bilgisayar Mühendisliğine başvuru yaptım. Kayıt yapmaya hak kazanınca bu
+						bölümden kaydımı sildirdim. Aşağıda öğrenim gördüğüm süre içerisinde başarılı olup geçtiğim dersler
+						listelenmiştir. </p>
 					<div class="dersBolumu">
 
 						<h5 class="dersler"><i class="fa fa-book"></i>DERSLER</h5>
@@ -279,10 +306,11 @@ if (have_posts()):
 
 						<i class="fa fa-graduation-cap"></i>
 						<a href="https://hitit.edu.tr/tr/lee/adlibilimler" target="_blank" rel="nofollow noreferrer">Hitit
-							Üniversitesi Fen Bilimleri Enstitüsü Adli Bilimler Anabilim Dalı</a>
+							Üniversitesi Fen Bilimleri Enstitüsü Adli Bilimler Ana Bilim Dalı</a>
 
 					</h4>
-					<p>1. sınıfın 1. döneminin sonunda işlerimin yoğunluğundan dolayı bıraktım. Aşağıda öğrenim gördüğüm süre
+					<p>1. sınıfın 1. döneminin sonunda işlerimin yoğunluğundan dolayı bırakmak zorunda kaldım. Aşağıda öğrenim
+						gördüğüm süre
 						içerisinde başarılı olup geçtiğim dersler listelenmiştir. Enstitünün ismi daha sonra "Lisansüstü Eğitim
 						Enstitüsü" olarak değiştirilmiştir.</p>
 					<div class="dersBolumu">
@@ -321,7 +349,8 @@ if (have_posts()):
 							Üniversitesi Mühendislik Fakültesi Bilgisayar Mühendisliği Bölümü</a>
 
 					</h4>
-					<p>Yarım dönem gecikmeli olarak bitirdim. "Bilgisayar Mühendisliğine Giriş", "Türk Dili-1", "Türk Dili-2",
+					<p>Bir dönem gecikmeli olarak Şubat ayında bitirdim. "Bilgisayar Mühendisliğine Giriş", "Türk Dili-1", "Türk
+						Dili-2",
 						"İngilizce-1", "İngilizce-2", "Fizik-2", "Atatürk İlkeleri ve İnkılap Tarihi-1" ve "Atatürk İlkeleri ve
 						İnkılap Tarihi-2" derslerinden Amasya Üniversitesi Fen Bilgisi Öğretmenliği bölümünde eşdeğerlerinden
 						geçtiğim için muaf oldum. Mezuniyet puanım 4'lük sisteme göre 2.38'dir.</p>
@@ -751,7 +780,9 @@ if (have_posts()):
 						Çorum Millî Eğitim Vakfı İlkokulu
 
 					</h4>
-					<p>İlkokul binasının içindeki bir sınıf ana sınıfı olarak kullanılıyordu.</p>
+					<p>Bu sene aslında ilkokula başlamıştım. Fakat yaşımın daha küçük olmasından derslere adapte olamadığım
+						için yaklaşık 1 ay sonra ana sınıfına gönderildim. İlkokul binasının içindeki bir sınıf ana sınıfı
+						olarak kullanılıyordu. Burada devam ettim.</p>
 
 				</li>
 
